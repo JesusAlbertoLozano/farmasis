@@ -1,0 +1,17 @@
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined index: pageno in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 19
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined index: ultimo in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 20
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined index: num in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 48
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined index: numero in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 51
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: upd in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 130
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: count2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 309
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: count2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 312
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: count2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 315
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: count2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 318
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: count2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 321
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 342
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 343
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: invnum in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 351
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: find in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 352
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: sum33 in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 354
+[29-Mar-2018 20:11:32 America/Lima] PHP Notice:  Undefined variable: invnum in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/consultas_preingresos/consult_compras1.php on line 366

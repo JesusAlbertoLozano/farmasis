@@ -1,0 +1,276 @@
+[23-Mar-2018 17:49:55 America/Lima] PHP Notice:  Undefined index: activado in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/stockminsinest/stockmin.php on line 25
+[23-Mar-2018 17:49:55 America/Lima] PHP Notice:  Undefined index: activado1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/stockminsinest/stockmin.php on line 26
+[23-Mar-2018 17:49:55 America/Lima] PHP Notice:  Undefined index: tipo in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/stockminsinest/stockmin.php on line 27
+[23-Mar-2018 17:49:55 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/stockminsinest/stockmin.php on line 28
+[23-Mar-2018 17:49:55 America/Lima] PHP Notice:  Undefined index: producto in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/stockminsinest/stockmin.php on line 29
+[23-Mar-2018 17:49:56 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Mar-2018 17:49:56 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/stockminsinest/stockmin1.php on line 30
+[23-Mar-2018 17:49:56 America/Lima] PHP Notice:  Undefined index: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/stockminsinest/stockmin1.php on line 31
+[23-Mar-2018 17:49:56 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/stockminsinest/stockmin1.php on line 32
+[23-Mar-2018 17:49:57 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Mar-2018 17:49:57 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/stockminsinest/stockmin2.php on line 90
+[30-Aug-2018 21:04:49 America/Lima] PHP Notice:  Undefined index: activado in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 25
+[30-Aug-2018 21:04:49 America/Lima] PHP Notice:  Undefined index: activado1 in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 26
+[30-Aug-2018 21:04:49 America/Lima] PHP Notice:  Undefined index: tipo in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 27
+[30-Aug-2018 21:04:49 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 28
+[30-Aug-2018 21:04:49 America/Lima] PHP Notice:  Undefined index: producto in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 29
+[30-Aug-2018 21:04:49 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin1.php on line 30
+[30-Aug-2018 21:04:49 America/Lima] PHP Notice:  Undefined index: codpro in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin1.php on line 31
+[30-Aug-2018 21:04:49 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin1.php on line 32
+[30-Aug-2018 21:04:50 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 90
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined index: codpro in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin1.php on line 31
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin1.php on line 32
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 90
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 217
+[30-Aug-2018 21:05:01 America/Lima] PHP Notice:  Undefined variable: blister in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 231
+[30-Aug-2018 21:05:13 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 33
+[30-Aug-2018 21:05:13 America/Lima] PHP Notice:  Undefined variable: codloc in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 144
+[30-Aug-2018 21:05:13 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 169
+[30-Aug-2018 21:05:13 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 170
+[30-Aug-2018 21:05:13 America/Lima] PHP Notice:  Undefined variable: c in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 270
+[30-Aug-2018 21:05:34 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 33
+[30-Aug-2018 21:05:34 America/Lima] PHP Notice:  Undefined variable: codloc in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 144
+[30-Aug-2018 21:05:34 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 169
+[30-Aug-2018 21:05:34 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 170
+[30-Aug-2018 21:05:34 America/Lima] PHP Notice:  Undefined variable: c in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 270
+[30-Aug-2018 21:05:38 America/Lima] PHP Notice:  Undefined variable: codloc in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 144
+[30-Aug-2018 21:05:38 America/Lima] PHP Notice:  Undefined variable: c in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 270
+[30-Aug-2018 21:05:50 America/Lima] PHP Notice:  Undefined variable: codloc in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 144
+[30-Aug-2018 21:05:50 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 169
+[30-Aug-2018 21:05:50 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 170
+[30-Aug-2018 21:05:50 America/Lima] PHP Notice:  Undefined variable: c in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin3.php on line 270
+[15-Oct-2018 10:14:37 America/Lima] PHP Notice:  Undefined index: activado in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 25
+[15-Oct-2018 10:14:37 America/Lima] PHP Notice:  Undefined index: activado1 in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 26
+[15-Oct-2018 10:14:37 America/Lima] PHP Notice:  Undefined index: tipo in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 27
+[15-Oct-2018 10:14:37 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 28
+[15-Oct-2018 10:14:37 America/Lima] PHP Notice:  Undefined index: producto in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin.php on line 29
+[15-Oct-2018 10:14:38 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin1.php on line 30
+[15-Oct-2018 10:14:38 America/Lima] PHP Notice:  Undefined index: codpro in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin1.php on line 31
+[15-Oct-2018 10:14:38 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin1.php on line 32
+[15-Oct-2018 10:14:39 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/archivo/stockminsinest/stockmin2.php on line 90
+[19-Jul-2019 16:35:35 America/Lima] Caducidad: 1440
+[19-Jul-2019 16:35:35 America/Lima] Caducidad despu¨¦s: 86400
+[19-Jul-2019 16:35:41 America/Lima] Caducidad: 1440
+[19-Jul-2019 16:35:41 America/Lima] Caducidad despu¨¦s: 86400
+[19-Jul-2019 16:35:47 America/Lima] Caducidad: 1440
+[19-Jul-2019 16:35:47 America/Lima] Caducidad despu¨¦s: 86400
+[19-Jul-2019 16:36:13 America/Lima] Caducidad: 1440
+[19-Jul-2019 16:36:13 America/Lima] Caducidad despu¨¦s: 86400
+[19-Jul-2019 16:36:24 America/Lima] Caducidad: 1440
+[19-Jul-2019 16:36:24 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 12:08:18 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:08:18 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 12:08:20 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:08:20 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 12:08:22 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:08:22 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 15:52:49 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:52:49 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 15:52:52 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:52:52 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 15:52:54 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:52:54 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 15:53:04 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:53:04 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 15:53:06 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:53:06 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 15:53:39 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:53:39 America/Lima] Caducidad despu¨¦s: 86400
+[22-Jul-2019 15:54:51 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:54:51 America/Lima] Caducidad despu¨¦s: 86400
+[23-Jul-2019 09:21:34 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:21:34 America/Lima] Caducidad despu¨¦s: 86400
+[23-Jul-2019 09:21:36 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:21:36 America/Lima] Caducidad despu¨¦s: 86400
+[23-Jul-2019 09:21:38 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:21:38 America/Lima] Caducidad despu¨¦s: 86400
+[23-Jul-2019 09:22:02 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:22:02 America/Lima] Caducidad despu¨¦s: 86400
+[23-Jul-2019 09:22:05 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:22:05 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:37:41 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:37:41 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:37:43 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:37:43 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:37:45 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:37:45 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:53:35 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:53:35 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:53:37 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:53:37 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:53:39 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:53:39 America/Lima] Caducidad despu¨¦s: 86400
+[24-Oct-2019 11:27:16 America/Lima] Caducidad: 1440
+[24-Oct-2019 11:27:16 America/Lima] Caducidad despu¨¦s: 86400
+[24-Oct-2019 11:27:18 America/Lima] Caducidad: 1440
+[24-Oct-2019 11:27:18 America/Lima] Caducidad despu¨¦s: 86400
+[24-Oct-2019 11:27:20 America/Lima] Caducidad: 1440
+[24-Oct-2019 11:27:20 America/Lima] Caducidad despu¨¦s: 86400
+[24-Oct-2019 11:27:25 America/Lima] Caducidad: 1440
+[24-Oct-2019 11:27:25 America/Lima] Caducidad despu¨¦s: 86400
+[24-Oct-2019 11:27:27 America/Lima] Caducidad: 1440
+[24-Oct-2019 11:27:27 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:03:10 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:03:10 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:03:14 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:03:14 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:03:19 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:03:19 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:03:30 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:03:30 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:03:33 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:03:33 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:03:41 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:03:41 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:18:51 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:18:51 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:18:57 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:18:57 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:19:01 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:19:01 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:19:18 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:19:18 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:19:26 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:19:26 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:19:50 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:19:50 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:19:52 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:19:52 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 16:36:19 America/Lima] Caducidad: 1440
+[28-Oct-2019 16:36:19 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 16:36:21 America/Lima] Caducidad: 1440
+[28-Oct-2019 16:36:21 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 16:36:23 America/Lima] Caducidad: 1440
+[28-Oct-2019 16:36:23 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 16:36:34 America/Lima] Caducidad: 1440
+[28-Oct-2019 16:36:34 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 16:36:37 America/Lima] Caducidad: 1440
+[28-Oct-2019 16:36:37 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 16:36:40 America/Lima] Caducidad: 1440
+[28-Oct-2019 16:36:40 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 16:36:46 America/Lima] Caducidad: 1440
+[28-Oct-2019 16:36:46 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 16:36:48 America/Lima] Caducidad: 1440
+[28-Oct-2019 16:36:48 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:36:09 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:36:09 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:36:12 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:36:12 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:36:14 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:36:14 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:36:20 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:36:20 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:36:23 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:36:23 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:36:32 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:36:32 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:51:46 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:51:46 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:51:48 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:51:48 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:51:51 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:51:51 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:52:01 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:52:01 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:52:03 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:52:03 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:52:09 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:52:09 America/Lima] Caducidad despu¨¦s: 86400

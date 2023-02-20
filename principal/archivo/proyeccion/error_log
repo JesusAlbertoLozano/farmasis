@@ -1,0 +1,45 @@
+[20-Oct-2017 20:05:39 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[20-Oct-2017 20:05:39 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion1.php on line 26
+[20-Oct-2017 20:05:39 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion1.php on line 27
+[20-Oct-2017 20:05:39 America/Lima] PHP Notice:  Undefined variable: desprod in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion1.php on line 67
+[20-Oct-2017 20:05:52 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[20-Oct-2017 20:05:52 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 29
+[20-Oct-2017 20:05:52 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 29
+[20-Oct-2017 20:05:52 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 29
+[20-Oct-2017 20:05:52 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 29
+[20-Oct-2017 20:05:52 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 29
+[20-Oct-2017 20:05:52 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 29
+[20-Oct-2017 20:05:52 America/Lima] PHP Notice:  Undefined variable: ven0 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 139
+[20-Oct-2017 20:05:52 America/Lima] PHP Notice:  Undefined variable: ven1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 165
+[20-Oct-2017 20:05:52 America/Lima] PHP Notice:  Undefined variable: ven2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 191
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: ven3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 217
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: ven4 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 243
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: ven5 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 269
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven0 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 317
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven00 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 321
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 368
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven11 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 372
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 419
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven22 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 423
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 470
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven33 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 474
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven4 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 521
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven44 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 525
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven5 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 572
+[20-Oct-2017 20:05:53 America/Lima] PHP Notice:  Undefined variable: noven55 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/proyeccion/proyeccion2.php on line 576
+[21-Oct-2019 15:09:10 America/Lima] Caducidad: 1440
+[21-Oct-2019 15:09:10 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 15:09:16 America/Lima] Caducidad: 1440
+[21-Oct-2019 15:09:16 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 15:09:22 America/Lima] Caducidad: 1440
+[21-Oct-2019 15:09:22 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 15:09:24 America/Lima] Caducidad: 1440
+[21-Oct-2019 15:09:24 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:11:58 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:11:58 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:12:07 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:12:07 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:12:23 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:12:23 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:12:31 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:12:31 America/Lima] Caducidad despu¨¦s: 86400

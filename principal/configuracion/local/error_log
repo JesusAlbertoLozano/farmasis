@@ -1,0 +1,56 @@
+[20-Feb-2017 10:48:41 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[20-Feb-2017 10:48:41 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 28
+[20-Feb-2017 10:48:41 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 29
+[20-Feb-2017 10:48:41 America/Lima] PHP Notice:  Undefined index: tipdocu in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 30
+[20-Feb-2017 10:48:41 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 31
+[20-Feb-2017 10:48:41 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local2.php on line 117
+[20-Feb-2017 10:48:41 America/Lima] PHP Notice:  Undefined index: codformato in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local2.php on line 120
+[25-Sep-2017 14:13:40 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[25-Sep-2017 14:13:40 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 28
+[25-Sep-2017 14:13:40 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 29
+[25-Sep-2017 14:13:40 America/Lima] PHP Notice:  Undefined index: tipdocu in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 30
+[25-Sep-2017 14:13:40 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 31
+[25-Sep-2017 14:13:41 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local2.php on line 117
+[25-Sep-2017 14:13:41 America/Lima] PHP Notice:  Undefined index: codformato in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local2.php on line 120
+[23-Mar-2018 18:18:27 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Mar-2018 18:18:27 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 28
+[23-Mar-2018 18:18:27 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 29
+[23-Mar-2018 18:18:27 America/Lima] PHP Notice:  Undefined index: tipdocu in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 30
+[23-Mar-2018 18:18:27 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local1.php on line 31
+[23-Mar-2018 18:18:28 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local2.php on line 117
+[23-Mar-2018 18:18:28 America/Lima] PHP Notice:  Undefined index: codformato in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/local/local2.php on line 120
+[06-Sep-2018 09:55:34 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/demo/principal/configuracion/local/local1.php on line 28
+[06-Sep-2018 09:55:34 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/configuracion/local/local1.php on line 29
+[06-Sep-2018 09:55:34 America/Lima] PHP Notice:  Undefined index: tipdocu in /home/farmasi1/public_html/demo/principal/configuracion/local/local1.php on line 30
+[06-Sep-2018 09:55:34 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/demo/principal/configuracion/local/local1.php on line 31
+[06-Sep-2018 09:55:35 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 117
+[06-Sep-2018 09:55:35 America/Lima] PHP Notice:  Undefined index: codformato in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 120
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 117
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined index: codformato in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 120
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined variable: descbrev in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 232
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined variable: linea in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 237
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined variable: columna in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 242
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined variable: tipodoc in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 269
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined variable: titulo in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 277
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined variable: titulo in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 278
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined variable: contitcampo in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 284
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined variable: contitcampo in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 285
+[06-Sep-2018 09:55:49 America/Lima] PHP Notice:  Undefined variable: cuanto in /home/farmasi1/public_html/demo/principal/configuracion/local/local2.php on line 291
+[13-Aug-2019 16:55:10 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:10 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:55:10 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:10 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:55:15 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:15 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:26:40 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:26:40 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:26:40 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:26:40 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:26:43 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:26:43 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:27:39 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:27:39 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:27:39 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:27:39 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:27:42 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:27:42 America/Lima] Caducidad despu¨¦s: 86400

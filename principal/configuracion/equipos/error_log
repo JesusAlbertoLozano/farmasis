@@ -1,0 +1,42 @@
+[23-Mar-2018 17:56:24 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Mar-2018 17:56:24 America/Lima] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/equipos/detecta_ip.php on line 4
+[23-Mar-2018 17:56:24 America/Lima] PHP Notice:  Undefined index: ok in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/equipos/index1.php on line 18
+[23-Mar-2018 17:56:24 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/equipos/index1.php on line 19
+[23-Mar-2018 17:56:24 America/Lima] PHP Notice:  Undefined variable: desc in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/equipos/index1.php on line 58
+[23-Mar-2018 18:17:02 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Mar-2018 18:17:02 America/Lima] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/equipos/detecta_ip.php on line 4
+[23-Mar-2018 18:17:02 America/Lima] PHP Notice:  Undefined index: ok in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/equipos/index1.php on line 18
+[23-Mar-2018 18:17:02 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/equipos/index1.php on line 19
+[23-Mar-2018 18:17:02 America/Lima] PHP Notice:  Undefined variable: desc in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/equipos/index1.php on line 58
+[07-Aug-2018 11:51:48 America/Lima] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/farmasi1/public_html/demo/principal/configuracion/equipos/detecta_ip.php on line 4
+[07-Aug-2018 11:51:48 America/Lima] PHP Notice:  Undefined index: ok in /home/farmasi1/public_html/demo/principal/configuracion/equipos/index1.php on line 18
+[07-Aug-2018 11:51:48 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/demo/principal/configuracion/equipos/index1.php on line 19
+[07-Aug-2018 11:51:48 America/Lima] PHP Notice:  Undefined variable: desc in /home/farmasi1/public_html/demo/principal/configuracion/equipos/index1.php on line 58
+[07-Aug-2019 16:58:32 America/Lima] Caducidad: 1440
+[07-Aug-2019 16:58:32 America/Lima] Caducidad despu¨¦s: 86400
+[07-Aug-2019 16:58:34 America/Lima] Caducidad: 1440
+[07-Aug-2019 16:58:34 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:55:03 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:03 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:55:04 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:04 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:56:25 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:56:25 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:56:25 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:56:25 America/Lima] Caducidad despu¨¦s: 86400
+[15-Aug-2019 10:02:28 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:02:28 America/Lima] Caducidad despu¨¦s: 86400
+[15-Aug-2019 10:02:29 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:02:29 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:31:11 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:31:11 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:31:12 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:31:12 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:31:48 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:31:48 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:31:49 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:31:49 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:32:06 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:32:06 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:32:07 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:32:07 America/Lima] Caducidad despu¨¦s: 86400

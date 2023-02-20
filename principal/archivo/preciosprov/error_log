@@ -1,0 +1,414 @@
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[18-Mar-2016 16:57:29 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[27-Apr-2016 16:16:53 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[27-Apr-2016 16:16:54 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[27-Apr-2016 16:16:54 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[27-Apr-2016 16:16:54 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[05-Jul-2016 07:40:53 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[05-Jul-2016 07:40:53 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[05-Jul-2016 07:40:53 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[05-Jul-2016 07:40:53 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[05-Jul-2016 07:40:53 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[05-Jul-2016 07:40:53 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[05-Jul-2016 07:40:53 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[05-Jul-2016 07:40:53 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[05-Jul-2016 07:40:54 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[05-Jul-2016 07:40:54 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[05-Jul-2016 07:40:54 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[05-Jul-2016 07:40:54 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[05-Jul-2016 07:40:54 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[05-Aug-2016 14:30:06 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[05-Aug-2016 14:30:07 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[05-Aug-2016 14:30:07 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[05-Aug-2016 14:30:07 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[10-Aug-2016 17:47:33 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[10-Aug-2016 17:47:54 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[10-Aug-2016 17:47:54 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[10-Aug-2016 17:47:55 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[10-Aug-2016 17:47:55 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[10-Aug-2016 17:47:55 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[10-Aug-2016 17:55:51 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[10-Aug-2016 17:55:51 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[10-Aug-2016 17:55:52 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[10-Aug-2016 17:55:52 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[10-Aug-2016 17:55:52 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[01-Sep-2016 13:27:42 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[03-Sep-2016 13:31:25 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[03-Sep-2016 13:31:26 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[03-Sep-2016 13:31:26 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[03-Sep-2016 13:31:26 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[20-Dec-2016 16:24:39 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[20-Dec-2016 16:24:40 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[20-Dec-2016 16:24:40 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[20-Dec-2016 16:24:40 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[16-Mar-2017 13:26:55 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[16-Mar-2017 13:26:55 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[16-Mar-2017 13:26:55 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[16-Mar-2017 13:26:55 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[16-Mar-2017 13:26:55 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[16-Mar-2017 13:26:55 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[16-Mar-2017 13:26:55 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[16-Mar-2017 13:26:55 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[16-Mar-2017 13:26:56 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[16-Mar-2017 13:26:56 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[16-Mar-2017 13:26:56 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[16-Mar-2017 13:26:56 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[16-Mar-2017 13:26:56 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[02-Apr-2017 15:56:34 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[02-Apr-2017 15:56:35 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[02-Apr-2017 15:56:35 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[02-Apr-2017 15:56:35 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[02-Apr-2017 15:56:38 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[02-Apr-2017 15:56:38 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[02-Apr-2017 15:56:39 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[02-Apr-2017 15:56:39 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[02-Apr-2017 15:56:39 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[02-May-2017 12:25:16 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[02-May-2017 12:25:16 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[02-May-2017 12:25:16 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[02-May-2017 12:25:16 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[02-May-2017 12:25:16 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[02-May-2017 12:25:16 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[02-May-2017 12:25:16 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[02-May-2017 12:25:16 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[02-May-2017 12:25:17 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[02-May-2017 12:25:17 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[02-May-2017 12:25:17 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[02-May-2017 12:25:17 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[02-May-2017 12:25:17 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[17-Jun-2017 18:15:22 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[17-Jun-2017 18:15:23 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[17-Jun-2017 18:15:23 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[17-Jun-2017 18:15:23 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[17-Jun-2017 18:15:28 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[17-Jun-2017 18:15:28 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[17-Jun-2017 18:15:29 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[17-Jun-2017 18:15:29 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[17-Jun-2017 18:15:29 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[17-Jun-2017 19:04:42 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[17-Jun-2017 19:04:43 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[17-Jun-2017 19:04:43 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[17-Jun-2017 19:04:43 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[24-Jun-2017 13:55:24 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[24-Jun-2017 13:55:25 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[24-Jun-2017 13:55:25 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[24-Jun-2017 13:55:25 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[28-Jun-2017 15:29:33 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[28-Jun-2017 15:29:34 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[28-Jun-2017 15:29:34 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[28-Jun-2017 15:29:34 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[28-Jun-2017 15:29:37 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[28-Jun-2017 15:29:37 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[28-Jun-2017 15:29:38 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[28-Jun-2017 15:29:38 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[28-Jun-2017 15:29:38 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[23-Jul-2017 15:38:06 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[23-Jul-2017 15:38:07 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[23-Jul-2017 15:38:07 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[23-Jul-2017 15:38:07 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[23-Jul-2017 15:38:20 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Jul-2017 15:38:20 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[23-Jul-2017 15:38:21 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[23-Jul-2017 15:38:21 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[23-Jul-2017 15:38:21 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[08-Sep-2017 13:51:04 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[08-Sep-2017 13:51:05 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[08-Sep-2017 13:51:05 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[08-Sep-2017 13:51:05 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[03-Oct-2017 16:10:05 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[03-Oct-2017 16:10:06 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[03-Oct-2017 16:10:06 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[03-Oct-2017 16:10:06 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[06-Oct-2017 10:52:26 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[06-Oct-2017 10:52:27 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[06-Oct-2017 10:52:27 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[06-Oct-2017 10:52:27 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[06-Oct-2017 10:52:48 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[06-Oct-2017 10:52:48 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[06-Oct-2017 10:52:49 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[06-Oct-2017 10:52:49 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[06-Oct-2017 10:52:49 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[22-Mar-2018 19:20:47 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[22-Mar-2018 19:20:48 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[22-Mar-2018 19:20:48 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[22-Mar-2018 19:20:48 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[24-Mar-2018 10:24:56 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[24-Mar-2018 10:24:57 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[24-Mar-2018 10:24:57 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[24-Mar-2018 10:24:57 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[28-Apr-2018 12:37:44 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[28-Apr-2018 12:37:45 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[28-Apr-2018 12:37:45 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[28-Apr-2018 12:37:45 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[15-May-2018 15:07:22 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[14-Jul-2018 09:12:41 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[14-Jul-2018 09:12:41 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[14-Jul-2018 09:12:41 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[14-Jul-2018 09:12:41 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[14-Jul-2018 09:12:41 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[14-Jul-2018 09:12:41 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[14-Jul-2018 09:12:41 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[14-Jul-2018 09:12:41 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[14-Jul-2018 09:12:41 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[14-Jul-2018 09:12:42 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[14-Jul-2018 09:12:42 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[14-Jul-2018 09:12:42 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined index: val1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 23
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined index: val2 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 24
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined index: val3 in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 25
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined index: country in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 26
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 27
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined index: marca in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 28
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined variable: codpro in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 139
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined variable: search in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined variable: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios1.php on line 201
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined index: cr in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 35
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 103
+[17-Jul-2018 12:08:36 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/preciosprov/precios2.php on line 104
+[17-Jul-2019 13:46:49 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:46:49 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:46:50 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:46:50 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:46:52 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:46:52 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:46:59 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:46:59 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:47:01 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:47:01 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:47:05 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:47:05 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:02:08 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:02:08 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:02:08 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:02:08 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:02:10 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:02:10 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:02:25 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:02:25 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:02:27 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:02:27 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:02:45 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:02:45 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:02:54 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:02:54 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:02:55 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:02:55 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:02:57 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:02:57 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:03:03 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:03:03 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:03:03 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:03:03 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:03:26 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:03:26 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:03:26 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:03:26 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:03:28 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:03:28 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:03:40 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:03:40 America/Lima] Caducidad despu¨¦s: 86400
+[10-Aug-2019 12:03:43 America/Lima] Caducidad: 1440
+[10-Aug-2019 12:03:43 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:55:54 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:55:54 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:55:54 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:55:54 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:55:56 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:55:56 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:56:35 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:56:35 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:56:35 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:56:35 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:56:37 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:56:37 America/Lima] Caducidad despu¨¦s: 86400

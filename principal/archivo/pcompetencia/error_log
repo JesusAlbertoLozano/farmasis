@@ -1,0 +1,60 @@
+[20-Oct-2017 20:06:10 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[20-Oct-2017 20:06:10 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia1.php on line 26
+[20-Oct-2017 20:06:10 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia1.php on line 27
+[20-Oct-2017 20:06:10 America/Lima] PHP Notice:  Undefined variable: desprod in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia1.php on line 73
+[20-Oct-2017 20:06:10 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 51
+[20-Oct-2017 20:06:10 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 52
+[20-Oct-2017 20:06:25 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[20-Oct-2017 20:06:25 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 51
+[20-Oct-2017 20:06:25 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 52
+[15-Mar-2018 10:38:55 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[15-Mar-2018 10:38:55 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia1.php on line 26
+[15-Mar-2018 10:38:55 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia1.php on line 27
+[15-Mar-2018 10:38:55 America/Lima] PHP Notice:  Undefined variable: desprod in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia1.php on line 73
+[15-Mar-2018 10:38:55 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 51
+[15-Mar-2018 10:38:55 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 52
+[15-Mar-2018 10:39:05 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[15-Mar-2018 10:39:06 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 51
+[15-Mar-2018 10:39:06 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 52
+[15-Mar-2018 10:39:17 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 51
+[15-Mar-2018 10:39:17 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/archivo/pcompetencia/pcompetencia2.php on line 52
+[17-Jul-2019 13:47:18 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:47:18 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:47:18 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:47:18 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:47:21 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:47:21 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:47:25 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:47:25 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:47:27 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:47:27 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:47:30 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:47:30 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:56:56 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:56:56 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:56:56 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:56:56 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:56:58 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:56:58 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:57:08 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:57:08 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:57:10 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:57:10 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:57:12 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:57:12 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:57:13 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:57:13 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:57:15 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:57:15 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:04:26 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:04:26 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:04:27 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:04:27 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:04:30 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:04:30 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:04:34 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:04:34 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:04:35 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:04:35 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:04:39 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:04:39 America/Lima] Caducidad despu¨¦s: 86400

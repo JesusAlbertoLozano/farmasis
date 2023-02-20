@@ -1,0 +1,66 @@
+.tabla1
+{ 
+	position:relative;
+	width:1000px;
+	height:715px;
+	overflow:hidden;
+	left: 8px;
+	top: 1px;
+	border:1px solid #CDCDCD;
+	background-image: url(../../images/desktop.jpg);
+}
+table.tabla2
+{ 
+color: #404040;
+background-color: #FFFFFF;
+border: 1px #CDCDCD solid;
+border-collapse: collapse;
+border-spacing: 0px;}
+.title{
+	position:relative;
+	width:792px;
+	height:20px;
+	overflow:hidden;
+	left: 100px;
+	top: 20px;
+	border:1px solid #CDCDCD;
+	background:#50ADEA;
+}
+.mask1{
+	position:relative;
+	width:678px;
+	height:646px;
+	overflow:hidden;
+	left: 2px;
+	top: 2px;
+	border:1px solid #CDCDCD;
+	background:#F9F9F9;
+}
+.mask2{
+	position:relative;
+	width:672px;
+	height:640px;
+	overflow:hidden;
+	left: 2px;
+	top: 2px;
+	border:1px solid #ccc;
+
+}
+.mask3{
+	position:relative;
+	width:670px;
+	height:640px;
+	overflow:hidden;
+	left: 3px;
+	top: 4px;
+	background:#F9F9F9;
+}
+.botones{
+	position:relative;
+	width:512px;
+	height:26px;
+	overflow:hidden;
+	top: 0px;
+	border:1px solid #ccc;
+	background:#FFFFFF;
+}

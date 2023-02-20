@@ -1,0 +1,63 @@
+[20-Feb-2017 10:49:14 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[20-Feb-2017 10:49:14 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion1.php on line 28
+[20-Feb-2017 10:49:14 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion1.php on line 29
+[20-Feb-2017 10:49:14 America/Lima] PHP Notice:  Undefined index: tipdocu in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion1.php on line 30
+[20-Feb-2017 10:49:14 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion1.php on line 31
+[20-Feb-2017 10:49:14 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion2.php on line 33
+[23-Mar-2018 18:18:43 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Mar-2018 18:18:43 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion1.php on line 28
+[23-Mar-2018 18:18:43 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion1.php on line 29
+[23-Mar-2018 18:18:43 America/Lima] PHP Notice:  Undefined index: tipdocu in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion1.php on line 30
+[23-Mar-2018 18:18:43 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion1.php on line 31
+[23-Mar-2018 18:18:43 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/impresion/impresion2.php on line 33
+[07-Aug-2018 11:51:00 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 28
+[07-Aug-2018 11:51:00 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 29
+[07-Aug-2018 11:51:00 America/Lima] PHP Notice:  Undefined index: tipdocu in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 30
+[07-Aug-2018 11:51:00 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 31
+[07-Aug-2018 11:51:01 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion2.php on line 33
+[07-Aug-2018 11:51:15 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 29
+[07-Aug-2018 11:51:15 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 29
+[07-Aug-2018 11:51:19 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion2.php on line 33
+[07-Aug-2018 11:51:27 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 29
+[07-Aug-2018 11:51:28 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion2.php on line 33
+[22-Oct-2018 15:45:12 America/Lima] PHP Notice:  Undefined index: local in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 28
+[22-Oct-2018 15:45:12 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 29
+[22-Oct-2018 15:45:12 America/Lima] PHP Notice:  Undefined index: tipdocu in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 30
+[22-Oct-2018 15:45:12 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 31
+[22-Oct-2018 15:45:12 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion2.php on line 33
+[22-Oct-2018 15:45:21 America/Lima] PHP Notice:  Undefined index: tip in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion1.php on line 29
+[22-Oct-2018 15:45:22 America/Lima] PHP Notice:  Undefined index: error in /home/farmasi1/public_html/demo/principal/configuracion/impresion/impresion2.php on line 33
+[13-Aug-2019 16:55:39 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:39 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:55:40 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:40 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:55:44 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:44 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:55:47 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:47 America/Lima] Caducidad despu¨¦s: 86400
+[13-Aug-2019 16:55:52 America/Lima] Caducidad: 1440
+[13-Aug-2019 16:55:52 America/Lima] Caducidad despu¨¦s: 86400
+[15-Aug-2019 10:02:38 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:02:38 America/Lima] Caducidad despu¨¦s: 86400
+[15-Aug-2019 10:02:38 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:02:38 America/Lima] Caducidad despu¨¦s: 86400
+[15-Aug-2019 10:02:42 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:02:42 America/Lima] Caducidad despu¨¦s: 86400
+[15-Aug-2019 10:02:49 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:02:49 America/Lima] Caducidad despu¨¦s: 86400
+[15-Aug-2019 10:02:49 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:02:49 America/Lima] Caducidad despu¨¦s: 86400
+[15-Aug-2019 10:02:53 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:02:53 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:27:51 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:27:51 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:27:52 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:27:52 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:27:54 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:27:54 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:30:43 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:30:43 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:30:43 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:30:43 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:30:45 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:30:45 America/Lima] Caducidad despu¨¦s: 86400

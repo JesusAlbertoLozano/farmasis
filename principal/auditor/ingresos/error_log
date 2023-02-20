@@ -1,0 +1,48 @@
+[21-May-2016 18:48:47 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[21-May-2016 18:48:47 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 26
+[21-May-2016 18:48:47 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 27
+[21-May-2016 18:48:47 America/Lima] PHP Notice:  Undefined variable: destab in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 72
+[21-May-2016 18:48:48 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos2.php on line 55
+[21-May-2016 18:48:48 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos2.php on line 56
+[31-Jul-2017 11:58:36 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[31-Jul-2017 11:58:36 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 26
+[31-Jul-2017 11:58:36 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 27
+[31-Jul-2017 11:58:36 America/Lima] PHP Notice:  Undefined variable: destab in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 72
+[31-Jul-2017 11:58:36 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos2.php on line 55
+[31-Jul-2017 11:58:36 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos2.php on line 56
+[23-Mar-2018 17:54:34 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Mar-2018 17:54:35 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 26
+[23-Mar-2018 17:54:35 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 27
+[23-Mar-2018 17:54:35 America/Lima] PHP Notice:  Undefined variable: destab in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 72
+[23-Mar-2018 17:54:35 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos2.php on line 55
+[23-Mar-2018 17:54:35 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos2.php on line 56
+[07-Jun-2018 09:42:47 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[07-Jun-2018 09:42:47 America/Lima] PHP Notice:  Undefined index: val in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 26
+[07-Jun-2018 09:42:47 America/Lima] PHP Notice:  Undefined index: country_ID in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 27
+[07-Jun-2018 09:42:47 America/Lima] PHP Notice:  Undefined variable: destab in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos1.php on line 72
+[07-Jun-2018 09:42:47 America/Lima] PHP Notice:  Undefined index: codpros in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos2.php on line 55
+[07-Jun-2018 09:42:47 America/Lima] PHP Notice:  Undefined index: valform in /home/farmasi1/public_html/comercial_fmariarosa/principal/auditor/ingresos/ingresos2.php on line 56
+[21-Oct-2019 15:22:33 America/Lima] Caducidad: 1440
+[21-Oct-2019 15:22:33 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 15:22:33 America/Lima] Caducidad: 1440
+[21-Oct-2019 15:22:33 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 15:22:34 America/Lima] Caducidad: 1440
+[21-Oct-2019 15:22:34 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:23:58 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:23:58 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:23:58 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:23:58 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:23:59 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:23:59 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 10:43:07 America/Lima] Caducidad: 1440
+[29-Oct-2019 10:43:07 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 10:43:08 America/Lima] Caducidad: 1440
+[29-Oct-2019 10:43:08 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 10:43:08 America/Lima] Caducidad: 1440
+[29-Oct-2019 10:43:08 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 10:43:15 America/Lima] Caducidad: 1440
+[29-Oct-2019 10:43:15 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 10:43:16 America/Lima] Caducidad: 1440
+[29-Oct-2019 10:43:16 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 10:43:20 America/Lima] Caducidad: 1440
+[29-Oct-2019 10:43:20 America/Lima] Caducidad despu¨¦s: 86400

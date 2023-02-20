@@ -1,0 +1,78 @@
+[04-Sep-2018 16:25:02 America/Lima] PHP Notice:  Undefined variable: numlote in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 161
+[04-Sep-2018 16:25:02 America/Lima] PHP Notice:  Undefined variable: m in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 169
+[04-Sep-2018 16:25:02 America/Lima] PHP Notice:  Undefined variable: ycar in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 172
+[04-Sep-2018 16:25:18 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 37
+[04-Sep-2018 16:32:52 America/Lima] PHP Notice:  Undefined variable: numlote in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 161
+[04-Sep-2018 16:32:52 America/Lima] PHP Notice:  Undefined variable: m in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 169
+[04-Sep-2018 16:32:52 America/Lima] PHP Notice:  Undefined variable: ycar in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 172
+[04-Sep-2018 16:33:21 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 37
+[04-Sep-2018 16:33:37 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 37
+[04-Sep-2018 16:38:33 America/Lima] PHP Notice:  Undefined variable: numlote in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 161
+[04-Sep-2018 16:38:33 America/Lima] PHP Notice:  Undefined variable: m in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 169
+[04-Sep-2018 16:38:33 America/Lima] PHP Notice:  Undefined variable: ycar in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 172
+[04-Sep-2018 16:40:16 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 37
+[09-Sep-2018 10:45:11 America/Lima] PHP Notice:  Undefined variable: numlote in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 161
+[09-Sep-2018 10:45:11 America/Lima] PHP Notice:  Undefined variable: m in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 169
+[09-Sep-2018 10:45:11 America/Lima] PHP Notice:  Undefined variable: ycar in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 172
+[12-Sep-2018 11:42:58 UTC] PHP Notice:  Undefined index: codigo_user in /home/farmasi1/public_html/demo/principal/session_user.php on line 7
+[12-Sep-2018 11:42:58 UTC] PHP Notice:  Undefined index: resolucion in /home/farmasi1/public_html/demo/principal/session_user.php on line 8
+[20-Sep-2018 13:14:52 America/Lima] PHP Notice:  Undefined variable: numlote in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 161
+[20-Sep-2018 13:14:52 America/Lima] PHP Notice:  Undefined variable: m in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 169
+[20-Sep-2018 13:14:52 America/Lima] PHP Notice:  Undefined variable: ycar in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 172
+[20-Sep-2018 13:15:38 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 37
+[20-Sep-2018 13:17:56 America/Lima] PHP Notice:  Undefined variable: numlote in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 161
+[20-Sep-2018 13:17:56 America/Lima] PHP Notice:  Undefined variable: m in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 169
+[20-Sep-2018 13:17:56 America/Lima] PHP Notice:  Undefined variable: ycar in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 172
+[20-Sep-2018 13:18:14 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 37
+[28-Oct-2018 22:32:36 America/Lima] PHP Notice:  Undefined variable: numlote in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 161
+[28-Oct-2018 22:32:36 America/Lima] PHP Notice:  Undefined variable: m in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 169
+[28-Oct-2018 22:32:36 America/Lima] PHP Notice:  Undefined variable: ycar in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 172
+[28-Oct-2018 22:32:47 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 37
+[28-Oct-2018 22:34:04 America/Lima] PHP Notice:  Undefined variable: numlote in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 161
+[28-Oct-2018 22:34:04 America/Lima] PHP Notice:  Undefined variable: m in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 169
+[28-Oct-2018 22:34:04 America/Lima] PHP Notice:  Undefined variable: ycar in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 172
+[28-Oct-2018 22:34:16 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 37
+[10-Nov-2018 10:21:33 America/Lima] PHP Notice:  Undefined variable: numlote in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 161
+[10-Nov-2018 10:21:33 America/Lima] PHP Notice:  Undefined variable: m in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 169
+[10-Nov-2018 10:21:33 America/Lima] PHP Notice:  Undefined variable: ycar in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 172
+[10-Nov-2018 10:21:50 America/Lima] PHP Deprecated:  Function split() is deprecated in /home/farmasi1/public_html/demo/principal/movimientos/compras/lote/lote.php on line 37
+[12-May-2019 03:57:51 America/Lima] Caducidad: 1440
+[12-May-2019 03:57:51 America/Lima] Caducidad después: 86400
+[12-May-2019 03:57:56 America/Lima] Caducidad: 1440
+[12-May-2019 03:57:56 America/Lima] Caducidad después: 86400
+[12-May-2019 03:57:56 America/Lima] Caducidad: 1440
+[12-May-2019 03:57:56 America/Lima] Caducidad después: 86400
+[12-May-2019 07:33:07 America/Lima] Caducidad: 1440
+[12-May-2019 07:33:07 America/Lima] Caducidad después: 86400
+[12-May-2019 22:03:59 America/Lima] Caducidad: 1440
+[12-May-2019 22:03:59 America/Lima] Caducidad después: 86400
+[12-May-2019 23:04:47 America/Lima] Caducidad: 1440
+[12-May-2019 23:04:47 America/Lima] Caducidad después: 86400
+[12-May-2019 23:19:47 America/Lima] Caducidad: 1440
+[12-May-2019 23:19:49 America/Lima] Caducidad después: 86400
+[12-May-2019 23:32:03 America/Lima] Caducidad: 1440
+[12-May-2019 23:32:03 America/Lima] Caducidad después: 86400
+[12-May-2019 23:32:52 America/Lima] Caducidad: 1440
+[12-May-2019 23:32:52 America/Lima] Caducidad después: 86400
+[12-May-2019 23:38:39 America/Lima] Caducidad: 1440
+[12-May-2019 23:38:39 America/Lima] Caducidad después: 86400
+[12-May-2019 23:38:46 America/Lima] Caducidad: 1440
+[12-May-2019 23:38:46 America/Lima] Caducidad después: 86400
+[12-May-2019 23:40:00 America/Lima] Caducidad: 1440
+[12-May-2019 23:40:00 America/Lima] Caducidad después: 86400
+[12-May-2019 23:59:57 America/Lima] Caducidad: 1440
+[12-May-2019 23:59:57 America/Lima] Caducidad después: 86400
+[13-May-2019 00:27:20 America/Lima] Caducidad: 1440
+[13-May-2019 00:27:20 America/Lima] Caducidad después: 86400
+[13-May-2019 00:39:17 America/Lima] Caducidad: 1440
+[13-May-2019 00:39:17 America/Lima] Caducidad después: 86400
+[13-May-2019 00:39:36 America/Lima] Caducidad: 1440
+[13-May-2019 00:39:36 America/Lima] Caducidad después: 86400
+[13-May-2019 08:42:15 America/Lima] Caducidad: 1440
+[13-May-2019 08:42:15 America/Lima] Caducidad después: 86400
+[13-May-2019 09:11:02 America/Lima] Caducidad: 1440
+[13-May-2019 09:11:02 America/Lima] Caducidad después: 86400
+[13-May-2019 10:08:59 America/Lima] Caducidad: 1440
+[13-May-2019 10:08:59 America/Lima] Caducidad después: 86400
+[28-Jun-2019 16:07:33 America/Lima] Caducidad: 1440
+[28-Jun-2019 16:07:33 America/Lima] Caducidad despu��s: 86400

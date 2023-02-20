@@ -1,0 +1,11 @@
+[20-Dec-2017 19:52:01 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[20-Dec-2017 19:52:01 America/Lima] PHP Notice:  Undefined variable: valor in /home/farmasi1/public_html/comercial_fmariarosa/principal/configuracion/preingreso/index1.php on line 22
+[07-Aug-2018 11:52:37 America/Lima] PHP Notice:  Undefined variable: valor in /home/farmasi1/public_html/demo/principal/configuracion/preingreso/index1.php on line 22
+[15-Aug-2019 10:03:39 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:03:39 America/Lima] Caducidad despu¨¦s: 86400
+[15-Aug-2019 10:03:40 America/Lima] Caducidad: 1440
+[15-Aug-2019 10:03:40 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:32:34 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:32:34 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 16:32:34 America/Lima] Caducidad: 1440
+[21-Oct-2019 16:32:34 America/Lima] Caducidad despu¨¦s: 86400

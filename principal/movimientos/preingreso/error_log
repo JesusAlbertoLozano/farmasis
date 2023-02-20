@@ -1,0 +1,56 @@
+[19-Apr-2018 07:43:30 America/Lima] PHP Notice:  Undefined index: ok in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras.php on line 14
+[19-Apr-2018 07:43:30 America/Lima] PHP Notice:  Undefined index: msg in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras.php on line 15
+[19-Apr-2018 12:43:30 UTC] PHP Notice:  Undefined index: ok in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 2
+[19-Apr-2018 12:43:30 UTC] PHP Notice:  Undefined index: busca_num in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 4
+[19-Apr-2018 12:43:30 UTC] PHP Notice:  Undefined index: busca_prov in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 5
+[19-Apr-2018 07:43:30 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Use of undefined constant compraspreg - assumed 'compraspreg' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 39
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined offset: 2 in /home/farmasi1/public_html/comercial_fmariarosa/convertfecha.php on line 5
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined offset: 1 in /home/farmasi1/public_html/comercial_fmariarosa/convertfecha.php on line 6
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined offset: 2 in /home/farmasi1/public_html/comercial_fmariarosa/convertfecha.php on line 5
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined offset: 1 in /home/farmasi1/public_html/comercial_fmariarosa/convertfecha.php on line 6
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined variable: sum33 in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 432
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined variable: mont_bruto in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 433
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined variable: total_des in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 434
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined variable: valor_vent1 in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 435
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined variable: sum_igv in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 436
+[19-Apr-2018 07:43:31 America/Lima] PHP Notice:  Undefined variable: monto_total in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/preingreso/compras1.php on line 437
+[19-Aug-2018 13:45:14 America/Lima] PHP Notice:  Undefined index: ok in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras.php on line 14
+[19-Aug-2018 13:45:14 America/Lima] PHP Notice:  Undefined index: msg in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras.php on line 15
+[19-Aug-2018 18:45:14 UTC] PHP Notice:  Undefined index: ok in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 2
+[19-Aug-2018 18:45:14 UTC] PHP Notice:  Undefined index: busca_num in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 4
+[19-Aug-2018 18:45:14 UTC] PHP Notice:  Undefined index: busca_prov in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 5
+[19-Aug-2018 13:45:14 America/Lima] PHP Notice:  Use of undefined constant compraspreg - assumed 'compraspreg' in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 39
+[19-Aug-2018 13:45:14 America/Lima] PHP Notice:  Undefined variable: sum33 in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 432
+[19-Aug-2018 13:45:14 America/Lima] PHP Notice:  Undefined variable: mont_bruto in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 433
+[19-Aug-2018 13:45:14 America/Lima] PHP Notice:  Undefined variable: total_des in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 434
+[19-Aug-2018 13:45:14 America/Lima] PHP Notice:  Undefined variable: valor_vent1 in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 435
+[19-Aug-2018 13:45:14 America/Lima] PHP Notice:  Undefined variable: sum_igv in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 436
+[19-Aug-2018 13:45:14 America/Lima] PHP Notice:  Undefined variable: monto_total in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 437
+[19-Aug-2018 14:47:38 America/Lima] PHP Notice:  Use of undefined constant compraspreg - assumed 'compraspreg' in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 41
+[19-Aug-2018 14:47:38 America/Lima] PHP Notice:  Undefined variable: sum33 in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 456
+[19-Aug-2018 14:47:38 America/Lima] PHP Notice:  Undefined variable: mont_bruto in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 457
+[19-Aug-2018 14:47:38 America/Lima] PHP Notice:  Undefined variable: total_des in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 458
+[19-Aug-2018 14:47:38 America/Lima] PHP Notice:  Undefined variable: valor_vent1 in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 459
+[19-Aug-2018 14:47:38 America/Lima] PHP Notice:  Undefined variable: sum_igv in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 460
+[19-Aug-2018 14:47:38 America/Lima] PHP Notice:  Undefined variable: monto_total in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 461
+[19-Aug-2018 14:47:50 America/Lima] PHP Notice:  Use of undefined constant compraspreg - assumed 'compraspreg' in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 41
+[19-Aug-2018 14:47:50 America/Lima] PHP Notice:  Undefined variable: sum33 in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 456
+[19-Aug-2018 14:47:50 America/Lima] PHP Notice:  Undefined variable: mont_bruto in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 457
+[19-Aug-2018 14:47:50 America/Lima] PHP Notice:  Undefined variable: total_des in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 458
+[19-Aug-2018 14:47:50 America/Lima] PHP Notice:  Undefined variable: valor_vent1 in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 459
+[19-Aug-2018 14:47:50 America/Lima] PHP Notice:  Undefined variable: sum_igv in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 460
+[19-Aug-2018 14:47:50 America/Lima] PHP Notice:  Undefined variable: monto_total in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 461
+[19-Aug-2018 14:47:53 America/Lima] PHP Notice:  Use of undefined constant compraspreg - assumed 'compraspreg' in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 41
+[19-Aug-2018 14:47:53 America/Lima] PHP Notice:  Undefined variable: sum33 in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 456
+[19-Aug-2018 14:47:53 America/Lima] PHP Notice:  Undefined variable: mont_bruto in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 457
+[19-Aug-2018 14:47:53 America/Lima] PHP Notice:  Undefined variable: total_des in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 458
+[19-Aug-2018 14:47:53 America/Lima] PHP Notice:  Undefined variable: valor_vent1 in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 459
+[19-Aug-2018 14:47:53 America/Lima] PHP Notice:  Undefined variable: sum_igv in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 460
+[19-Aug-2018 14:47:53 America/Lima] PHP Notice:  Undefined variable: monto_total in /home/farmasi1/public_html/demo/principal/movimientos/preingreso/compras1.php on line 461
+[23-Aug-2018 01:15:03 UTC] PHP Notice:  Undefined index: codigo_user in /home/farmasi1/public_html/demo/principal/session_user.php on line 7
+[23-Aug-2018 01:15:03 UTC] PHP Notice:  Undefined index: resolucion in /home/farmasi1/public_html/demo/principal/session_user.php on line 8
+[23-Sep-2018 13:38:03 America/Lima] PHP Notice:  Undefined index: codigo_user in /home/farmasi1/public_html/demo/principal/session_user.php on line 7
+[23-Sep-2018 13:38:03 America/Lima] PHP Notice:  Undefined index: resolucion in /home/farmasi1/public_html/demo/principal/session_user.php on line 8
+[25-Oct-2018 05:56:59 America/Lima] PHP Notice:  Undefined index: codigo_user in /home/farmasi1/public_html/demo/principal/session_user.php on line 7
+[25-Oct-2018 05:56:59 America/Lima] PHP Notice:  Undefined index: resolucion in /home/farmasi1/public_html/demo/principal/session_user.php on line 8

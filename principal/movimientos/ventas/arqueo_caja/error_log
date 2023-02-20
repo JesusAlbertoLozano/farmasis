@@ -1,0 +1,24 @@
+[27-Jan-2021 16:22:39 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 33
+[27-Jan-2021 16:22:39 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 34
+[27-Jan-2021 16:30:22 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 33
+[27-Jan-2021 16:30:22 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 34
+[27-Jan-2021 16:30:58 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 33
+[27-Jan-2021 16:30:58 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 34
+[27-Jan-2021 16:31:51 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 31
+[27-Jan-2021 16:31:51 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 32
+[27-Jan-2021 16:32:43 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 31
+[27-Jan-2021 16:32:43 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 32
+[27-Jan-2021 16:32:56 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 31
+[27-Jan-2021 16:32:56 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 32
+[27-Jan-2021 16:33:04 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 31
+[27-Jan-2021 16:33:04 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 32
+[27-Jan-2021 16:39:10 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 31
+[27-Jan-2021 16:39:10 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 32
+[27-Jan-2021 16:59:29 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 31
+[27-Jan-2021 16:59:29 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 32
+[27-Jan-2021 17:04:06 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 31
+[27-Jan-2021 17:04:06 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 32
+[27-Jan-2021 17:15:49 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 31
+[27-Jan-2021 17:15:49 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 32
+[01-Feb-2021 09:16:55 America/Lima] PHP Warning:  mysqli_query(): Empty query in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 31
+[01-Feb-2021 09:16:55 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/arqueo_caja/arqueo_caja.php on line 32

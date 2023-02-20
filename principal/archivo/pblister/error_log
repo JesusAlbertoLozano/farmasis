@@ -1,0 +1,812 @@
+[09-Aug-2018 17:02:37 UTC] PHP Notice:  Undefined index: codigo_user in /home/farmasi1/public_html/demo/principal/session_user.php on line 7
+[09-Aug-2018 17:02:37 UTC] PHP Notice:  Undefined index: resolucion in /home/farmasi1/public_html/demo/principal/session_user.php on line 8
+[10-Sep-2018 01:41:27 UTC] PHP Notice:  Undefined index: codigo_user in /home/farmasi1/public_html/demo/principal/session_user.php on line 7
+[10-Sep-2018 01:41:27 UTC] PHP Notice:  Undefined index: resolucion in /home/farmasi1/public_html/demo/principal/session_user.php on line 8
+[12-Nov-2018 19:54:15 America/Lima] PHP Notice:  Undefined index: codigo_user in /home/farmasi1/public_html/demo/principal/session_user.php on line 7
+[12-Nov-2018 19:54:15 America/Lima] PHP Notice:  Undefined index: resolucion in /home/farmasi1/public_html/demo/principal/session_user.php on line 8
+[17-Apr-2019 15:03:55 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:03:55 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:03:58 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:03:58 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:04:00 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:04:00 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:04:08 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:04:08 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:04:09 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:04:09 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:04:11 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:04:11 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:04:17 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:04:17 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:04:20 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:04:20 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:04:40 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:04:40 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:05:11 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:05:11 America/Lima] Caducidad despu√©s: 86400
+[17-Apr-2019 15:05:12 America/Lima] Caducidad: 1440
+[17-Apr-2019 15:05:12 America/Lima] Caducidad despu√©s: 86400
+[14-May-2019 11:55:47 America/Lima] Caducidad: 1440
+[14-May-2019 11:55:47 America/Lima] Caducidad despu√©s: 86400
+[14-May-2019 11:55:51 America/Lima] Caducidad: 1440
+[14-May-2019 11:55:51 America/Lima] Caducidad despu√©s: 86400
+[14-May-2019 11:55:55 America/Lima] Caducidad: 1440
+[14-May-2019 11:55:55 America/Lima] Caducidad despu√©s: 86400
+[14-May-2019 11:56:00 America/Lima] Caducidad: 1440
+[14-May-2019 11:56:00 America/Lima] Caducidad despu√©s: 86400
+[14-May-2019 11:56:04 America/Lima] Caducidad: 1440
+[14-May-2019 11:56:04 America/Lima] Caducidad despu√©s: 86400
+[28-May-2019 17:58:00 America/Lima] Caducidad: 1440
+[28-May-2019 17:58:00 America/Lima] Caducidad despu√©s: 86400
+[28-May-2019 17:58:02 America/Lima] Caducidad: 1440
+[28-May-2019 17:58:02 America/Lima] Caducidad despu√©s: 86400
+[28-May-2019 17:58:04 America/Lima] Caducidad: 1440
+[28-May-2019 17:58:04 America/Lima] Caducidad despu√©s: 86400
+[07-Jun-2019 01:33:47 America/Lima] Caducidad: 1440
+[07-Jun-2019 01:33:47 America/Lima] Caducidad despu√©s: 86400
+[07-Jun-2019 01:33:52 America/Lima] Caducidad: 1440
+[07-Jun-2019 01:33:52 America/Lima] Caducidad despu√©s: 86400
+[07-Jun-2019 01:33:56 America/Lima] Caducidad: 1440
+[07-Jun-2019 01:33:56 America/Lima] Caducidad despu√©s: 86400
+[07-Jun-2019 01:34:08 America/Lima] Caducidad: 1440
+[07-Jun-2019 01:34:08 America/Lima] Caducidad despu√©s: 86400
+[07-Jun-2019 01:34:12 America/Lima] Caducidad: 1440
+[07-Jun-2019 01:34:12 America/Lima] Caducidad despu√©s: 86400
+[07-Jun-2019 01:34:15 America/Lima] Caducidad: 1440
+[07-Jun-2019 01:34:15 America/Lima] Caducidad despu√©s: 86400
+[07-Jun-2019 01:34:30 America/Lima] Caducidad: 1440
+[07-Jun-2019 01:34:30 America/Lima] Caducidad despu√©s: 86400
+[07-Jun-2019 01:34:31 America/Lima] Caducidad: 1440
+[07-Jun-2019 01:34:31 America/Lima] Caducidad despu√©s: 86400
+[18-Jul-2019 15:05:01 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:05:01 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:05:03 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:05:03 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:05:05 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:05:05 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:05:20 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:05:20 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:05:23 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:05:23 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:05:33 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:05:33 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:06:06 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:06:06 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:06:08 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:06:08 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:06:10 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:06:10 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:06:32 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:06:32 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:06:33 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:06:33 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:07:33 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:07:33 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:07:35 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:07:35 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:07:37 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:07:37 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:07:48 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:07:48 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:07:51 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:07:51 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:07:53 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:07:53 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:08:01 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:08:01 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:08:01 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:08:01 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:32:00 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:32:00 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:32:02 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:32:02 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:32:04 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:32:04 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:32:33 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:32:33 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:32:35 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:32:35 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:32:42 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:32:42 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:33:02 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:33:02 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:33:02 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:33:02 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:33:05 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:33:05 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:33:37 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:33:37 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:33:37 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:33:37 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:33:59 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:33:59 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:34:01 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:34:01 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:34:03 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:34:03 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:34:11 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:34:11 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:34:13 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:34:13 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:34:16 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:34:16 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:34:47 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:34:47 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:34:47 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:34:47 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:37:30 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:37:30 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:37:32 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:37:32 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:37:34 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:37:34 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:37:44 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:37:44 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:37:46 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:37:46 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:37:49 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:37:49 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:38:02 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:38:02 America/Lima] Caducidad despu®¶s: 86400
+[18-Jul-2019 15:38:02 America/Lima] Caducidad: 1440
+[18-Jul-2019 15:38:02 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:53:10 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:53:10 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:53:12 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:53:12 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:53:14 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:53:14 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:53:31 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:53:31 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:53:33 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:53:33 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:53:44 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:53:44 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:53:46 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:53:46 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:54:03 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:54:03 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:54:05 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:54:05 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:54:12 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:54:12 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:54:14 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:54:14 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:54:16 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:54:16 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:54:34 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:54:34 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:54:36 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:54:36 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:54:40 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:54:40 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:55:05 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:55:05 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:55:05 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:55:05 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:55:20 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:55:20 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:55:47 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:55:47 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:55:47 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:55:47 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:55:54 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:55:54 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:55:56 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:55:56 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:55:59 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:55:59 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:56:07 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:56:07 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:56:09 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:56:09 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:56:16 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:56:16 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:56:16 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:56:16 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:56:31 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:56:31 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:56:33 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:56:33 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:56:36 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:56:36 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:57:47 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:57:47 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:57:48 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:57:48 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:57:54 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:57:54 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:57:56 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:57:56 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:57:58 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:57:58 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:58:04 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:58:04 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:58:06 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:58:06 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:58:11 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:58:11 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 09:58:12 America/Lima] Caducidad: 1440
+[19-Jul-2019 09:58:12 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:11:34 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:11:34 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:11:36 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:11:36 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:11:38 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:11:38 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:14:36 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:14:36 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:14:48 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:14:48 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:14:50 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:14:50 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:15:12 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:15:12 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:15:14 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:15:14 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:15:20 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:15:20 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:15:22 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:15:22 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:15:25 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:15:25 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:15:27 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:15:27 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:15:33 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:15:33 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:16:18 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:16:18 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:16:18 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:16:18 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:16:31 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:16:31 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:16:39 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:16:39 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:16:40 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:16:40 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:16:42 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:16:42 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:16:52 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:16:52 America/Lima] Caducidad despu®¶s: 86400
+[19-Jul-2019 15:16:53 America/Lima] Caducidad: 1440
+[19-Jul-2019 15:16:53 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:12:33 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:12:33 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:12:35 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:12:35 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:12:37 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:12:37 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:12:59 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:12:59 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:13:01 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:13:01 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:13:04 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:13:04 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:13:07 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:13:07 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:13:09 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:13:09 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:14:38 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:14:38 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:14:39 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:14:39 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:20:51 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:20:51 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:20:53 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:20:53 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:20:55 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:20:55 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:35:56 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:35:56 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:35:57 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:35:57 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:35:59 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:35:59 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:36:27 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:36:27 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:36:29 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:36:29 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:36:32 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:36:32 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:37:20 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:37:20 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:37:20 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:37:20 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:37:28 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:37:28 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:37:56 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:37:56 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:37:58 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:37:58 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:38:00 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:38:00 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:38:09 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:38:09 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:38:10 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:38:10 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:38:17 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:38:17 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:38:19 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:38:19 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:38:22 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:38:22 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:38:23 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:38:23 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:39:15 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:39:15 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:39:17 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:39:17 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:39:37 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:39:37 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:40:22 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:40:22 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:40:22 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:40:22 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:53:34 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:53:34 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:53:35 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:53:35 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:53:37 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:53:37 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:53:47 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:53:47 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:53:49 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:53:49 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:53:52 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:53:52 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:53:54 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:53:54 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:53:56 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:53:56 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:54:10 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:54:10 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 09:54:11 America/Lima] Caducidad: 1440
+[22-Jul-2019 09:54:11 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 10:09:52 America/Lima] Caducidad: 1440
+[22-Jul-2019 10:09:52 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 10:09:53 America/Lima] Caducidad: 1440
+[22-Jul-2019 10:09:53 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 10:09:55 America/Lima] Caducidad: 1440
+[22-Jul-2019 10:09:55 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 10:10:00 America/Lima] Caducidad: 1440
+[22-Jul-2019 10:10:00 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 10:10:02 America/Lima] Caducidad: 1440
+[22-Jul-2019 10:10:02 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 10:10:07 America/Lima] Caducidad: 1440
+[22-Jul-2019 10:10:07 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 10:10:32 America/Lima] Caducidad: 1440
+[22-Jul-2019 10:10:32 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 10:10:32 America/Lima] Caducidad: 1440
+[22-Jul-2019 10:10:32 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 11:27:37 America/Lima] Caducidad: 1440
+[22-Jul-2019 11:27:37 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 11:27:39 America/Lima] Caducidad: 1440
+[22-Jul-2019 11:27:39 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 11:27:41 America/Lima] Caducidad: 1440
+[22-Jul-2019 11:27:41 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 11:30:13 America/Lima] Caducidad: 1440
+[22-Jul-2019 11:30:13 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 11:30:15 America/Lima] Caducidad: 1440
+[22-Jul-2019 11:30:15 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 11:30:17 America/Lima] Caducidad: 1440
+[22-Jul-2019 11:30:17 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 11:30:21 America/Lima] Caducidad: 1440
+[22-Jul-2019 11:30:21 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:14:37 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:14:37 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:14:39 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:14:39 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:14:41 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:14:41 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:14:47 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:14:47 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:14:49 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:14:49 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:14:56 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:14:56 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:15:09 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:15:09 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:15:11 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:15:11 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:15:13 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:15:13 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:15:23 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:15:23 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:15:25 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:15:25 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:15:27 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:15:27 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:15:37 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:15:37 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 12:15:37 America/Lima] Caducidad: 1440
+[22-Jul-2019 12:15:37 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 15:53:28 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:53:28 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 15:53:31 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:53:31 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 15:53:33 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:53:33 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 15:53:54 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:53:54 America/Lima] Caducidad despu®¶s: 86400
+[22-Jul-2019 15:53:56 America/Lima] Caducidad: 1440
+[22-Jul-2019 15:53:56 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:22:17 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:22:17 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:22:19 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:22:19 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:22:21 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:22:21 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:22:57 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:22:57 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:22:59 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:22:59 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:08 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:08 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:10 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:10 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:15 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:15 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:17 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:17 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:18 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:18 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:21 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:21 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:22 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:22 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:31 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:31 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:33 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:33 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:52 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:52 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:55 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:55 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:57 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:57 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:23:59 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:23:59 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:24:06 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:24:06 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:24:16 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:24:16 America/Lima] Caducidad despu®¶s: 86400
+[23-Jul-2019 09:24:17 America/Lima] Caducidad: 1440
+[23-Jul-2019 09:24:17 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:12:21 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:12:21 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:12:23 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:12:23 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:12:25 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:12:25 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:14:22 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:14:22 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:14:24 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:14:24 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:14:27 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:14:27 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:14:50 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:14:50 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:14:50 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:14:50 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:15:10 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:15:10 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:15:12 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:15:12 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:15:14 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:15:14 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:15:33 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:15:33 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:15:35 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:15:35 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:15:45 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:15:45 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:16:05 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:16:05 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:16:05 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:16:05 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:16:14 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:16:14 America/Lima] Caducidad despu®¶s: 86400
+[24-Jul-2019 16:16:15 America/Lima] Caducidad: 1440
+[24-Jul-2019 16:16:15 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 16:26:34 America/Lima] Caducidad: 1440
+[25-Jul-2019 16:26:34 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 16:26:36 America/Lima] Caducidad: 1440
+[25-Jul-2019 16:26:36 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 16:26:39 America/Lima] Caducidad: 1440
+[25-Jul-2019 16:26:39 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 16:26:50 America/Lima] Caducidad: 1440
+[25-Jul-2019 16:26:50 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 16:26:52 America/Lima] Caducidad: 1440
+[25-Jul-2019 16:26:52 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 17:43:26 America/Lima] Caducidad: 1440
+[25-Jul-2019 17:43:26 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 17:43:28 America/Lima] Caducidad: 1440
+[25-Jul-2019 17:43:28 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 17:43:30 America/Lima] Caducidad: 1440
+[25-Jul-2019 17:43:30 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 17:43:42 America/Lima] Caducidad: 1440
+[25-Jul-2019 17:43:42 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 17:43:44 America/Lima] Caducidad: 1440
+[25-Jul-2019 17:43:44 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 17:43:55 America/Lima] Caducidad: 1440
+[25-Jul-2019 17:43:55 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 17:43:59 America/Lima] Caducidad: 1440
+[25-Jul-2019 17:43:59 America/Lima] Caducidad despu®¶s: 86400
+[25-Jul-2019 17:44:00 America/Lima] Caducidad: 1440
+[25-Jul-2019 17:44:00 America/Lima] Caducidad despu®¶s: 86400
+[31-Jul-2019 10:33:11 America/Lima] Caducidad: 1440
+[31-Jul-2019 10:33:11 America/Lima] Caducidad despu®¶s: 86400
+[31-Jul-2019 10:33:14 America/Lima] Caducidad: 1440
+[31-Jul-2019 10:33:14 America/Lima] Caducidad despu®¶s: 86400
+[31-Jul-2019 10:33:17 America/Lima] Caducidad: 1440
+[31-Jul-2019 10:33:17 America/Lima] Caducidad despu®¶s: 86400
+[31-Jul-2019 10:42:20 America/Lima] Caducidad: 1440
+[31-Jul-2019 10:42:20 America/Lima] Caducidad despu®¶s: 86400
+[31-Jul-2019 10:42:22 America/Lima] Caducidad: 1440
+[31-Jul-2019 10:42:22 America/Lima] Caducidad despu®¶s: 86400
+[31-Jul-2019 10:42:24 America/Lima] Caducidad: 1440
+[31-Jul-2019 10:42:24 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 11:12:22 America/Lima] Caducidad: 1440
+[01-Aug-2019 11:12:22 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 11:12:24 America/Lima] Caducidad: 1440
+[01-Aug-2019 11:12:24 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 11:12:26 America/Lima] Caducidad: 1440
+[01-Aug-2019 11:12:26 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 11:15:28 America/Lima] Caducidad: 1440
+[01-Aug-2019 11:15:28 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 11:15:30 America/Lima] Caducidad: 1440
+[01-Aug-2019 11:15:30 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 11:15:33 America/Lima] Caducidad: 1440
+[01-Aug-2019 11:15:33 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 11:16:45 America/Lima] Caducidad: 1440
+[01-Aug-2019 11:16:45 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 19:52:14 America/Lima] Caducidad: 1440
+[01-Aug-2019 19:52:14 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 19:52:22 America/Lima] Caducidad: 1440
+[01-Aug-2019 19:52:22 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 19:52:29 America/Lima] Caducidad: 1440
+[01-Aug-2019 19:52:29 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 19:52:39 America/Lima] Caducidad: 1440
+[01-Aug-2019 19:52:39 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 19:52:47 America/Lima] Caducidad: 1440
+[01-Aug-2019 19:52:47 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 19:52:52 America/Lima] Caducidad: 1440
+[01-Aug-2019 19:52:52 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 19:53:16 America/Lima] Caducidad: 1440
+[01-Aug-2019 19:53:16 America/Lima] Caducidad despu®¶s: 86400
+[01-Aug-2019 19:53:16 America/Lima] Caducidad: 1440
+[01-Aug-2019 19:53:16 America/Lima] Caducidad despu®¶s: 86400
+[05-Aug-2019 12:40:19 America/Lima] Caducidad: 1440
+[05-Aug-2019 12:40:19 America/Lima] Caducidad despu®¶s: 86400
+[05-Aug-2019 12:40:24 America/Lima] Caducidad: 1440
+[05-Aug-2019 12:40:24 America/Lima] Caducidad despu®¶s: 86400
+[05-Aug-2019 12:40:29 America/Lima] Caducidad: 1440
+[05-Aug-2019 12:40:29 America/Lima] Caducidad despu®¶s: 86400
+[07-Aug-2019 10:53:23 America/Lima] Caducidad: 1440
+[07-Aug-2019 10:53:23 America/Lima] Caducidad despu®¶s: 86400
+[07-Aug-2019 10:53:25 America/Lima] Caducidad: 1440
+[07-Aug-2019 10:53:25 America/Lima] Caducidad despu®¶s: 86400
+[07-Aug-2019 10:53:27 America/Lima] Caducidad: 1440
+[07-Aug-2019 10:53:27 America/Lima] Caducidad despu®¶s: 86400
+[07-Aug-2019 10:53:51 America/Lima] Caducidad: 1440
+[07-Aug-2019 10:53:51 America/Lima] Caducidad despu®¶s: 86400
+[07-Aug-2019 10:53:53 America/Lima] Caducidad: 1440
+[07-Aug-2019 10:53:53 America/Lima] Caducidad despu®¶s: 86400
+[07-Aug-2019 10:54:10 America/Lima] Caducidad: 1440
+[07-Aug-2019 10:54:10 America/Lima] Caducidad despu®¶s: 86400
+[07-Aug-2019 10:54:32 America/Lima] Caducidad: 1440
+[07-Aug-2019 10:54:32 America/Lima] Caducidad despu®¶s: 86400
+[07-Aug-2019 10:54:32 America/Lima] Caducidad: 1440
+[07-Aug-2019 10:54:32 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:15:24 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:15:24 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:15:27 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:15:27 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:15:29 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:15:29 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:15:54 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:15:54 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:15:57 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:15:57 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:15:59 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:15:59 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:16:15 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:16:15 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:16:15 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:16:15 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:17:24 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:17:24 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:18:25 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:18:25 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:18:25 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:18:25 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:57:52 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:57:52 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:57:54 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:57:54 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:57:56 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:57:56 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:58:13 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:58:13 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:58:15 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:58:15 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:58:17 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:58:17 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:59:21 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:59:21 America/Lima] Caducidad despu®¶s: 86400
+[08-Aug-2019 10:59:21 America/Lima] Caducidad: 1440
+[08-Aug-2019 10:59:21 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:53:57 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:53:57 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:53:59 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:53:59 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:54:01 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:54:01 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:54:15 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:54:15 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:54:17 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:54:17 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:54:21 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:54:21 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:54:39 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:54:39 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:54:41 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:54:41 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:54:57 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:54:57 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:55:16 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:55:16 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:55:17 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:55:17 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:56:30 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:56:30 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:56:32 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:56:32 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:56:34 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:56:34 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:56:44 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:56:44 America/Lima] Caducidad despu®¶s: 86400
+[10-Aug-2019 10:56:45 America/Lima] Caducidad: 1440
+[10-Aug-2019 10:56:45 America/Lima] Caducidad despu®¶s: 86400
+[17-Sep-2019 16:32:26 America/Lima] Caducidad: 1440
+[17-Sep-2019 16:32:26 America/Lima] Caducidad despu®¶s: 86400
+[17-Sep-2019 16:32:27 America/Lima] Caducidad: 1440
+[17-Sep-2019 16:32:27 America/Lima] Caducidad despu®¶s: 86400
+[17-Sep-2019 16:32:29 America/Lima] Caducidad: 1440
+[17-Sep-2019 16:32:29 America/Lima] Caducidad despu®¶s: 86400
+[17-Sep-2019 16:32:35 America/Lima] Caducidad: 1440
+[17-Sep-2019 16:32:35 America/Lima] Caducidad despu®¶s: 86400
+[17-Sep-2019 16:32:36 America/Lima] Caducidad: 1440
+[17-Sep-2019 16:32:36 America/Lima] Caducidad despu®¶s: 86400
+[17-Sep-2019 16:32:38 America/Lima] Caducidad: 1440
+[17-Sep-2019 16:32:38 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 10:54:37 America/Lima] Caducidad: 1440
+[26-Sep-2019 10:54:37 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 10:54:41 America/Lima] Caducidad: 1440
+[26-Sep-2019 10:54:41 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 10:54:50 America/Lima] Caducidad: 1440
+[26-Sep-2019 10:54:50 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 10:54:56 America/Lima] Caducidad: 1440
+[26-Sep-2019 10:54:56 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 10:55:01 America/Lima] Caducidad: 1440
+[26-Sep-2019 10:55:01 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 10:55:09 America/Lima] Caducidad: 1440
+[26-Sep-2019 10:55:09 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 10:55:18 America/Lima] Caducidad: 1440
+[26-Sep-2019 10:55:18 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 10:55:19 America/Lima] Caducidad: 1440
+[26-Sep-2019 10:55:19 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 11:59:39 America/Lima] Caducidad: 1440
+[26-Sep-2019 11:59:39 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 11:59:44 America/Lima] Caducidad: 1440
+[26-Sep-2019 11:59:44 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 11:59:49 America/Lima] Caducidad: 1440
+[26-Sep-2019 11:59:49 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:00:03 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:00:03 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:00:09 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:00:09 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:00:16 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:00:16 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:00:42 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:00:42 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:00:43 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:00:43 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:03:59 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:03:59 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:04:01 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:04:01 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:04:03 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:04:03 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:09:19 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:09:19 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:09:21 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:09:21 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:09:23 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:09:23 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:09:30 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:09:30 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:09:32 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:09:32 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:09:37 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:09:37 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:10:04 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:10:04 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:10:05 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:10:05 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:41:54 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:41:54 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:41:56 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:41:56 America/Lima] Caducidad despu®¶s: 86400
+[26-Sep-2019 12:41:58 America/Lima] Caducidad: 1440
+[26-Sep-2019 12:41:58 America/Lima] Caducidad despu®¶s: 86400
+[03-Oct-2019 10:00:06 America/Lima] Caducidad: 1440
+[03-Oct-2019 10:00:06 America/Lima] Caducidad despu®¶s: 86400
+[03-Oct-2019 10:00:08 America/Lima] Caducidad: 1440
+[03-Oct-2019 10:00:08 America/Lima] Caducidad despu®¶s: 86400
+[03-Oct-2019 10:00:12 America/Lima] Caducidad: 1440
+[03-Oct-2019 10:00:12 America/Lima] Caducidad despu®¶s: 86400
+[03-Oct-2019 10:00:48 America/Lima] Caducidad: 1440
+[03-Oct-2019 10:00:48 America/Lima] Caducidad despu®¶s: 86400
+[03-Oct-2019 10:00:54 America/Lima] Caducidad: 1440
+[03-Oct-2019 10:00:54 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:08:01 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:08:01 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:08:03 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:08:03 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:08:05 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:08:05 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:20:58 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:20:58 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:21:00 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:21:00 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:21:02 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:21:02 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:21:15 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:21:15 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:21:17 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:21:17 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:21:22 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:21:22 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:21:43 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:21:43 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:32:47 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:32:47 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:32:50 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:32:50 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:32:52 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:32:52 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:32:58 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:32:58 America/Lima] Caducidad despu®¶s: 86400
+[05-Oct-2019 12:33:01 America/Lima] Caducidad: 1440
+[05-Oct-2019 12:33:01 America/Lima] Caducidad despu®¶s: 86400
+[21-Oct-2019 14:54:22 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:54:22 America/Lima] Caducidad despu®¶s: 86400
+[21-Oct-2019 14:54:24 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:54:24 America/Lima] Caducidad despu®¶s: 86400
+[21-Oct-2019 14:54:27 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:54:27 America/Lima] Caducidad despu®¶s: 86400
+[24-Oct-2019 14:59:40 America/Lima] Caducidad: 1440
+[24-Oct-2019 14:59:40 America/Lima] Caducidad despu®¶s: 86400
+[24-Oct-2019 14:59:42 America/Lima] Caducidad: 1440
+[24-Oct-2019 14:59:42 America/Lima] Caducidad despu®¶s: 86400
+[24-Oct-2019 14:59:44 America/Lima] Caducidad: 1440
+[24-Oct-2019 14:59:44 America/Lima] Caducidad despu®¶s: 86400
+[24-Oct-2019 14:59:52 America/Lima] Caducidad: 1440
+[24-Oct-2019 14:59:52 America/Lima] Caducidad despu®¶s: 86400
+[24-Oct-2019 14:59:54 America/Lima] Caducidad: 1440
+[24-Oct-2019 14:59:54 America/Lima] Caducidad despu®¶s: 86400
+[05-Nov-2019 13:51:52 America/Lima] Caducidad: 1440
+[05-Nov-2019 13:51:52 America/Lima] Caducidad despu®¶s: 86400
+[05-Nov-2019 13:51:54 America/Lima] Caducidad: 1440
+[05-Nov-2019 13:51:54 America/Lima] Caducidad despu®¶s: 86400
+[05-Nov-2019 13:51:57 America/Lima] Caducidad: 1440
+[05-Nov-2019 13:51:57 America/Lima] Caducidad despu®¶s: 86400
+[05-Nov-2019 13:52:07 America/Lima] Caducidad: 1440
+[05-Nov-2019 13:52:07 America/Lima] Caducidad despu®¶s: 86400
+[05-Nov-2019 13:52:09 America/Lima] Caducidad: 1440
+[05-Nov-2019 13:52:09 America/Lima] Caducidad despu®¶s: 86400
+[05-Nov-2019 13:52:13 America/Lima] Caducidad: 1440
+[05-Nov-2019 13:52:13 America/Lima] Caducidad despu®¶s: 86400
+[05-Nov-2019 13:52:31 America/Lima] Caducidad: 1440
+[05-Nov-2019 13:52:31 America/Lima] Caducidad despu®¶s: 86400

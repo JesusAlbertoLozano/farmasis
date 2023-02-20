@@ -1,0 +1,6 @@
+[22-Jan-2021 11:26:32 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/calcula_monto.php on line 157
+[22-Jan-2021 11:28:17 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/calcula_monto.php on line 157
+[22-Jan-2021 11:28:44 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/calcula_monto.php on line 157
+[22-Jan-2021 11:31:54 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/calcula_monto.php on line 157
+[22-Jan-2021 11:32:02 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/calcula_monto.php on line 157
+[01-Feb-2021 08:39:14 America/Lima] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/ventas/tip_venta.php on line 209

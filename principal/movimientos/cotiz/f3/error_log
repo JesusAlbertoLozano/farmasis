@@ -1,0 +1,4 @@
+[05-Feb-2021 16:27:55 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/cotiz/f3/f3.php on line 191
+[05-Feb-2021 16:29:25 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/cotiz/f3/f3.php on line 191
+[05-Feb-2021 16:29:53 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/cotiz/f3/f3.php on line 191
+[05-Feb-2021 16:30:18 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi2/public_html/prueba/principal/movimientos/cotiz/f3/f3.php on line 191

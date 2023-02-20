@@ -1,0 +1,43 @@
+[24-Nov-2018 10:35:47 America/Lima] PHP Fatal error:  Cannot redeclare CalculaHora() (previously declared in /home/farmasi1/public_html/demo/conexion.php:35) in /home/farmasi1/public_html/demo/conexion.php on line 35
+[24-Nov-2018 10:36:19 America/Lima] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/farmasi1/public_html/demo/principal/archivo/reposicion_min/call_combo.php on line 9
+[24-Nov-2018 10:36:19 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/farmasi1/public_html/demo/principal/archivo/reposicion_min/call_combo.php on line 10
+[24-Nov-2018 10:36:19 America/Lima] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/farmasi1/public_html/demo/principal/archivo/reposicion_min/call_combo.php on line 18
+[24-Nov-2018 10:36:19 America/Lima] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/farmasi1/public_html/demo/principal/archivo/reposicion_min/call_combo.php on line 22
+[26-Nov-2018 10:58:03 America/Lima] PHP Parse error:  syntax error, unexpected ';' in /home/farmasi1/public_html/demo/principal/archivo/reposicion_min/reposicion_min2.php on line 163
+[26-Nov-2018 10:59:53 America/Lima] PHP Parse error:  syntax error, unexpected ';' in /home/farmasi1/public_html/demo/principal/archivo/reposicion_min/reposicion_min2.php on line 165
+[17-Jul-2019 13:44:45 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:44:45 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:44:47 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:44:47 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:45:03 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:45:03 America/Lima] Caducidad despu¨¦s: 86400
+[17-Jul-2019 13:45:04 America/Lima] Caducidad: 1440
+[17-Jul-2019 13:45:04 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:38:38 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:38:38 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:38:41 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:38:41 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:43:48 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:43:48 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:43:50 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:43:50 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:53:45 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:53:45 America/Lima] Caducidad despu¨¦s: 86400
+[21-Oct-2019 14:53:47 America/Lima] Caducidad: 1440
+[21-Oct-2019 14:53:47 America/Lima] Caducidad despu¨¦s: 86400
+[24-Oct-2019 11:27:39 America/Lima] Caducidad: 1440
+[24-Oct-2019 11:27:39 America/Lima] Caducidad despu¨¦s: 86400
+[24-Oct-2019 11:27:41 America/Lima] Caducidad: 1440
+[24-Oct-2019 11:27:41 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:03:57 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:03:57 America/Lima] Caducidad despu¨¦s: 86400
+[28-Oct-2019 10:04:01 America/Lima] Caducidad: 1440
+[28-Oct-2019 10:04:01 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:50:55 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:50:55 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:50:58 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:50:58 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:51:04 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:51:04 America/Lima] Caducidad despu¨¦s: 86400
+[29-Oct-2019 09:51:07 America/Lima] Caducidad: 1440
+[29-Oct-2019 09:51:07 America/Lima] Caducidad despu¨¦s: 86400

@@ -1,0 +1,137 @@
+[23-Mar-2018 17:50:49 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[23-Mar-2018 17:50:49 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[23-Mar-2018 17:50:49 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[23-Mar-2018 22:50:50 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[23-Mar-2018 17:50:50 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Mar-2018 17:50:50 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[23-Mar-2018 17:50:50 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[23-Mar-2018 17:50:50 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[23-Mar-2018 17:51:04 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[23-Mar-2018 17:51:04 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[23-Mar-2018 17:51:04 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[23-Mar-2018 17:51:04 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[14-Apr-2018 12:08:43 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[14-Apr-2018 12:08:43 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[14-Apr-2018 12:08:43 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[14-Apr-2018 17:08:44 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[14-Apr-2018 12:08:44 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[14-Apr-2018 12:08:44 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[14-Apr-2018 12:08:44 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[14-Apr-2018 12:08:44 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[17-Apr-2018 13:09:30 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[17-Apr-2018 13:09:30 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[17-Apr-2018 13:09:30 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[17-Apr-2018 18:09:31 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[17-Apr-2018 13:09:31 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[17-Apr-2018 13:09:31 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[17-Apr-2018 13:09:31 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[17-Apr-2018 13:09:31 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[19-Apr-2018 13:31:26 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[19-Apr-2018 13:31:26 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[19-Apr-2018 13:31:26 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[20-Apr-2018 14:39:47 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[20-Apr-2018 14:39:47 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[20-Apr-2018 14:39:47 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[29-Apr-2018 12:55:47 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[29-Apr-2018 12:55:47 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[29-Apr-2018 12:55:47 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[29-Apr-2018 17:55:48 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[29-Apr-2018 12:55:48 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[29-Apr-2018 12:55:48 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[29-Apr-2018 12:55:48 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[29-Apr-2018 12:55:48 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[04-May-2018 11:55:32 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[04-May-2018 11:55:32 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[04-May-2018 11:55:32 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[04-May-2018 16:55:33 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[04-May-2018 11:55:33 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[04-May-2018 11:55:33 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[04-May-2018 11:55:33 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[04-May-2018 11:55:33 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[10-May-2018 09:32:59 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[10-May-2018 09:32:59 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[10-May-2018 09:32:59 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[10-May-2018 14:32:59 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[10-May-2018 09:32:59 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[10-May-2018 09:32:59 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[10-May-2018 09:32:59 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[10-May-2018 09:33:00 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[12-May-2018 08:30:51 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[12-May-2018 08:30:51 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[12-May-2018 08:30:51 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[12-May-2018 13:30:51 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[12-May-2018 08:30:51 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[12-May-2018 08:30:51 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[12-May-2018 08:30:51 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[12-May-2018 08:30:51 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[18-May-2018 15:39:06 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[18-May-2018 15:39:06 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[18-May-2018 15:39:06 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[18-May-2018 20:39:06 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[18-May-2018 15:39:06 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[18-May-2018 15:39:06 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[18-May-2018 15:39:06 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[18-May-2018 15:39:06 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[24-May-2018 14:27:07 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[24-May-2018 14:27:07 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[24-May-2018 14:27:07 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[24-May-2018 19:27:07 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[24-May-2018 14:27:07 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[24-May-2018 14:27:07 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[24-May-2018 14:27:07 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[24-May-2018 14:27:07 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[24-May-2018 15:56:16 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[24-May-2018 15:56:16 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[24-May-2018 15:56:16 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[24-May-2018 20:56:17 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[24-May-2018 15:56:17 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[24-May-2018 15:56:17 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[24-May-2018 15:56:17 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[24-May-2018 15:56:17 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[01-Jun-2018 13:19:32 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[01-Jun-2018 13:19:32 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[01-Jun-2018 13:19:32 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[01-Jun-2018 18:19:33 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[01-Jun-2018 13:19:33 America/Lima] PHP Notice:  Undefined variable: i in /home/farmasi1/public_html/comercial_fmariarosa/funciones/botones.php on line 5
+[01-Jun-2018 13:19:33 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[01-Jun-2018 13:19:33 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[01-Jun-2018 13:19:33 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[16-Jul-2018 09:43:17 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[16-Jul-2018 09:43:17 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[16-Jul-2018 09:43:17 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[16-Jul-2018 14:43:17 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[16-Jul-2018 09:43:17 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[16-Jul-2018 09:43:17 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[16-Jul-2018 09:43:17 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[18-Jul-2018 15:47:51 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 19
+[18-Jul-2018 15:47:51 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 35
+[18-Jul-2018 15:47:51 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas_reg.php on line 36
+[18-Jul-2018 20:47:51 UTC] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 2
+[18-Jul-2018 15:47:51 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 30
+[18-Jul-2018 15:47:51 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 49
+[18-Jul-2018 15:47:51 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/comercial_fmariarosa/principal/movimientos/remesas/remesas1.php on line 60
+[25-Sep-2018 17:33:07 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas_reg.php on line 19
+[25-Sep-2018 17:33:07 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas_reg.php on line 35
+[25-Sep-2018 17:33:07 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas_reg.php on line 36
+[25-Sep-2018 17:33:07 America/Lima] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas1.php on line 2
+[25-Sep-2018 17:33:07 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas1.php on line 30
+[25-Sep-2018 17:33:07 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas1.php on line 49
+[25-Sep-2018 17:33:07 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas1.php on line 60
+[25-Sep-2018 19:02:31 America/Lima] PHP Notice:  Use of undefined constant G - assumed 'G' in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas_reg.php on line 19
+[25-Sep-2018 19:02:31 America/Lima] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas_reg.php on line 35
+[25-Sep-2018 19:02:31 America/Lima] PHP Notice:  Use of undefined constant s - assumed 's' in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas_reg.php on line 36
+[25-Sep-2018 19:02:31 America/Lima] PHP Notice:  Undefined index: remesa in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas1.php on line 2
+[25-Sep-2018 19:02:31 America/Lima] PHP Notice:  Use of undefined constant remesa - assumed 'remesa' in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas1.php on line 30
+[25-Sep-2018 19:02:31 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas1.php on line 49
+[25-Sep-2018 19:02:31 America/Lima] PHP Notice:  Undefined variable: fecha in /home/farmasi1/public_html/demo/principal/movimientos/remesas/remesas1.php on line 60
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_query(): (HY000/1028): Sort aborted: Query execution was interrupted in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 50
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 51
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  Error while sending QUERY packet. PID=19976 in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 61
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 62
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 75
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 87
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 99
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 115
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 127
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 139
+[24-Apr-2019 15:39:45 America/Lima] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/farmasi1/public_html/novafarma/principal/movimientos/remesas/remesas1.php on line 151
