@@ -891,8 +891,7 @@ while ($row = mysqli_fetch_array($result)){
         
         <td width="140"><div align="left"><?php echo $factor?></div></td>
         <td width="140"><div align="left"><?php echo substr($user,0,70)?></div></td>
-        <td width="55"><div align="right"><?php echo $signo; echo $cant_desc?></div></td>
-       <!-- <td width="70"><div  align="right"><?php echo $preciocompra;?></div></td> -->
+        <td width="55"><div align="right"><?php echo $signo; echo $cant_desc?></div></td>       
         <td width="75"><div align="right"><?php echo $div1."C" ." ". $UNI1;?></div></td>
     </tr>
     <?php 
