@@ -16,9 +16,10 @@ function convertir_a_numero($str) {
     return $str;
 }
 
-$idpreped = isset($_REQUEST['idpreped']) ? ($_REQUEST['idpreped']) : "";
-$numpagina = isset($_REQUEST['numpagina']) ? ($_REQUEST['numpagina']) : "";
-
+$idpreped   = isset($_REQUEST['idpreped']) ? ($_REQUEST['idpreped']) : "";
+$numpagina  = isset($_REQUEST['numpagina']) ? ($_REQUEST['numpagina']) : "";
+$pasa       = isset($pasa) ? ($pasa) : 0;
+$numpagina22222 = isset($numpagina22222) ? ($numpagina22222) : "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['text'])) {
         $text = $_POST['text'];
@@ -55,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             
              $string = $n;
              $letra = $string[0];
-            if ($letra == F) {
+            if ($letra == 'F') {
                 $ncontrolx = substr($n, 1);
                 $control_remplazo ='F'.$control;
                
@@ -80,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 if($numpagina22222 <> ""){
-$numpagina= $numpagina22222;
+    $numpagina= $numpagina22222;
 }
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -528,7 +529,7 @@ $numpagina= $numpagina22222;
                                                 <tbody>
                                                     <?php
                                                     //$sql="SELECT * FROM detalle_prepedido DP,producto P where DP.idprod=P.codpro AND DP.numpagina='$numpagina'order by iddetalle asc";
-                                                     $sql = "SELECT DP.iddetalle,DP.idprepedido,DP.idcantidad,DP.solicitado,DP.fraccion,P.desprod,M.destab,P.blister,P.codmar,P.s000,P.factor,P.stopro,P.$columna as columna,P.prevta,P.codpro,P.utlcos,P.incentivado,P.codprobonif FROM detalle_prepedido as DP INNER JOIN producto as P on DP.idprod=P.codpro inner join titultabladet AS M ON M.codtab=P.codmar WHERE DP.numpagina='$numpagina' AND M.tiptab = 'M'   AND  DP.solicitado <>'' AND  DP.solicitado <>'0' order by M.destab, P.desprod";
+                                                     $sql = "SELECT DP.control,DP.iddetalle,DP.idprepedido,DP.idcantidad,DP.solicitado,DP.fraccion,P.desprod,M.destab,P.blister,P.codmar,P.s000,P.factor,P.stopro,P.$columna as columna,P.prevta,P.codpro,P.utlcos,P.incentivado,P.codprobonif FROM detalle_prepedido as DP INNER JOIN producto as P on DP.idprod=P.codpro inner join titultabladet AS M ON M.codtab=P.codmar WHERE DP.numpagina='$numpagina' AND M.tiptab = 'M'   AND  DP.solicitado <>'' AND  DP.solicitado <>'0' order by M.destab, P.desprod";
 //                                                    error_log($sql);
                                                     $result = mysqli_query($conexion, $sql);
                                                     $cont = 0;
