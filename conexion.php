@@ -2,10 +2,10 @@
 date_default_timezone_set("America/Lima");
 //ini_set("session.cookie_lifetime","86400");
 
-$dbhost     = '3.237.52.136:3307';	//host del Mysql 
+$dbhost     = '3.237.52.136';	//host del Mysql 
 //## $dbhost     = 'localhost';	//host del Mysql 
-$dbUsuario  = 'user_test';	//En este caso el servidor no tiene valor para usuario para acceder a la base
-$dbpassword = 'SharedTest2023';	//Aqui tambien no hay un valor especifico
+$dbUsuario  = 'oct30fno_mariarosa';	//En este caso el servidor no tiene valor para usuario para acceder a la base
+$dbpassword = 'mariarosa123456789';	//Aqui tambien no hay un valor especifico
 $db         = 'oct30fno_novafarma';		// Nombre de la Base Datos
 //$db         ='farmasi1_gallarday';		// Nombre de la Base Datos
 
@@ -18,10 +18,10 @@ $conexion = mysqli_connect($dbhost, $dbUsuario, $dbpassword, $db);
 
 
 
-$dbhost2     = '3.237.52.136:3307';	//host del Mysql 
+$dbhost2     = '3.237.52.136';	//host del Mysql 
 //## $dbhost2     = 'localhost';	//host del Mysql 
-$dbUsuario2  = 'user_test';	//En este caso el servidor no tiene valor para usuario para acceder a la base
-$dbpassword2 = 'SharedTest2023';	//Aqui tambien no hay un valor especifico
+$dbUsuario2  = 'oct30fno_mariarosa';	//En este caso el servidor no tiene valor para usuario para acceder a la base
+$dbpassword2 = 'mariarosa123456789';	//Aqui tambien no hay un valor especifico
 $db2         ='oct30fno_baseuniversal';		// Nombre de la Base Datos
 $conexion2 = mysqli_connect($dbhost2, $dbUsuario2, $dbpassword2, $db2) or die ("No se ha podido conectar al servidor de Base de datos");
 
