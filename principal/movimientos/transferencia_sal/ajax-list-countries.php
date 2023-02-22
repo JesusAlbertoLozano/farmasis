@@ -2,7 +2,7 @@
 require_once('../../../conexion.php');	//CONEXION A BASE DE DATOS
 require_once('../../../convertfecha.php');
 require_once("../../session_user.php");
-require_once("../../local.php");
+//require_once("../../local.php");
 if(isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])){
 	$letters = $_REQUEST['letters'];
 	//$letters = preg_replace("/[^a-z0-9 ]/si","",$letters);
@@ -96,7 +96,7 @@ if(isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])){
     }
 	if ($limit == 0)
 	{
-	$limit = 50;
+	$limit = 10;
 	}
 	$t = is_numeric($letters);
 	if($t == 0)
@@ -104,24 +104,24 @@ if(isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])){
 		$caracter = ".";
 		if (strpos($letters, $caracter) !== false) 
 		{
-		$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna stockloc,factor from producto where activo1 = '1' and codpro = '".$letters."' or codbar like '".$letters."%' limit $limit") or die(mysqli_error());
+		$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna,factor from producto where activo1 = '1' and codpro = '".$letters."' or codbar like '".$letters."%' limit $limit") or die(mysqli_error());
 		}
 		else
 		{
-		$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna stockloc,factor from producto where activo1 = '1' and desprod like '".$letters."%' limit $limit") or die(mysqli_error());
+		$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna,factor from producto where activo1 = '1' and desprod like '".$letters."%' limit $limit") or die(mysqli_error());
 		}
 	}
 	else
 	{
-	$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna stockloc,factor from producto where activo1 = '1' and codpro = '".$letters."' or codbar like '".$letters."%' limit $limit") or die(mysqli_error());
+	$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna,factor from producto where activo1 = '1' and codpro = '".$letters."' or codbar like '".$letters."%' limit $limit") or die(mysqli_error());
 	}
 	#echo "1###select ID,countryName from ajax_countries where countryName like '".$letters."%'|";
 	while($inf = mysqli_fetch_array($res)){
 		$codpro  = $inf['codpro'];
 		$desprod = $inf['desprod'];
 		$marca   = $inf['codmar'];
-		$stock = $inf[3];
-        $factor = $inf[4];
+		$stock = $inf[4];
+        $factor = $inf[5];
         
               if ($factor > 1) {
         $convert1 = $stock / $factor;
