@@ -4,7 +4,7 @@ require_once('../../../conexion.php');
 require_once('../../../titulo_sist.php');
 require_once('../../../convertfecha.php');    //CONEXION A BASE DE DATOS
 require_once('MontosText.php');
-require_once '../../../function_sunat.php';
+//require_once '../../../function_sunat.php';
 // require('../../session_filtro.php');
 $rd = $_REQUEST['rd'];
 $venta = $_REQUEST['vt'];
