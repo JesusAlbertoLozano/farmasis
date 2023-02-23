@@ -1,17 +1,18 @@
-<?php require_once ('../../conexion.php');	//CONEXION A BASE DE DATOS
+<?php
+require_once ('../../conexion.php'); //CONEXION A BASE DE DATOS
 include('../session_user.php');
-if(isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])){
-	$letters = $_REQUEST['letters'];
-	//$letters = preg_replace("/[^a-z0-9 ]/si","",$letters);
-	$sql="SELECT limite FROM datagen_det";
-    $result = mysqli_query($conexion,$sql);
-    if (mysqli_num_rows($result) ){
-	while ($row = mysqli_fetch_array($result)){
-		 $limit             = $row['limite'];
+if (isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])) {
+    $letters = $_REQUEST['letters'];
+    //$letters = preg_replace("/[^a-z0-9 ]/si","",$letters);
+    $sql = "SELECT limite FROM datagen_det";
+    $result = mysqli_query($conexion, $sql);
+    if (mysqli_num_rows($result)) {
+        while ($row = mysqli_fetch_array($result)) {
+            $limit = $row["limite"];
+        }
     }
-	}
-	
-	   $sql = "SELECT codloc from usuario WHERE usecod ='$usuario'";
+
+    $sql = "SELECT codloc from usuario WHERE usecod ='$usuario'";
     $result = mysqli_query($conexion, $sql);
     if (mysqli_num_rows($result)) {
         while ($row = mysqli_fetch_array($result)) {
@@ -91,61 +92,53 @@ if(isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])){
     if ($nomloc == "LOCAL20") {
         $columna = 's020';
     }
-	if ($limit == 0)
-	{
-	$limit = 1;
-	}
-	$t = is_numeric($letters);
-	if($t == 0)
-	{
-		$caracter = ".";
-		if (strpos($letters, $caracter) !== false) 
-		{
-		$res = mysqli_query($conexion,"select codpro,desprod,codmar,$columna,factor from producto where eliminado='0' and codpro like '".$letters."%' order by codpro limit $limit") or die(mysqli_error());
-		}
-		else
-		{
-		$res = mysqli_query($conexion,"select codpro,desprod,codmar,$columna,factor from producto  where eliminado='0' and desprod like '".$letters."%' order by desprod limit $limit") or die(mysqli_error());
-		}
-	}
-	else
-	{
-	$res = mysqli_query($conexion,"select codpro,desprod,codmar,$columna,factor from producto  where eliminado='0' and  codpro like '".$letters."%' order by codpro limit $limit") or die(mysqli_error());
-	}
-	#echo "1###select ID,countryName from ajax_countries where countryName like '".$letters."%'|";
-	while($inf = mysqli_fetch_array($res)){
-		$codpro  = $inf['codpro'];
-		$desprod = $inf['desprod'];
-		$marca   = $inf['codmar'];
-		$stock = $inf[3];
-        $factor = $inf[4];
-        
-              if ($factor > 1) {
-        $convert1 = $stock / $factor;
-        $caja = ((int) ($convert1));
-        $unidad = ($stock - ($caja * $factor));
-        $stocknuevo = "C" . $caja . " + F" . $unidad;
-        
-    } else {
-        $convert1 = $stock / $factor;
-        $caja = ((int) ($convert1));
 
-        $stocknuevo = "C " . $caja;
-        
+    if ($limit == 0) {
+        $limit = 50;
     }
-        
-        
-		$sql1="SELECT destab FROM titultabladet where codtab = '$marca'";
-		$result1 = mysqli_query($conexion,$sql1);
-		if (mysqli_num_rows($result1)){
-		while ($row1 = mysqli_fetch_array($result1)){
-				$destab = $row1['destab'];
-				$destab = substr($destab,0,35);
-		}
-		}
-		//$cad = $codpro." - <b>PROD = </b>".$desprod."..."."<b>LAB = </b>".$destab."|";
-		 $cad = "<b>COD = </b>" . $codpro . " - <b>PROD = </b>" . $desprod . "..." . "<b>LAB = </b>" . $destab . " - <b>STOCK = </b>" . $stocknuevo . "|";
-		echo $inf["codpro"]."###".$cad;
-	}	
+    
+$busqueda = "0";
+$sql11 = "SELECT busqueda FROM datagen";
+$result11 = mysqli_query($conexion, $sql11);
+if (mysqli_num_rows($result11)) {
+	while ($row11 = mysqli_fetch_array($result11)) {
+	
+		$busqueda    = $row11['busqueda'];
+	}
 }
-?>
+    $t = is_numeric($letters);
+    if ($t == 0) {
+        $caracter = "*";
+        if (strpos($letters, $caracter) !== false) {
+            $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where codpro  like '" . $letters . "'  order by desprod limit $limit") or die(mysqli_error());
+        } else {
+    
+        	if ($busqueda == 0) {
+            $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where desprod like '" . $letters . "%' order by desprod limit $limit") or die(mysqli_error());
+		            	                     } else {
+            $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where desprod like '%" . $letters . "%' order by desprod limit $limit") or die(mysqli_error());
+		            	                     }
+        }
+    } else {
+            $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where codpro  like '" . $letters . "'  order by desprod limit $limit") or die(mysqli_error());
+    }
+    #echo "1###select ID,countryName from ajax_countries where countryName like '".$letters."%'|";
+    while ($inf = mysqli_fetch_array($res)) {
+        $codpro = $inf["codpro"];
+        $desprod = $inf["desprod"];
+        $marca = $inf['codmar'];
+        $stockloc = $inf[3];
+        $sql1 = "SELECT destab FROM titultabladet where codtab = '$marca'";
+        $result1 = mysqli_query($conexion, $sql1);
+        if (mysqli_num_rows($result1)) {
+            while ($row1 = mysqli_fetch_array($result1)) {
+                $destab = $row1['destab'];
+                $destab = substr($destab, 0, 35);
+            }
+        }
+        //$cad = $codpro . " - <b>PROD = </b>" . $desprod . "..." . "<b>LAB = </b>" . $destab . "|";
+
+        $cad = "<b>COD = </b>" . $codpro . " - <b>PROD = </b>" . $desprod . "..." . "<b>LAB = </b>" . $destab . " - <b>STOCK = </b>" . $stockloc . "|";
+        echo $inf["codpro"] . "###" . $cad;
+    }
+}
