@@ -93,7 +93,7 @@ if(isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])){
     }
 	if ($limit == 0)
 	{
-	$limit = 10;
+	$limit = 1;
 	}
 	$t = is_numeric($letters);
 	if($t == 0)
