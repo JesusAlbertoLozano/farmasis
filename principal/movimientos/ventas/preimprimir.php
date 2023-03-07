@@ -1,4 +1,7 @@
 <?php
+
+// error_reporting(E_ALL);
+// ini_set('display_errors', '1');
 require_once('../../../conexion.php');
 require_once('../../../titulo_sist.php');
 require_once('../../../convertfecha.php');
@@ -71,6 +74,7 @@ if (isset($_SESSION['arr_detalle_venta'])) {
     $arr_detalle_venta = array();
 }
 
+
 if (!empty($arr_detalle_venta)) {
 
     function qd_sd($array, $campo, $campo2, $fraccion, $factor)
@@ -80,6 +84,9 @@ if (!empty($arr_detalle_venta)) {
             $clave[] = $parte[$campo];
         }
         $unico = array_unique($clave);
+        $suma_campro1 = 0;
+        $suma_campro2 = 0;
+        $suma_campro = 0;
         foreach ($unico as $un) {
             foreach ($array as $original) {
                 if ($un == $original[$campo]) {

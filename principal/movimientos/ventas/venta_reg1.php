@@ -70,8 +70,12 @@ foreach ($arr_detalle_venta as $row) {
 if ($count > 0) {
     if ($drogueria == 1) {
 
+        $Clote = 0;
+
         function callLotes($Conexion, $CodPro, $Tipo, $codloc)
         {
+
+           
             $sqlLote = "SELECT idlote,stock FROM movlote where codpro = '$CodPro'  and codloc= '$codloc'  and stock <> 0 and date_format(str_to_date(concat('01/',vencim),'%d/%m/%Y'),'%Y-%m-%d') >= NOW() ORDER BY date_format(str_to_date(concat('01/',vencim),'%d/%m/%Y'),'%Y-%m-%d') limit 1";
             $resultLote = mysqli_query($Conexion, $sqlLote);
             if (mysqli_num_rows($resultLote)) {

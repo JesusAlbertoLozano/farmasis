@@ -1,7 +1,7 @@
 <?php
 
-// error_reporting(E_ALL);
-// ini_set('display_errors', '1');
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
 require_once('../../session_user.php');
 //echo $usuario;exit;
 require_once('session_ventas.php');
@@ -10,6 +10,11 @@ $venta = isset($_SESSION['venta']) ? $_SESSION['venta'] : '';
 $cotizacion = isset($_SESSION['cotizacion']) ? $_SESSION['cotizacion'] : '';
 $search = isset($_SESSION['search']) ? $_SESSION['search'] : '';
 $cierre_caja = isset($_SESSION['cierrecaja']) ? $_SESSION['cierrecaja'] : '';
+
+$usuariosEspeciales_ArqueoCaja = isset($_SESSION['usuariosEspeciales_ArqueoCaja']) ? $_SESSION['usuariosEspeciales_ArqueoCaja'] : '';
+
+
+ 
 // $cierre_caja = $_REQUEST['cierrecaja'];
 $sum33 = "";
 $st = "";
@@ -805,6 +810,7 @@ $typpe = "";
         <?php
 
         $contador_filtro_de_lineas = 0;
+        $cod = "";
         if (!empty($arr_detalle_venta)) {
             foreach ($arr_detalle_venta as $row => $item) {
                 $contador = ++$row;
@@ -1391,7 +1397,7 @@ $typpe = "";
                                         <div align="CENTER" class="<?php echo $text ?>"><?php echo $prevta ?></div>
                                     <?php } ?>
                                 </td>
-                                <td title=" A partir de &nbsp;<?PHP echo $pblister; ?>&nbsp;und &nbsp;el precio es <?PHP echo $preblister; ?>" onclick="location.href = 'venta_index2.php?cod=<?php echo $codpro ?>&add=1&typpe=1'">
+                                <td title=" A partir de &nbsp;<?php echo $pblister; ?>&nbsp;und &nbsp;el precio es <?php echo $preblister; ?>" onclick="location.href = 'venta_index2.php?cod=<?php echo $codpro ?>&add=1&typpe=1'">
                                     <?php if ($control == 0) { ?>
                                         <div align="CENTER" class="<?php echo $text ?>"><?php echo $pblister . "<b style='color:red;'>&nbsp;>&nbsp;</b>" . $preblister; ?> </div>
                                     <?php } ?>
@@ -1928,6 +1934,8 @@ $typpe = "";
                 <img src="../../../images/line2.png" width="100%" height="4" />
             </div>
 
+          
+
             <table width="100%" border="0">
                 <tr>
                     <td width="17%">
@@ -1938,6 +1946,7 @@ $typpe = "";
                     </td>
                     <td width="17%">
                         <div align="center">
+                            
                             <strong>ICBPER : </strong><input name="mont2" class="sub_totales" type="text" id="mont2" onclick="blur()" size="15" value="<?php if ($count2 > 0) { ?> <?php echo  $numero_formato_frances = number_format($icbper_total, 2, '.', ' ');
                                                                                                                                                                                     ?> <?php } else { ?>0.00<?php } ?>" />
                         </div>

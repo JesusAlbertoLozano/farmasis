@@ -141,8 +141,8 @@ function zero_fill($valor, $long = 0)
                 <p><?php echo pintaDatos($linea3);?></p>
                 <p><?php echo pintaDatos($linea4);?></p>
                 <?php if($tipdoc <> 4){?>
-                <p> <?PHP echo pintaDatos($linea5);?> </p>
-                <?PHP }?>
+                <p> <?php echo pintaDatos($linea5);?> </p>
+                <?php }?>
                 <p><?php echo pintaDatos($linea6);?></p>
                 <p><?php echo pintaDatos($linea7);?></p>
                 <p><?php echo pintaDatos($linea8);?></p>

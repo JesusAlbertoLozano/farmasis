@@ -45,7 +45,7 @@ if (mysqli_num_rows($resultV)) {
     }
 }
 
-
+$email="";
 $sqlCli = "SELECT email FROM cliente where codcli = '$cuscod' and descli <> 'PUBLICO EN GENERAL'";
 $resultCli = mysqli_query($conexion, $sqlCli);
 if (mysqli_num_rows($resultCli)) {

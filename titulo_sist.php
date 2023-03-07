@@ -21,6 +21,7 @@ if (mysqli_num_rows($resultuniversal)) {
 
 $mensaje_masiva_universal = trim($mensaje_masiva_universal);
 
+$usuario="";
 $sql = "SELECT nomusu,codloc FROM usuario where usecod = '$usuario'";
 $result = mysqli_query($conexion, $sql);
 if (mysqli_num_rows($result)) {
@@ -30,6 +31,7 @@ if (mysqli_num_rows($result)) {
     }
 }
 
+$zzcodloc="";
 $sql = "SELECT nombre FROM xcompa where codloc = '$zzcodloc'";
 $result = mysqli_query($conexion, $sql);
 if (mysqli_num_rows($result)) {

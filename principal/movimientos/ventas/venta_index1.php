@@ -1,4 +1,6 @@
 <?php
+ error_reporting(E_ALL);
+ ini_set('display_errors', '1');
 require_once('../../session_user.php');
 
 $venta = isset($_SESSION['venta']) ? $_SESSION['venta'] : "";
@@ -42,6 +44,8 @@ $deliveryWeb = isset($_REQUEST['deliveryWeb']) ? $_REQUEST['deliveryWeb'] : "";
     }
 $arqueo=0;
 $arqueo_bloqueo_1 = 0;
+$arqueo_arqueo_no_cerraron_dias_antes="";
+
 
     if ($arqueo_caja == 1) {
 

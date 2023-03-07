@@ -1,4 +1,6 @@
 <?php
+ error_reporting(E_ALL);
+ini_set('display_errors', '1');
 require_once('../../session_user.php');
 require_once('../../../conexion.php'); //CONEXION A BASE DE DATOS
 require_once('../../../titulo_sist.php');
@@ -76,7 +78,7 @@ if (mysqli_num_rows($result)) {
                     <td align="left">
                         <span class="titulos">Ventas</span>
                     </td>
-                    <td align="right"><a href="http://www.farmasis.net/" target="_blank"><img src="http://www.farmasis.net/wp-content/BANNER/FARMASIS.png" width="210" height="30" /> </a></td>
+                    <td align="right"><a href="http://www.farmasis.site/" target="_blank"><img src="http://www.farmasis.site/wp-content/BANNER/FARMASIS.png" width="210" height="30" /> </a></td>
                     <td align="left"><span class="titulos" style="color: <?php echo $coloruniversal; ?>;font-weight: 900;font-size: <?php echo $letrauniversal; ?>px;"><?php echo $nmensajeuniversal; ?></span></td>
                 </tr>
             </table>

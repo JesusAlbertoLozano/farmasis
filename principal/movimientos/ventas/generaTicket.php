@@ -1,4 +1,6 @@
 <?php
+ error_reporting(E_ALL);
+ ini_set('display_errors', '1');
 require_once('../../session_user.php');
 require_once('../../../conexion.php');
 require_once('../../../titulo_sist.php');
@@ -126,6 +128,7 @@ if (mysqli_num_rows($resultV)) {
         $tipteclaimpresa = $row['tipteclaimpresa'];
         $anotacion = $row['anotacion'];
         $nrofactura = $row['nrofactura'];
+        
 
         $sqlXCOM = "SELECT seriebol,seriefac,serietic FROM xcompa where codloc = '$sucursal'";
         $resultXCOM = mysqli_query($conexion, $sqlXCOM);

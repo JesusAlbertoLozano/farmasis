@@ -3,6 +3,7 @@ require '../../../titulo_sist.php';
 
 $invnum = "";
 $sucursal= "";
+$cuscod= "";
 $sql = "SELECT invnum,nrovent,invfec,cuscod,usecod,codven,forpag,fecven,sucursal FROM venta where invnum = '$venta'";
 $result = mysqli_query($conexion, $sql);
 if (mysqli_num_rows($result)) {
@@ -109,6 +110,7 @@ if (mysqli_num_rows($result6)) {
 
 $monto_total = 0;
 //error_log("Monto total : ". $monto_total);
+$icbper_total = 0;
 $valor_vent1 = 0;
 $mont_bruto = 0;
 

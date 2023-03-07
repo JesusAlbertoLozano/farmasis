@@ -1011,7 +1011,7 @@ $venta = $_SESSION['venta'];
                                         <div align="center"><span class="<?php echo $text ?>"><b><?php echo $numero_formato_frances = number_format($descuento, 0, '.', ' '); ?>%</b></span></div>
                                     </td>
 
-                                    <td title=" A partir de &nbsp;<?PHP echo $pblister; ?>&nbsp;und &nbsp;el precio es <?PHP echo $preblister; ?>">
+                                    <td title=" A partir de &nbsp;<?php echo $pblister; ?>&nbsp;und &nbsp;el precio es <?php echo $preblister; ?>">
 
                                         <div align="center" class="<?php echo $text ?>"><?php echo $blister . "<b style='color:red;'>&nbsp;>&nbsp;</b>" . $preblister; ?> </div>
 
