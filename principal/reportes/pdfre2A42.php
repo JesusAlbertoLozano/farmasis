@@ -836,8 +836,8 @@ if ($val_habil == 1) {
                     <p style="text-align: left"><?php echo pintaDatos($linea3); ?></p>
 
                     <?php if ($tipdoc <> 4) { ?>
-                        <p style="text-align: left"> <?PHP echo pintaDatos($linea5); ?> </p>
-                    <?PHP } ?>
+                        <p style="text-align: left"> <?php echo pintaDatos($linea5); ?> </p>
+                    <?php } ?>
 
                     <p style="text-align: left"><?php echo pintaDatos($pie6); ?></p>
 
@@ -847,7 +847,7 @@ if ($val_habil == 1) {
 
                     <?php if ($tipdoc <> 4) { ?>
                         <p> <?php echo $linea5; ?> </p>
-                    <?PHP } ?>
+                    <?php } ?>
                     <p class="boleta" style="font-weight: 1990; ">
                         <font color="#0a6fc2" style="font-weight: 1990; "><?php echo $TextDoc; ?></font>
                     </p>

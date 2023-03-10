@@ -382,18 +382,18 @@ require_once('../../../titulo_sist.php');
                                     </tr>
                                     <tr >
                                         <td width="50" bgcolor="#91cdfa"  style=" border-radius:12px 0 0 12px;" ><strong>CLIENTE:</strong></td>
-                                        <td width="300" bgcolor="#cce0f4" style=" border-radius:0 12px 12px 0;" ><pre ><?PHP ECHO $descli ?></pre></td>
-                                        <?PHP if (($dnicli == "") && ($ruccli <> "")) { ?>
+                                        <td width="300" bgcolor="#cce0f4" style=" border-radius:0 12px 12px 0;" ><pre ><?php ECHO $descli ?></pre></td>
+                                        <?php if (($dnicli == "") && ($ruccli <> "")) { ?>
                                             <td width="10" bgcolor="#91cdfa"style=" border-radius:12px 0 0 12px;"  ><strong>RUC:</strong></td>
-                                            <td bgcolor="#cce0f4" width="90" style=" border-radius:0 12px 12px 0;"  ><pre><?PHP ECHO $ruccli ?></pre></td>
+                                            <td bgcolor="#cce0f4" width="90" style=" border-radius:0 12px 12px 0;"  ><pre><?php ECHO $ruccli ?></pre></td>
                                         <?php } else { ?>
                                                     <td width="10" bgcolor="#91cdfa"style=" border-radius:12px 0 0 12px;"  ><strong>DNI:</strong></td>
-                                                    <td bgcolor="#cce0f4" width="90" style=" border-radius:0 12px 12px 0;"  ><pre><?PHP ECHO $dnicli ?></pre></td>
+                                                    <td bgcolor="#cce0f4" width="90" style=" border-radius:0 12px 12px 0;"  ><pre><?php ECHO $dnicli ?></pre></td>
                                         <?php } ?>
                                      <td width="10" bgcolor="#91cdfa" style=" border-radius:12px 0 0 12px;" ><strong>DIRECCION:</strong></td>
-                                     <td width="300" bgcolor="#cce0f4" style=" border-radius:0 12px 12px 0;"  ><pre><?PHP ECHO $dircli ?></pre></td>
+                                     <td width="300" bgcolor="#cce0f4" style=" border-radius:0 12px 12px 0;"  ><pre><?php ECHO $dircli ?></pre></td>
                                      <td width="100" bgcolor="#91cdfa" style=" border-radius:12px 0 0 12px;" ><strong>P. ACTUALES:</strong></td>
-                                     <td width="50" bgcolor="#cce0f4" style=" border-radius:0 12px 12px 0; margin-left: 100px;"  ><pre><?PHP ECHO $puntos ?></pre></td>
+                                     <td width="50" bgcolor="#cce0f4" style=" border-radius:0 12px 12px 0; margin-left: 100px;"  ><pre><?php ECHO $puntos ?></pre></td>
                                 </tr>
                             </table>
                         </div>
@@ -440,26 +440,26 @@ require_once('../../../titulo_sist.php');
                                                 ?>
                                                                   <tr class="GridviewScrollItem"     bgcolor="#eaeff3"   onmouseover="this.style.backgroundColor = '#daecf3';
                                                                           this.style.cursor = 'hand';" onmouseout="this.style.backgroundColor = '#eaeff3';">
-                                                                      <td align="center" style='font-size: 12px;'><?PHP ECHO $i ?></td>
+                                                                      <td align="center" style='font-size: 12px;'><?php ECHO $i ?></td>
                                                                        
                                                                      
                                                     <?php if ($estado == 1) { ?>
-                                                                                      <td title="<?php echo $despunto; ?>" ><div ><a style='font-size: 13px;' ><?PHP echo substr($despunto, 0, 55) ?></a></div></td>
+                                                                                      <td title="<?php echo $despunto; ?>" ><div ><a style='font-size: 13px;' ><?php echo substr($despunto, 0, 55) ?></a></div></td>
                                                     <?php } else { ?>
-                                                                                            <td title="<?php echo $despunto; ?>"><s style='font-size: 13px;color: #050505'><?PHP echo substr($despunto, 0, 55) ?></s></td>
+                                                                                            <td title="<?php echo $despunto; ?>"><s style='font-size: 13px;color: #050505'><?php echo substr($despunto, 0, 55) ?></s></td>
                                                     <?php } ?>
                                                                             
                                                     <?php if ($estado == 1) { ?>
-                                                                                            <td align="center" height="5px" style='font-size: 12px;'><?PHP ECHO $pdescuento . " " . "PUNTOS" ?></td>
+                                                                                            <td align="center" height="5px" style='font-size: 12px;'><?php ECHO $pdescuento . " " . "PUNTOS" ?></td>
                                                     <?php } else { ?>
-                                                                                            <td align="center" height="5px"><s style='font-size: 12px;color: #050505'><?PHP ECHO $pdescuento . " " . "PUNTOS" ?></s></td>
+                                                                                            <td align="center" height="5px"><s style='font-size: 12px;color: #050505'><?php ECHO $pdescuento . " " . "PUNTOS" ?></s></td>
                                                     <?php } ?>
                                                                             
                                                                       
                                                     <?php if ($estado == 1) { ?>
-                                                                                            <td align="center" style='font-size: 12px;'><?PHP ECHO $fecha ?></td>
+                                                                                            <td align="center" style='font-size: 12px;'><?php ECHO $fecha ?></td>
                                                     <?php } else { ?>
-                                                                                            <td align="center" style='font-size: 12px;color: #050505'><s><?PHP ECHO $fecha ?></s></td>
+                                                                                            <td align="center" style='font-size: 12px;color: #050505'><s><?php ECHO $fecha ?></s></td>
                                                     <?php } ?>
                                                                             
                                                                       
@@ -506,7 +506,7 @@ require_once('../../../titulo_sist.php');
                         </div>
                         
                         <?php } else { ?>
-                            <?PHP IF ($val == 2) { ?>
+                            <?php IF ($val == 2) { ?>
                                         <div align="center" style='font-size: 15px;color: red;align:center'>EL CLIENTE <?php echo $descli; ?>  NO  PRESENTA NINGUN HISTORIAL DE PUNTOS </div>
                             <?php } ?> 
                         <?php } ?>

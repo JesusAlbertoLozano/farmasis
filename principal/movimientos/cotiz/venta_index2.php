@@ -1034,7 +1034,7 @@ $typpe = "";
                                         <div align="CENTER" class="<?php echo $text ?>"><?php echo $prevta ?></div>
                                     <?php } ?>
                                 </td>
-                                <td title=" A partir de &nbsp;<?PHP echo $pblister; ?>&nbsp;und &nbsp;el precio es <?PHP echo $preblister; ?>" onclick="location.href = 'venta_index2.php?cod=<?php echo $codpro ?>&add=1&typpe=1'">
+                                <td title=" A partir de &nbsp;<?php echo $pblister; ?>&nbsp;und &nbsp;el precio es <?php echo $preblister; ?>" onclick="location.href = 'venta_index2.php?cod=<?php echo $codpro ?>&add=1&typpe=1'">
                                     <?php if ($control == 0) { ?>
                                         <div align="CENTER" class="<?php echo $text ?>"><?php echo $pblister . "<b style='color:red;'>&nbsp;>&nbsp;</b>" . $preblister; ?> </div>
                                     <?php } ?>

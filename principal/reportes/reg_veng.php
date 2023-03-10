@@ -963,7 +963,7 @@ header("content-disposition: attachment;filename=SIST_EXPORT_DATA.xls");
                                                             <tr height="40">
                                                                 <td width="95%">
                                                                     <center>
-                                                                        <h2>RESUMEN POR <?PHP echo $va ?></h2>
+                                                                        <h2>RESUMEN POR <?php echo $va ?></h2>
                                                                     </center>
                                                                 </td>
 

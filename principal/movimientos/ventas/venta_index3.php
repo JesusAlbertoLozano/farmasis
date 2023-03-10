@@ -397,7 +397,7 @@ $incentivado = 0;
                                         <?php if (($valform == 1) && ($cod == $codpro)) { ?>
                                             <input name="t22" type="hidden" id="t22" value="<?php echo $prisal; ?>" />
                                             <!--<input name="preblis" type="hidden" id="preblis" value="<?php echo $preblister; ?>" />
-                                                    <input name="blister" type="hidden" id="blister" value="<?php echo $blister; ?>" />-->
+                                              
                                             <input name="t23" type="hidden" id="t23" value="<?php echo $preuni; ?>" />
                                             <input name="t24" type="hidden" id="t24" value="<?php echo $prevta; ?>" />
                                             <!--<input name="t2" type="text" id="t2" size="4" class="input_text1" value="<?php echo $prisal; ?>" <?php if (($controleditable == '0') || ($priceditable == '0')) { ?>disabled="disabled" <?php } ?> onKeyUp="precio2();" onkeypress="return letrac(event)" />-->

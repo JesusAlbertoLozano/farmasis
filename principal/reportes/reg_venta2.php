@@ -970,7 +970,7 @@ if ($ckprod == 1) {
                 <tr height="40">
                     <td width="95%">
                 <center>
-                    <h2>RESUMEN POR <?PHP echo $va ?></h2>
+                    <h2>RESUMEN POR <?php echo $va ?></h2>
                 </center>
             </td>
             <td width="5%" lign="center">

@@ -236,6 +236,7 @@ if ($repetido == 0) {
                     }
 
                     $numeroBonif = 0;
+                    $cantidad_de_CV_bonificar = 0;
                     if (($codprobonif <> 0) || ($codprobonif <> "")) {
                         // CATIDAD POR VENTA SI ES MAYOR O IGUAL AL CANTIDAD A VENDER
                         if (!is_numeric($cantventaparabonificar)) {
@@ -427,6 +428,7 @@ if ($repetido == 0) {
                             }
                             //BONIFICADO****************************************
                             //PERMITIDO ES LA CANTIDAD
+                            $permitdo='';
                             if (strlen($codprobonif) > 0 && $cantidad_a_bonificar > 0) {
 
                                 if ($permitido >= $cantidad_de_CV_bonificar) {

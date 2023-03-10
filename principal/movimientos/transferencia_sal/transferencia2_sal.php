@@ -456,6 +456,7 @@ $sql="SELECT count(*) FROM tempmovmov where invnum = '$invnum'";
 	$count1 = 0;	////CUANDO TODOS LOS DATOS ESTAN CARGADOS EN EL GRID
 	}
 $val = isset($_REQUEST['val']) ? ($_REQUEST['val']) : "";
+$ok = isset($_REQUEST['ok']) ? ($_REQUEST['ok']) : "";
 if ($val == 1)
 {
 	$producto =	isset($_REQUEST['country_ID']) ? ($_REQUEST['country_ID']) : "";
@@ -492,8 +493,8 @@ $cprod   = isset($_REQUEST['cprod']) ? ($_REQUEST['cprod']) : "";
       <td width="614">
          <input name="country" type="text" id="country" onkeyup="ajax_showOptions(this, 'getCountriesByLetters', event)" placeholder="Buscar producto ..." value="" size="160"/>
         <input type="hidden" id="country_hidden" name="country_ID" />
-        <input name="carcount" type="hidden" id="carcount" value="<?php echo $count?>" />
-        <input name="carcount1" type="hidden" id="carcount1" value="<?php echo $count1?>" /></td>
+        <input name="carcount" type="hidden" id="carcount" value="<?php echo $count;?>" />
+        <input name="carcount1" type="hidden" id="carcount1" value="<?php echo $count1;?>" /></td>
       <td width="192">
         <input name="val" type="hidden" id="val" value="1" />
        
@@ -578,8 +579,8 @@ $cprod   = isset($_REQUEST['cprod']) ? ($_REQUEST['cprod']) : "";
 			}
 	?>
 	 <tr onmouseover="this.style.backgroundColor='#FFFF99';this.style.cursor='hand';" onmouseout="this.style.backgroundColor='#ffffff';">
-      <td  align="CENTER"><?php echo $i?></td>
-      <td  align="CENTER"><?php echo $codpro?></td>
+      <td  align="CENTER"><?php echo $i;?></td>
+      <td  align="CENTER"><?php echo $codpro;?></td>
       <td>
 	  <?php if ($control == 0){ 
 	  	 if ($cant_loc > 0) 
@@ -606,12 +607,12 @@ $cprod   = isset($_REQUEST['cprod']) ? ($_REQUEST['cprod']) : "";
 	  <?php if (($valform == 1) && ($cprod == $codpro)) { ?>
 	  <td width="50"  >
 	  <div align="center">
-	  <input name="text1" type="text" id="text1" size="4" <?p ?><?php if($factor == 1){ ?> onkeypress="return entero(event);" <?php }else{ ?> onkeypress="return ent(event)" <?php } ?> onkeyup="texto();" value="<?php if ($qtyprf1 <> ""){echo $qtyprf1; } else { echo $qtypro1 ;}?>"/>
+	  <input name="text1" type="text" id="text1" size="4" <?php if($factor == 1){ ?> onkeypress="return entero(event);" <?php }else{ ?> onkeypress="return ent(event)" <?php } ?> onkeyup="texto();" value="<?php if ($qtyprf1 <> ""){echo $qtyprf1; } else { echo $qtypro1 ;}?>"/>
 	  <input name="number" type="hidden" id="number" />
-	  <input name="factor" type="hidden" id="factor" value="<?php echo $factor?>" />
+	  <input name="factor" type="hidden" id="factor" value="<?php echo $factor;?>" />
 	  <input name="text3" type="hidden" id="text3" />
 	  <input name="cod" type="hidden" id="cod" value="<?php echo $codpro;?>" />
-	  <input name="stock" type="hidden" id="stock" value="<?php echo $cant_loc?>" />
+	  <input name="stock" type="hidden" id="stock" value="<?php echo $cant_loc;?>" />
 	  <input name="ok" type="hidden" id="ok" value="<?php echo $ok;?>" />
 	   </div>
 	  </td>

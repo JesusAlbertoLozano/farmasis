@@ -2,6 +2,9 @@
 require_once ('../../../conexion.php');
 $invnum  = $_SESSION['transferencia_sal'];
 ////VERIFICO LOS DATOS DEL DOCUMENTO Y ESCOGO EL USUARIO Y SU LOCAL
+
+
+$numdoc = 0;
 $sql="SELECT numdoc FROM movmae where invnum = '$invnum'";
 $result = mysqli_query($conexion,$sql);
 if (mysqli_num_rows($result)){

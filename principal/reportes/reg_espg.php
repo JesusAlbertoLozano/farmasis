@@ -523,7 +523,7 @@ if ($local <> 'all') {
 
                     <?php // }}
                     ?>
-                    <?PHP // IF ($invtot > 0){
+                    <?php // IF ($invtot > 0){
                     ?>
                     <tr height="40" onmouseover="this.style.backgroundColor='#FFFF99';this.style.cursor='hand';" onmouseout="this.style.backgroundColor='#ffffff';">
                       <?php if ($ckloc == 1) { ?><td width="20"><?php echo $sucur ?></td><?php } ?>
@@ -553,7 +553,7 @@ if ($local <> 'all') {
                         <div align="right"><?php echo $invtot ?></div>
                       </td>
                     </tr>
-                    <?PHP // }
+                    <?php // }
                     ?>
                   <?php } ?>
                   <!--                        <tr height="40" onmouseover="this.style.backgroundColor='#FFFF99';this.style.cursor='hand';" onmouseout="this.style.backgroundColor='#ffffff';">

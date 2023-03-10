@@ -268,6 +268,9 @@ if ($localrecargado == "") {
 }
 
 
+$linea1 = ''; 
+$linea2 = '';
+$linea5 = '';
 $sql="SELECT linea1,linea2,linea5 FROM `ticket` WHERE sucursal='$localrecargado'";
 $result = mysqli_query($conexion,$sql);
 if (mysqli_num_rows($result)){
@@ -278,6 +281,8 @@ while ($row = mysqli_fetch_array($result)){
 	
 }
 }
+
+$nombredestino='';
 $sql="SELECT nombre FROM xcompa where codloc = '$localrecargado' and habil = '1' order by nombre, nomloc";
 $result = mysqli_query($conexion,$sql);
 if (mysqli_num_rows($result)){
@@ -354,6 +359,9 @@ printf("%06d",  $c);
 	{
 	
 	}
+
+	$lastVentaId = 0;
+	$sum33 = 0;
 require_once("../funciones/call_combo.php");	//LLAMA A generaSelect
 ?>
 <script type="text/javascript" src="../funciones/select_2_niveles.js"></script>
@@ -403,20 +411,20 @@ require_once("../funciones/call_combo.php");	//LLAMA A generaSelect
       <td width="958">
                  <table width="100%" border="0">
           <tr>
-            
-            <td width="105" class="LETRA">NUMERO INTERNO<?php echo $lastVentaId?></td>
-            <td width="150"><input name="textfield" type="text" size="10" disabled="disabled" value="<?php echo formato($numdoc)?>"/></td>
+		
+            <td width="105" class="LETRA">NUMERO INTERNO<?php echo $lastVentaId;?></td>
+            <td width="150"><input name="textfield" type="text" size="10" disabled="disabled" value="<?php echo formato($numdoc);?>"/></td>
             <td width="60" class="LETRA"><div align="left">FECHA</div></td>
-            <td width="200"><input name="textfield2" type="text" size="12" disabled="disabled" value="<?php echo fecha($fecha)?>"/></td>
+            <td width="200"><input name="textfield2" type="text" size="12" disabled="disabled" value="<?php echo fecha($fecha);?>"/></td>
             
 			<td width="230"><div align="right">
               
               <!--<input name="nuevo" type="button" id="nuevo" value="Nuevo" class="nuevo" disabled="disabled"/>
               <input name="modif" type="button" id="modif" value="Modificar" class="modificar" disabled="disabled"/>-->
-              <input name="cod" type="hidden" id="cod" value="<?php echo $invnum?>" />
-              <input name="sum33" type="hidden" id="sum33" value="<?php echo $sum33?>" />
-              <input name="carcount" type="hidden" id="carcount" value="<?php echo $count?>" />
-              <input name="carcount1" type="hidden" id="carcount1" value="<?php echo $count1?>" />
+              <input name="cod" type="hidden" id="cod" value="<?php echo $invnum;?>" />
+              <input name="sum33" type="hidden" id="sum33" value="<?php echo $sum33;?>" />
+              <input name="carcount" type="hidden" id="carcount" value="<?php echo $count;?>" />
+              <input name="carcount1" type="hidden" id="carcount1" value="<?php echo $count1;?>" />
               
               
 			  <input name="save" type="button" id="save" value="Grabar" onclick="imprimirdoc()" class="grabar" <?php if (($count == 0)||($count1>0)){?>disabled="disabled" <?php }?>/>
@@ -494,34 +502,8 @@ require_once("../funciones/call_combo.php");	//LLAMA A generaSelect
 			</td>
             </tr>
           </table>
-          <?php //if($localrecargado <> 0){ ?>
-          <!--<div align="center"><img src="../../../images/line2.png" width="100%" height="4" /></div>
-          <table width="55%" border="1" bgcolor="#fde5d2"align="center" id="datos" >
-              <tr>
-                  <th colspan="6" align="center" >INFORMACION DE LOCAL DESTINO <?php echo $nombredestino; ?></th>
-              </tr>
-              <tr>
-                  <th width="90" class="LETRA">RAZON SOCIAL:</th>
-                    <td><?php echo  $linea1 ?></td>
-                    <th width="30" class="LETRA">DIRECCION:</th>
-                    <td><?php echo  $linea2 ?></td>
-                  <th width="30" class="LETRA">RUC:</th>
-                    <td><?php echo  $linea5 ?></td>
-                  
-                  
-              </tr>
-          </table>-->
-           <?php //} ?>
-         <!-- <table width="100%" border="0">
-            <tr>
-              <td width="76" class="LETRA">CARGAR PREPEDIDO</td>
-              <td width="30">
-			  				<input name="prepedido" type="text" id="prepedido" size="20" value="<?php echo $idpreped;?>"/></td>
-							<td>
-								<input type="submit" name="Prepedido" value="Buscar" onclick="prepedido1()"/>
-							</td>
-            </tr>
-          </table>-->
+      
+      
          
           <div align="center"><img src="../../../images/line2.png" width="100%" height="4" /></div>
           <table width="100%" border="0">

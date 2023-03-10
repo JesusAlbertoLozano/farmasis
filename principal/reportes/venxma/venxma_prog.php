@@ -253,11 +253,11 @@ $nombre21      = $row1['nombre'];
                                     <td width="170"><strong>PRODUCTO</strong></td>
 
                                     <td width="45"><strong>MARCA</strong></td>
-                                    <?PHP if($doc == 1){ ?><td width="50"><div align="center"><strong>UND V.</strong></div></td><?PHP }ELSEif($doc ==3) {?><td width="56"><div align="center"><strong>UND V.</strong></div></td><?PHP }?>
-                                    <?PHP if($doc ==2) { ?><td width="50"><div align="center"><strong>S/ V.</strong></div></td><?PHP }ELSEIF ($doc == 3) {?><td width="56"><div align="center"><strong>S/ V.</strong></div></td><?PHP }?>
+                                    <?php if($doc == 1){ ?><td width="50"><div align="center"><strong>UND V.</strong></div></td><?php }ELSEif($doc ==3) {?><td width="56"><div align="center"><strong>UND V.</strong></div></td><?php }?>
+                                    <?php if($doc ==2) { ?><td width="50"><div align="center"><strong>S/ V.</strong></div></td><?php }ELSEIF ($doc == 3) {?><td width="56"><div align="center"><strong>S/ V.</strong></div></td><?php }?>
                                     
-                                    <?PHP if($ven == 1){ ?><td width="50"><div align="center"><strong>VEND.</strong></div></td><?PHP }ELSEif($ven ==3) {?><td width="56"><div align="center"><strong>VEND.</strong></div></td><?PHP }?>
-                                    <?PHP if($ven ==2) { ?><td width="50"><div align="center"><strong>LOCAL</strong></div></td><?PHP }ELSEIF ($ven == 3) {?><td width="56"><div align="center"><strong>LOCAL</strong></div></td><?PHP }?>
+                                    <?php if($ven == 1){ ?><td width="50"><div align="center"><strong>VEND.</strong></div></td><?php }ELSEif($ven ==3) {?><td width="56"><div align="center"><strong>VEND.</strong></div></td><?php }?>
+                                    <?php if($ven ==2) { ?><td width="50"><div align="center"><strong>LOCAL</strong></div></td><?php }ELSEIF ($ven == 3) {?><td width="56"><div align="center"><strong>LOCAL</strong></div></td><?php }?>
                                      
                                     <td style="font-size:10px" width="40"><div align="right"><strong><?php if($nombre1 == ""){?>LOCAL0<?php }else{ echo $nombre1; }?></strong></div></td>
                                     <td style="font-size:10px" width="40" ><div align="right"><strong><?php if($nombre2 == ""){?>LOCAL1<?php }else{ echo $nombre2; }?></strong></div></td>
@@ -510,11 +510,11 @@ $nombre21      = $row1['nombre'];
                                     <td width="160"><div align="left"><?php echo $product ?></div></td>
                                     <td width="55"><div align="left"><?php echo $destab ?></div></td>
                                     
-                <?PHP if($doc == 1){ ?><td width="45">  <?php echo $canpro?></td><?PHP }ELSEif($doc ==3) {?><td width="45">  <?php echo $canpro?></td><?PHP }?>
-                <?PHP if($doc==2) { ?><td width="45"> <?php echo "S/".$SOLES;?> </td><?PHP }ELSEif($doc ==3) {?><td width="45"> <?php echo "S/".$SOLES;?> </td><?PHP }?>
+                <?php if($doc == 1){ ?><td width="45">  <?php echo $canpro?></td><?php }ELSEif($doc ==3) {?><td width="45">  <?php echo $canpro?></td><?php }?>
+                <?php if($doc==2) { ?><td width="45"> <?php echo "S/".$SOLES;?> </td><?php }ELSEif($doc ==3) {?><td width="45"> <?php echo "S/".$SOLES;?> </td><?php }?>
                 
-                <?PHP if($ven == 1){ ?><td width="35">  <?php echo $x ." - ". $abrevVV;?></td><?PHP }ELSEif($ven ==3) {?><td width="35">  <?php echo $x ." - ". $abrevVV;?></td><?PHP }?>
-                <?PHP if($ven==2) { ?><td width="35"> <?php echo $n;?> </td><?PHP }ELSEif($ven ==3) {?><td width="35"> <?php echo $n;?> </td><?PHP }?>
+                <?php if($ven == 1){ ?><td width="35">  <?php echo $x ." - ". $abrevVV;?></td><?php }ELSEif($ven ==3) {?><td width="35">  <?php echo $x ." - ". $abrevVV;?></td><?php }?>
+                <?php if($ven==2) { ?><td width="35"> <?php echo $n;?> </td><?php }ELSEif($ven ==3) {?><td width="35"> <?php echo $n;?> </td><?php }?>
                                      
                                     
                                     <td width="35"><div align="right"><?php echo $s000 ?></div></td>

@@ -694,7 +694,7 @@ if (($val == 1) || ($vals == 2) )
     <td>
         <table width="926" border="0" align="center">
             <TR>
-            <center> <h2>RESUMEN POR <?PHP echo $va?></h2></center>
+            <center> <h2>RESUMEN POR <?php echo $va?></h2></center>
            
         
         </TR>

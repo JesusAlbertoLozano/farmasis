@@ -503,17 +503,17 @@ input {
                                                        <!-- <input name="printer" type="button" id="printer" value="Imprimir" class="imprimir" onclick="imprimirxxx()" <?php if (($count == 0) || ($count1 > 0)) { ?>disabled="disabled" <?php } ?>/>
                                                         <input name="nuevo" type="button" id="nuevo" value="Nuevo" class="nuevo" disabled="disabled"/>
                                                         <input name="modif" type="button" id="modif" value="Modificar" class="modificar" disabled="disabled"/>-->
-                                                        <input name="cant_registros" type="hidden" id="cant_registros" value="<?php echo $count ?>" />
-                                                        <input name="ncompra" type="hidden" id="ncompra" value="<?php echo $ncompra ?>" />
-                                                        <input name="cod" type="hidden" id="cod" value="<?php echo $invnum ?>" />
-                                                        <input name="sum33" type="hidden" id="sum33" value="<?php echo $sum33 ?>" />
-                                                        <input name="mont_bruto" type="hidden" id="mont_bruto" value="<?php echo $mont_bruto ?>" />
-                                                        <input name="total_des" type="hidden" id="total_des" value="<?php echo $total_des ?>" />
-                                                        <input name="valor_vent1" type="hidden" id="valor_vent1" value="<?php echo $valor_vent1 ?>" />
-                                                        <input name="sum_igv" type="hidden" id="sum_igv" value="<?php echo $sum_igv ?>" />
-                                                        <input name="monto_total" type="hidden" id="monto_total" value="<?php echo $monto_total ?>" />
-                                                        <input name="carcount" type="hidden" id="carcount" value="<?php echo $count ?>" />
-                                                        <input name="carcount1" type="hidden" id="carcount1" value="<?php echo $count1 ?>" />
+                                                        <input name="cant_registros" type="hidden" id="cant_registros" value="<?php echo $count; ?>" />
+                                                        <input name="ncompra" type="hidden" id="ncompra" value="<?php echo $ncompra; ?>" />
+                                                        <input name="cod" type="hidden" id="cod" value="<?php echo $invnum; ?>" />
+                                                        <input name="sum33" type="hidden" id="sum33" value="<?php echo $sum33; ?>" />
+                                                        <input name="mont_bruto" type="hidden" id="mont_bruto" value="<?php echo $mont_bruto; ?>" />
+                                                        <input name="total_des" type="hidden" id="total_des" value="<?php echo $total_des; ?>" />
+                                                        <input name="valor_vent1" type="hidden" id="valor_vent1" value="<?php echo $valor_vent1; ?>" />
+                                                        <input name="sum_igv" type="hidden" id="sum_igv" value="<?php echo $sum_igv; ?>" />
+                                                        <input name="monto_total" type="hidden" id="monto_total" value="<?php echo $monto_total; ?>" />
+                                                        <input name="carcount" type="hidden" id="carcount" value="<?php echo $count; ?>" />
+                                                        <input name="carcount1" type="hidden" id="carcount1" value="<?php echo $count1; ?>" />
                                                         <input name="save" type="button" id="save" value="Grabar" onclick="grabar1()" class="grabar" <?php if (($count == 0) || ($count1 > 0)) { ?>disabled="disabled" <?php } ?>/>
                                                         <input name="ext" type="button" id="ext" value="Cancelar" onclick="cancelar()" class="cancelar"/>
                                                     </div>
@@ -528,13 +528,13 @@ input {
                                             </td>
                                             <td class="LETRA">TIPO</td>
                                             <td >
-                                                <input name="fpago" type="text" onkeypress="return forma_pago(event);" onkeyup="cargarContenido()" size="11" maxlength="1" value="<?php echo $forpag ?>" placeholder=" F / G / O / E"/> 
+                                                <input name="fpago" type="text" onkeypress="return forma_pago(event);" onkeyup="cargarContenido()" size="11" maxlength="1" value="<?php echo $forpag; ?>" placeholder=" F / G / O / E"/> 
                                                
                                             </td>
                                             <td class="LETRA">N DOC</td>
-                                            <td ><input name="n1" type="text" id="n1" onkeypress="return acceptNum(event)" size="5" maxlength="3" onkeyup="cargarContenido()" value="<?php echo $ndoc ?>"/>
+                                            <td ><input name="n1" type="text" id="n1" onkeypress="return acceptNum(event)" size="5" maxlength="3" onkeyup="cargarContenido()" value="<?php echo $ndoc; ?>"/>
                                                 -
-                                                <input name="n2" type="text" id="n2" onkeypress="return acceptNum(event)" size="15" maxlength="8" onkeyup="cargarContenido()" value="<?php echo $ndoc1 ?>"/></td>
+                                                <input name="n2" type="text" id="n2" onkeypress="return acceptNum(event)" size="15" maxlength="8" onkeyup="cargarContenido()" value="<?php echo $ndoc1; ?>"/></td>
                                             <td class="LETRA">MONEDA</td>
                                             <td >
                                                 <select name="moneda" id="moneda" onchange="cargarContenido()">
@@ -547,26 +547,26 @@ input {
                                             </td>
                                             <td class="LETRA">N&ordm; MOVIMIENTO </td>
                                             <td >
-                                                <input name="nrocompra" type="text" id="nrocompra" size="4" value="<?php echo $busca_num ?>" onKeyPress="return nums(event)"/>
+                                                <input name="nrocompra" type="text" id="nrocompra" size="4" value="<?php echo $busca_num; ?>" onKeyPress="return nums(event)"/>
                                                 <input name="srch" type="button" id="srch" value="Buscar" class="buscar" onclick="searchs()"/>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="LETRA">FECHA DIG </td>
                                             <td ><label>
-                                                    <input name="textfield3" type="text" size="10" onfocus="blur()" value="<?php echo fecha($fecha) ?>"/>
+                                                    <input name="textfield3" type="text" size="10" onfocus="blur()" value="<?php echo fecha($fecha); ?>"/>
                                                 </label></td>
                                             <td class="LETRA">PLAZO</td>
                                             <td ><label>
-                                                    <input name="plazo" type="text" id="plazo" onKeyPress="return acceptNum(event)" size="5" maxlength="3" onkeyup="cargarContenido()" value="<?php echo $plazo ?>"/>
+                                                    <input name="plazo" type="text" id="plazo" onKeyPress="return acceptNum(event)" size="5" maxlength="3" onkeyup="cargarContenido()" value="<?php echo $plazo; ?>"/>
                                                 </label></td>
                                             <td class="LETRA">FECHA VCTO </td>
-                                            <td ><input name="date2" type="text" id="date2" onfocus="blur()" size="15" value="<?php echo fecha($fecven) ?>"/>
-                                                <input name="ok" type="hidden" id="ok" value="<?php echo $ok ?>" /></td>
+                                            <td ><input name="date2" type="text" id="date2" onfocus="blur()" size="15" value="<?php echo fecha($fecven); ?>"/>
+                                                <input name="ok" type="hidden" id="ok" value="<?php echo $ok; ?>" /></td>
                                            <!-- <td >INCL. IGV </td>
                                             <td ><input value="1" <?php if ($ckigv == 1) { ?>checked<?php } ?> type="checkbox" name="ckigv" id="ckigv" onclick="ValidarIGV();"/></td>-->
-                                            <td ><div align="right"><span class="text_combo_select"><strong>LOCAL:</strong> <?php echo $nombre_local ?></span></div></td>
-                                        <td ><div align="right"><span class="text_combo_select"><strong>USUARIO :</strong> <img src="../../../images/user.gif" width="15" height="16" /> <?php echo $user ?></span></div></td>
+                                            <td ><div align="right"><span class="text_combo_select"><strong>LOCAL:</strong> <?php echo $nombre_local; ?></span></div></td>
+                                        <td ><div align="right"><span class="text_combo_select"><strong>USUARIO :</strong> <img src="../../../images/user.gif" width="15" height="16" /> <?php echo $user; ?></span></div></td>
                                         <td></td>
                                         <td></td>
                                         </tr>

@@ -145,7 +145,7 @@ $t1 = "PRODUCTOS CON STOCK Y SIN STOCK MINIMO";
         if ($tipo == 2)
         {
         ?>
-        <?PHP 
+        <?php
             IF($tipo1<>7){?>
              <td width="130"><div align="right"><strong><?php echo $t?></strong></div></td>
                 

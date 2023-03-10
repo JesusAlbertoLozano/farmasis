@@ -240,6 +240,7 @@
                         } else {
                             $nomloc = $nomloc2;
                         }
+                        $ncorreo='';
                         $sql1 = "SELECT descli,email FROM cliente where codcli = '$cuscod'";
                         $result1 = mysqli_query($conexion, $sql1);
                         if (mysqli_num_rows($result1)) {
@@ -248,6 +249,9 @@
                                 $email  = $row1['email'];
                             }
                         }
+
+                       
+                        
                         if ($email == "") {
                             $correo = '';
                         } else {
@@ -256,7 +260,8 @@
                         }
 
 
-
+                        $nommedico2='';
+                        $codcolegiatura2 ='';
                         $sql = "SELECT nommedico,codcolegiatura FROM medico  WHERE codmed = '$codmed'";
                         $result = mysqli_query($conexion, $sql);
                         if (mysqli_num_rows($result)) {
@@ -292,18 +297,18 @@
                         <table width="100%" border="0">
                             <tr>
                                 <td class="LETRA">N. I.</td>
-                                <td><input name="textfield" type="text" size="15" disabled="disabled" value="<?php echo formato($invnum) ?>" /></td>
+                                <td><input name="textfield" type="text" size="15" disabled="disabled" value="<?php echo formato($invnum); ?>" /></td>
                                 <td align="left" class="LETRA">FECHA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
-                                <td><input name="textfield2" type="text" size="12" disabled="disabled" value="<?php echo fecha($invfec) ?>" /></td>
+                                <td><input name="textfield2" type="text" size="12" disabled="disabled" value="<?php echo fecha($invfec); ?>" /></td>
                                 <td class="LETRA">CLIENTE</td>
-                                <td><input name="textfield23" type="text" size="60" disabled="disabled" value="<?php echo $cliente_venta . $ncorreo ?>" /></td>
+                                <td><input name="textfield23" type="text" size="60" disabled="disabled" value="<?php echo $cliente_venta . $ncorreo; ?>" /></td>
 
-                                <td align="right" class="text_combo_select"><strong>LOCAL: <?php echo $nombre_local ?></strong></div>
+                                <td align="right" class="text_combo_select"><strong>LOCAL: <?php echo $nombre_local; ?></strong></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="LETRA">VENDEDOR</td>
-                                <td><input name="textfield232" type="text" size="42" disabled="disabled" value="<?php echo $user_venta ?>" /></td>
+                                <td><input name="textfield232" type="text" size="42" disabled="disabled" value="<?php echo $user_venta; ?>" /></td>
                                 <td align="left" class="LETRA">MEDICO&nbsp;&nbsp;&nbsp;</td>
                                 <td><input name="textfield23" type="text" size="30" disabled="disabled" value="<?php if ($nommedico2 <> "") {
                                                                                                                     echo $nommedico2;
@@ -322,15 +327,15 @@
                             </tr>
                             <tr>
                                 <td width="158" class="LETRA">FORMA DE PAGO</td>
-                                <td><input name="textfield22" type="text" size="15" disabled="disabled" value="<?php echo $fpag ?>" /></td>
+                                <td><input name="textfield22" type="text" size="15" disabled="disabled" value="<?php echo $fpag; ?>" /></td>
                                 <td class="LETRA" align="left">HORA &nbsp; &nbsp;&nbsp;&nbsp; </td>
-                                <td><input name="textfield222" type="text" size="16" disabled="disabled" value="<?php echo $hora ?>" /></td>
+                                <td><input name="textfield222" type="text" size="16" disabled="disabled" value="<?php echo $hora; ?>" /></td>
                                 <td class="LETRA">
                                     <div align="left">SUCURSAL</div>
                                 </td>
                                 <td colspan="2">
 
-                                    <input name="textfield2222" type="text" disabled="disabled" value="<?php echo $nomloc ?>" size="20" />
+                                    <input name="textfield2222" type="text" disabled="disabled" value="<?php echo $nomloc; ?>" size="20" />
                                 </td>
                             </tr>
                             <tr>
@@ -403,7 +408,7 @@
                         <table width="100%" border="0">
                             <tr>
                                 <td width="955">
-                                    <iframe src="ventas2.php?invnum=<?php echo $invnum ?>" name="iFrame2" width="100%" height="290" scrolling="Automatic" frameborder="0" id="iFrame2" allowtransparency="0"> </iframe>
+                                    <iframe src="ventas2.php?invnum=<?php echo $invnum; ?>" name="iFrame2" width="100%" height="290" scrolling="Automatic" frameborder="0" id="iFrame2" allowtransparency="0"> </iframe>
                                 </td>
                             </tr>
                         </table>
@@ -426,25 +431,25 @@
                         <tr>
                             <!--<td width="73"><div align="right">V. BRUTO </div></td>
                   <td width="132">
-                  <input name="mont1" class="sub_totales" type="text" id="mont1" onclick="blur()" size="15" value="<?php if ($bruto > 0) { ?> <?php echo $bruto ?> <?php } else { ?>0.00<?php } ?>" />              </td>
+                  <input name="mont1" class="sub_totales" type="text" id="mont1" onclick="blur()" size="15" value="<?php if ($bruto > 0) { ?> <?php echo $bruto; ?> <?php } else { ?>0.00<?php } ?>" />              </td>
                   <td width="50"><div align="right">DCTOS</div></td>
                   <td width="132">
-                              <input name="mont2" class="sub_totales" type="text" id="mont2" onclick="blur()" size="15"  value="<?php if ($dctos > 0) { ?> <?php echo $dctos ?> <?php } else { ?>0.00<?php } ?>">			  </td>-->
+                              <input name="mont2" class="sub_totales" type="text" id="mont2" onclick="blur()" size="15"  value="<?php if ($dctos > 0) { ?> <?php echo $dctos; ?> <?php } else { ?>0.00<?php } ?>">			  </td>-->
                             <td width="50">
                                 <div align="right">V. VENTA </div>
                             </td>
                             <td width="132">
-                                <input name="mont3" class="sub_totales" type="text" id="mont3" onclick="blur()" size="15" value="<?php if ($valven > 0) { ?> <?php echo $valven ?> <?php } else { ?>0.00<?php } ?>" /></td>
+                                <input name="mont3" class="sub_totales" type="text" id="mont3" onclick="blur()" size="15" value="<?php if ($valven > 0) { ?> <?php echo $valven; ?> <?php } else { ?>0.00<?php } ?>" /></td>
                             <td width="50">
                                 <div align="right">IGV</div>
                             </td>
                             <td width="132">
-                                <input name="mont4" class="sub_totales" type="text" id="mont4" onclick="blur()" size="15" value="<?php if ($igv > 0) { ?> <?php echo $igv ?> <?php } else { ?>0.00<?php } ?>" /></td>
+                                <input name="mont4" class="sub_totales" type="text" id="mont4" onclick="blur()" size="15" value="<?php if ($igv > 0) { ?> <?php echo $igv; ?> <?php } else { ?>0.00<?php } ?>" /></td>
                             <td width="50">
                                 <div align="right">TOTAL</div>
                             </td>
                             <td width="112">
-                                <input name="mont5" class="sub_totales" type="text" id="mont5" onclick="blur()" size="15" value="<?php if ($invtot > 0) { ?> <?php echo $invtot ?> <?php } else { ?>0.00<?php } ?>" /></td>
+                                <input name="mont5" class="sub_totales" type="text" id="mont5" onclick="blur()" size="15" value="<?php if ($invtot > 0) { ?> <?php echo $invtot; ?> <?php } else { ?>0.00<?php } ?>" /></td>
                         </tr>
                     </table>
                     <div align="center"><img src="../../../images/line2.png" width="100%" height="4" /> </div>
@@ -460,16 +465,16 @@
                                         $nextpage = $pageno + 1;
                                         $lastpage = $lastpage;
                                         ?>
-                                        <input name="firstpage" type="hidden" id="firstpage" value="<?php echo $firstpage ?>" />
-                                        <input name="nextpage" type="hidden" id="nextpage" value="<?php echo $nextpage ?>" />
-                                        <input name="prevpage" type="hidden" id="prevpage" value="<?php echo $prevpage ?>" />
-                                        <input name="lastpage" type="hidden" id="lastpage" value="<?php echo $lastpage ?>" />
+                                        <input name="firstpage" type="hidden" id="firstpage" value="<?php echo $firstpage; ?>" />
+                                        <input name="nextpage" type="hidden" id="nextpage" value="<?php echo $nextpage; ?>" />
+                                        <input name="prevpage" type="hidden" id="prevpage" value="<?php echo $prevpage; ?>" />
+                                        <input name="lastpage" type="hidden" id="lastpage" value="<?php echo $lastpage; ?>" />
                                         <input name="pageno" type="hidden" id="pageno" />
                                         <input name="first" type="button" id="first" value="Primero" <?php /*if (($pageno == 1)||($tip == 1))*/ if (($pageno == 1) || ($numrows == 0) || ($encontrado <> 1)) { ?> disabled="disabled" <?php } ?> class="primero" onclick="primero()" />
                                         <input name="prev" type="button" id="prev" value="Anterior" <?php /*if (($pageno == 1) ||($tip == 1))*/ if (($pageno == 1) || ($numrows == 0) || ($encontrado <> 1)) { ?> disabled="disabled" <?php } ?> class="anterior" onclick="anterior()" />
                                         <input name="next" type="button" id="next" value="Siguiente" <?php /*if (($pageno == $lastpage) ||($tip == 1) ||($numrows == 0))*/ if (($pageno == $lastpage) || ($numrows == 0) || ($encontrado <> 1)) { ?> disabled="disabled" <?php } ?> class="siguiente" onclick="siguiente()" />
                                         <input name="fin" type="button" id="fin" value="Ultimo" <?php if (($pageno == $lastpage) || ($numrows == 0) || ($encontrado <> 1)) { ?> disabled="disabled" <?php } ?> class="ultimo" onclick="ultimo()" />
-                                        <input name="cod" type="hidden" id="cod" value="<?php echo $invnum ?>" />
+                                        <input name="cod" type="hidden" id="cod" value="<?php echo $invnum; ?>" />
                                     </div>
                                 </td>
                                 <td width="17">&nbsp;</td>
@@ -490,8 +495,7 @@
                                         <!--<input tabindex="16" name="descargarpdf" type="button" id="descargarpdf" value="Descargar en PDF" class="nuevo" onclick="descargar_venta(<?php echo $invnum; ?>)"/>-->
                                         <input tabindex="16" name="nuevo" type="button" id="nuevo" value="Nuevo" class="nuevo" onclick="nueva_venta()" />
                                         <!-- <input tabindex="17" name="modif" type="button" id="modif" value="Modificar" class="modificar" disabled="disabled" onclick="modificar()"/>
-                            <input tabindex="18" name="save" type="button" id="save" value="Grabar" onclick="grabar1()" class="grabar" <?php if (($count == 0) || ($count1 > 0)) { ?>disabled="disabled" <?php } ?>/>
-                            <input tabindex="19" name="ext" type="button" id="ext" value="Cancelar" onclick="cancelar_consult()" class="cancelar"  <?php if ($find <> 1) { ?>disabled="disabled" <?php } ?>/>-->
+                      
                                         <input tabindex="20" name="exit" type="button" id="exit" value="Salir" onclick="salirx()" class="salir" />
                                         <!--<input tabindex="21" name="printer" type="button" id="printer" value="Reimprimir" class="imprimir" onClick="self.location.href='ventas2_1.php?invnum=<?php echo $invnum ?>'"/>-->
                                         <input tabindex="21" name="printer" type="button" id="printer" value="Reimprimir"  title="CLIC REIMPRIMIR LA VENTA, OPCION UNICAMENTE PARA ADMINISTARDORES" class="imprimir" <?php if (($encontrado <> 1) or ($PermisoDELI == 0)) { ?>disabled="disabled" <?php } ?> onclick="prints(<?php echo $invnum; ?>)" ; />
@@ -508,7 +512,7 @@
                                     <div align="right">
                                         <!-- <input tabindex="21" name="printer" type="button" id="printer1" value="Imprimir como Boleta" class="imprimir" onclick="imprimir()"/>
                                 <input tabindex="21" name="printer" type="button" id="printer2" value="Imprimir como Factura" class="imprimir" onclick="imprimir()"/>-->
-                                        <input tabindex="21" name="printer" type="button" id="printer3" value="Imprimir como guía" class="imprimir" onClick="self.location.href='guia_1.php?invnum=<?php echo $invnum ?>'" />
+                                        <input tabindex="21" name="printer" type="button" id="printer3" value="Imprimir como guía" class="imprimir" onClick="self.location.href='guia_1.php?invnum=<?php echo $invnum; ?>'" />
                                     </div>
                                 </td>
                             </tr>

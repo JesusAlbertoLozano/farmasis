@@ -113,7 +113,7 @@ if ($cantidades <> 0) {
     } else { /////HAY STOCK PARA ESTE PRODUCTO
         $agot = 0;
     }
-
+    $pcostouni = 0;
     $sql = "SELECT codpro,stopro,codmar,costpr,codmar,codfam,coduso,$tabla,cantventaparabonificar,codprobonif,cantbonificable,factor FROM producto where codpro = '$codpro'";
     $result = mysqli_query($conexion, $sql);
     if (mysqli_num_rows($result)) {
@@ -166,6 +166,8 @@ if ($cantidades <> 0) {
             $costpr = $costpr / $factor;
         }
     }
+
+    
 
     if ($agot == 0) { /////HAY STOCK PARA ESTE PRODUCTO
         if ($factor == 1) {

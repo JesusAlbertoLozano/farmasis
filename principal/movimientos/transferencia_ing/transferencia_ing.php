@@ -6,7 +6,7 @@ require_once('../../../titulo_sist.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title><?php echo $desemp?></title>
+<title><?php echo $desemp;?></title>
 <link href="../css/tablas.css" rel="stylesheet" type="text/css" />
 <link href="../../css/body.css" rel="stylesheet" type="text/css" />
 <link href="../../../css/style.css" rel="stylesheet" type="text/css" />
@@ -14,7 +14,10 @@ require_once('../../../titulo_sist.php');
 ?>
 <script type="text/javascript" language="JavaScript1.2" src="../../menu_block/stmenu.js"></script>
 <script>
-<?php $sql="SELECT numdoc,sucursal,usecod FROM movmae where sucursal1 = '$codloc' and tipmov = '2' and tipdoc = '3' and estado = '0' and proceso = '0' and val_habil = '0'";					/////OBTENGO EL DOCUMENTO
+ 
+<?php 
+ $codloc=0;
+$sql="SELECT numdoc,sucursal,usecod FROM movmae where sucursal1 = '$codloc' and tipmov = '2' and tipdoc = '3' and estado = '0' and proceso = '0' and val_habil = '0'";					/////OBTENGO EL DOCUMENTO
 $result = mysqli_query($conexion,$sql);
 if (mysqli_num_rows($result)){
 $pop = 1;

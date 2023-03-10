@@ -253,8 +253,8 @@ $nombre21      = $row1['nombre'];
                                     <td width="170"><strong>PRODUCTO</strong></td>
 
                                     <td width="45"><strong>MARCA</strong></td>
-                                    <?PHP if($doc == 1){ ?><td width="50"><div align="center"><strong>UND V.</strong></div></td><?PHP }ELSEif($doc ==3) {?><td width="56"><div align="center"><strong>UND V.</strong></div></td><?PHP }?>
-                                    <?PHP if($doc ==2) { ?><td width="50"><div align="center"><strong></strong></div></td><?PHP }ELSEIF ($doc == 3) {?><td width="56"><div align="center"><strong></strong></div></td><?PHP }?>
+                                    <?php if($doc == 1){ ?><td width="50"><div align="center"><strong>UND V.</strong></div></td><?php }ELSEif($doc ==3) {?><td width="56"><div align="center"><strong>UND V.</strong></div></td><?php }?>
+                                    <?php if($doc ==2) { ?><td width="50"><div align="center"><strong></strong></div></td><?php }ELSEIF ($doc == 3) {?><td width="56"><div align="center"><strong></strong></div></td><?php }?>
                                     
                                     
                                     <td style="font-size:10px" width="40"><div align="right"><strong><?php if($nombre1 == ""){?>LOCAL0<?php }else{ echo $nombre1; }?></strong></div></td>
@@ -444,8 +444,8 @@ $nombre21      = $row1['nombre'];
                                     <td width="160"><div align="left"><?php echo $product ?></div></td>
                                     <td width="55"><div align="left"><?php echo $destab ?></div></td>
                                     
-                <?PHP if($doc == 1){ ?><td width="45">  <?php echo $canpro?></td><?PHP }ELSEif($doc ==3) {?><td width="45">  <?php echo $canpro?></td><?PHP }?>
-                <?PHP if($doc==2) { ?><td width="45"> <?php echo "S/".$SOLES;?> </td><?PHP }ELSEif($doc ==3) {?><td width="45"> <?php echo "S/".$SOLES;?> </td><?PHP }?>
+                <?php if($doc == 1){ ?><td width="45">  <?php echo $canpro?></td><?php }ELSEif($doc ==3) {?><td width="45">  <?php echo $canpro?></td><?php }?>
+                <?php if($doc==2) { ?><td width="45"> <?php echo "S/".$SOLES;?> </td><?php }ELSEif($doc ==3) {?><td width="45"> <?php echo "S/".$SOLES;?> </td><?php }?>
                 
                                      
                                     
@@ -505,8 +505,8 @@ $nombre21      = $row1['nombre'];
                                     <td width="60"><strong>N&ordm;</strong></td>
                                     <td width="370"><strong>PRODUCTO</strong></td>
                                     <td width="45"><strong>MARCA</strong></td>
-                                    <?PHP if($doc == 1){ ?><td width="80"><div align="center"><strong>UND V.</strong></div></td><?PHP }ELSEif($doc ==3) {?><td width="80"><div align="center"><strong>UND V.</strong></div></td><?PHP }?>
-                                    <?PHP if($doc ==2) { ?><td width="80"><div align="center"><strong></strong></div></td><?PHP }ELSEIF ($doc == 3) {?><td width="80"><div align="center"><strong></strong></div></td><?PHP }?>
+                                    <?php if($doc == 1){ ?><td width="80"><div align="center"><strong>UND V.</strong></div></td><?php }ELSEif($doc ==3) {?><td width="80"><div align="center"><strong>UND V.</strong></div></td><?php }?>
+                                    <?php if($doc ==2) { ?><td width="80"><div align="center"><strong></strong></div></td><?php }ELSEIF ($doc == 3) {?><td width="80"><div align="center"><strong></strong></div></td><?php }?>
                                     
                               <?php  
                                 $sql1="SELECT COUNT(usecod) as conteo FROM usuario WHERE codloc = '$local'  ";
@@ -586,8 +586,8 @@ $nombre21      = $row1['nombre'];
                                     <td width="20"><?php echo $i ?></td>
                                     <td width="160"><div align="left"><?php echo $product ?></div></td>
                                     <td width="55"><div align="left"><?php echo $abrev ?></div></td>
-                                    <?PHP if($doc == 1){ ?><td width="45">  <?php echo $canpro?></td><?PHP }ELSEif($doc ==3) {?><td width="45">  <?php echo $canpro?></td><?PHP }?>
-                                    <?PHP if($doc==2) { ?><td width="45"> <?php echo "S/".$SOLES;?> </td><?PHP }ELSEif($doc ==3) {?><td width="45"> <?php echo "S/".$SOLES;?> </td><?PHP }?>
+                                    <?php if($doc == 1){ ?><td width="45">  <?php echo $canpro?></td><?php }ELSEif($doc ==3) {?><td width="45">  <?php echo $canpro?></td><?php }?>
+                                    <?php if($doc==2) { ?><td width="45"> <?php echo "S/".$SOLES;?> </td><?php }ELSEif($doc ==3) {?><td width="45"> <?php echo "S/".$SOLES;?> </td><?php }?>
                                     
                                 
                                 <?php
