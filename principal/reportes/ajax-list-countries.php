@@ -1,5 +1,5 @@
 <?php
-require_once ('../../conexion.php'); //CONEXION A BASE DE DATOS
+require_once('../../conexion.php'); //CONEXION A BASE DE DATOS
 include('../session_user.php');
 if (isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])) {
     $letters = $_REQUEST['letters'];
@@ -96,8 +96,8 @@ if (isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])) {
     if ($limit == 0) {
         $limit = 50;
     }
-    
-$busqueda = "0";
+
+    $busqueda = "0";
 $sql11 = "SELECT busqueda FROM datagen";
 $result11 = mysqli_query($conexion, $sql11);
 if (mysqli_num_rows($result11)) {
@@ -107,20 +107,24 @@ if (mysqli_num_rows($result11)) {
 	}
 }
     $t = is_numeric($letters);
-    if ($t == 0) {
-        $caracter = "*";
-        if (strpos($letters, $caracter) !== false) {
-            $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where codpro  like '" . $letters . "'  order by desprod limit $limit") or die(mysqli_error());
-        } else {
-    
-        	if ($busqueda == 0) {
+    if ($t == 0) { //Búsqueda si el input es numérico: Acepta 100, 0100, 00010. Si es 0 no es numérico, si es 1 es numérico.
+
+        // $caracter = "*";
+        // if (strpos($letters, $caracter) !== false) { //Verificamos si el input "letters" contiene el caracter *
+        //     //Si contiene el asterisco *
+        //     // Retirar de letters el caracter * varias veces
+        //     $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where codpro  like '" . $letters . "'  order by desprod limit $limit") or die(mysqli_error());
+        // } else {
+        if ($busqueda == 0) {
             $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where desprod like '" . $letters . "%' order by desprod limit $limit") or die(mysqli_error());
-		            	                     } else {
+        } else {
             $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where desprod like '%" . $letters . "%' order by desprod limit $limit") or die(mysqli_error());
-		            	                     }
         }
+        // }
     } else {
-            $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where codpro  like '" . $letters . "'  order by desprod limit $limit") or die(mysqli_error());
+        // Si es numérico
+        // Versión anterior: $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where codpro like '" . $letters . "'  order by desprod limit $limit") or die(mysqli_error());
+        $res = mysqli_query($conexion, "select codpro,desprod,codmar,$columna from producto where CAST(codpro as CHAR) like '" . $letters . "%'  order by codpro limit $limit") or die(mysqli_error());
     }
     #echo "1###select ID,countryName from ajax_countries where countryName like '".$letters."%'|";
     while ($inf = mysqli_fetch_array($res)) {
