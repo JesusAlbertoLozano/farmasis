@@ -16,7 +16,7 @@ require_once('../../../titulo_sist.php');
 <script>
  
 <?php 
- $codloc=0;
+//  $codloc=0;
 $sql="SELECT numdoc,sucursal,usecod FROM movmae where sucursal1 = '$codloc' and tipmov = '2' and tipdoc = '3' and estado = '0' and proceso = '0' and val_habil = '0'";					/////OBTENGO EL DOCUMENTO
 $result = mysqli_query($conexion,$sql);
 if (mysqli_num_rows($result)){

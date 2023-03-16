@@ -25,7 +25,7 @@ while ($row = mysqli_fetch_array($result)){
 		$invnum          = $row['invnum'];		//codigo
 }
 }
-$_SESSION[transferencia_ing]	= $invnum; 	////GRABO UNA SESION CON EL MOVIMIENTO QUE ESTOY REALIZANDO
+$_SESSION['transferencia_ing']	= $invnum; 	////GRABO UNA SESION CON EL MOVIMIENTO QUE ESTOY REALIZANDO
 $sql="SELECT codloc,nomusu FROM usuario where usecod = '$usuario'";
 $result = mysqli_query($conexion,$sql);
 if (mysqli_num_rows($result)){
