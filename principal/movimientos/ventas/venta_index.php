@@ -41,7 +41,7 @@ if (mysqli_num_rows($result)) {
 
     <link href="../../../funciones/alertify/alertify.min.css" rel="stylesheet" />
     <script src="../../../funciones/alertify/alertify.min.js"></script>
-    <script type="text/javascript" language="JavaScript1.2" src="../../menu_block/stmenu.js"></script>
+    <!-- <script type="text/javascript" language="JavaScript1.2" src="../../menu_block/stmenu.js"></script> -->
     <script>
         var popUpWin = 0;
 

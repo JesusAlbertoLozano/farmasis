@@ -1,4 +1,6 @@
 <?php
+// error_reporting(E_ALL);
+// ini_set('display_errors', '1');
 include('../../session_user.php');
 $ok = isset($_REQUEST['ok']) ? ($_REQUEST['ok']) : "";
 $msg = isset($_REQUEST['msg']) ? ($_REQUEST['msg']) : "";
@@ -426,7 +428,7 @@ input {
 
 }
 .LETRA2{
-    background:#d7d7d7
+    background:#d7d7d7;
 }
 .tablarepor {
              
@@ -450,9 +452,9 @@ input {
                                     <table width="100%" border="0" class="tablarepor">
                                         <tr>
                                             <td class="LETRA">NUMERO</td>
-                                            <td ><input name="textfield" type="text" size="15" disabled="disabled" value="<?php echo formato($numdoc) ?>"/></td>
+                                            <td ><input name="textfield" type="text" size="15" disabled="disabled" value="<?php echo formato($numdoc); ?>"/></td>
                                             <td class="LETRA">FECHA</td>
-                                            <td ><input name="textfield2" type="text" size="10" disabled="disabled" value="<?php echo fecha($fecha) ?>"/></td>
+                                            <td ><input name="textfield2" type="text" size="10" disabled="disabled" value="<?php echo fecha($fecha); ?>"/></td>
                                             <td class="LETRA">PROVEEDOR</td>
                                             <td >
                                                 <input type="hidden" id="DatosProveedor" name="DatosProveedor" value="<?php echo $DatosProveedor; ?>"/>
@@ -487,7 +489,7 @@ input {
                                                             $codtab = $row['codtab'];
                                                             $destab = $row['destab'];
                                                             ?>
-                                                            <option value="<?php echo $row['codtab']; ?>" <?php if ($busca_empre == $codtab) { ?> selected="selected"<?php } ?>><?php echo $destab ?></option>
+                                                            <option value="<?php echo $row['codtab']; ?>" <?php if ($busca_empre == $codtab) { ?> selected="selected"<?php } ?>><?php echo $destab; ?></option>
                                                         <?php } ?>
                                                 </select>
                                                 <script>

@@ -3,9 +3,10 @@
 //  ini_set('display_errors', '1');
 require_once('../../session_user.php');
 
-$venta = isset($_SESSION['venta']) ? $_SESSION['venta'] : "";
-$forpag = "";
 
+
+$forpag = "";
+$venta = isset($_SESSION['venta']) ? $_SESSION['venta'] : '';
 $cotizacion = isset($_REQUEST['cotizacion']) ? $_REQUEST['cotizacion'] : "";
 $delivery = isset($_REQUEST['delivery']) ? $_REQUEST['delivery'] : "";
 $deliveryWeb = isset($_REQUEST['deliveryWeb']) ? $_REQUEST['deliveryWeb'] : "";
@@ -23,7 +24,12 @@ $deliveryWeb = isset($_REQUEST['deliveryWeb']) ? $_REQUEST['deliveryWeb'] : "";
     <link href="css/tabla2.css" rel="stylesheet" type="text/css" />
     <?php
     require_once('../../../conexion.php');
+
+
     require_once('../../../titulo_sist.php'); //CONEXION A BASE DE DATOS
+
+
+
     require_once('../../../convertfecha.php'); //CONEXION A BASE DE DATOS
     require_once('../../../funciones/highlight.php');
     require_once('../../../funciones/functions.php');
@@ -40,10 +46,16 @@ $deliveryWeb = isset($_REQUEST['deliveryWeb']) ? $_REQUEST['deliveryWeb'] : "";
         while ($row_usuario = mysqli_fetch_array($result_usuario)) {
             $nomusu = $row_usuario['nomusu'];
             $codgrup = $row_usuario['codgrup'];
+
+        
         }
     }
-$arqueo=0;
-$arqueo_bloqueo_1 = 0;
+  
+
+
+   
+ $arqueo=0;
+ $arqueo_bloqueo_1 = 0;
 $arqueo_arqueo_no_cerraron_dias_antes="";
 
 
@@ -98,6 +110,7 @@ $arqueo_arqueo_no_cerraron_dias_antes="";
         }
     }
 
+    
     function numberOfWeek($dia, $mes, $ano)
     {
         $Hora = date("H");
@@ -359,7 +372,7 @@ $arqueo_arqueo_no_cerraron_dias_antes="";
                             <tr>
                                 <td width="100%" colspan='9'>
                                     <marquee direction=left height=15 onMouseOut=this.scrollAmount=4 onMouseOver=this.scrollAmount=0 scrollamount=4 width=100%>
-                                        <span class="scroll_text1"><?php echo $msj ?></span>
+                                        <span class="scroll_text1"><?php echo $msj; ?></span>
                                     </marquee>
                                 </td>
                             </tr>
@@ -372,7 +385,7 @@ $arqueo_arqueo_no_cerraron_dias_antes="";
                             &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
                             <td width="3%" align="left"><strong>FECHA</strong></td>
                             <td width="7%">
-                                <input class="inpu" style="background: #d7d7d7;" name="textfield2" type="text" size="12" disabled="disabled" value="<?php echo fecha($invfec) ?>" />
+                                <input class="inpu" style="background: #d7d7d7;" name="textfield2" type="text" size="12" disabled="disabled" value="<?php echo fecha($invfec); ?>" />
                             </td>
                             &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
                             <td width="5%" align="left"><strong>FORMA DE PAGO</strong></td>
@@ -382,7 +395,7 @@ $arqueo_arqueo_no_cerraron_dias_antes="";
                                     (E, C, T) &nbsp;&nbsp;&nbsp;
                                 </label>
                                 <strong>N&ordm; DIAS</strong>
-                                <input class="inpu" name="ndias" type="text" id="ndias" onkeyup="cargarContenido()" value="<?php echo $ndias ?>" size="2" maxlength="3" />
+                                <input class="inpu" name="ndias" type="text" id="ndias" onkeyup="cargarContenido()" value="<?php echo $ndias; ?>" size="2" maxlength="3" />
                             </td>
                             
                             <td width="7%">
@@ -398,9 +411,9 @@ $arqueo_arqueo_no_cerraron_dias_antes="";
                                 <input name="deliveryWeb" type="checkbox" id="deliveryWeb" value="1" <?php if ($deliveryWeb == 1) { ?>checked="checked" <?php } ?> <?php if ($delivery == 1) { ?>disabled="disabled" <?php } ?> onclick="ValidardeliveryWeb();" />
                             </td>
                             <td width="36%">
-                                <div align="right"><span class="blues"><b>&nbsp; <?php echo "USUARIO" . " " . $nomgrup; ?>:</b>&nbsp;<img src="../../../images/user.gif" width="15" height="16" /> <?php echo $nomusu ?></span></div>
+                                <div align="right"><span class="blues"><b>&nbsp; <?php echo "USUARIO" . " " . $nomgrup; ?>:</b>&nbsp;<img src="../../../images/user.gif" width="15" height="16" /> <?php echo $nomusu; ?></span></div>
                             </td>
-                            <td width="12%" align="right"><span class="blues"><b style="font-size:11px;">&nbsp; &nbsp;SUCURSAL:&nbsp;<img src="../../../images/controlpanel.png" width="16" height="16" /><?php echo $nombre_local ?></span></b></td>
+                            <td width="12%" align="right"><span class="blues"><b style="font-size:11px;">&nbsp; &nbsp;SUCURSAL:&nbsp;<img src="../../../images/controlpanel.png" width="16" height="16" /><?php echo $nombre_local; ?></span></b></td>
                         </tr>
                         <tr>
                             <td width="100%" colspan='9'>

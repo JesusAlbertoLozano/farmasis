@@ -1,7 +1,7 @@
 <?php
 
-// error_reporting(E_ALL);
-// ini_set('display_errors', '1');
+//  error_reporting(E_ALL);
+//  ini_set('display_errors', '1');
 require_once('../../session_user.php');
 //echo $usuario;exit;
 require_once('session_ventas.php');

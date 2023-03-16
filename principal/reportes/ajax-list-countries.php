@@ -97,15 +97,15 @@ if (isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])) {
         $limit = 50;
     }
 
-    $busqueda = "0";
-$sql11 = "SELECT busqueda FROM datagen";
-$result11 = mysqli_query($conexion, $sql11);
-if (mysqli_num_rows($result11)) {
-	while ($row11 = mysqli_fetch_array($result11)) {
+//     $busqueda = "0";
+// $sql11 = "SELECT busqueda FROM datagen";
+// $result11 = mysqli_query($conexion, $sql11);
+// if (mysqli_num_rows($result11)) {
+// 	while ($row11 = mysqli_fetch_array($result11)) {
 	
-		$busqueda    = $row11['busqueda'];
-	}
-}
+// 		$busqueda    = $row11['busqueda'];
+// 	}
+// }
     $t = is_numeric($letters);
     if ($t == 0) { //Búsqueda si el input es numérico: Acepta 100, 0100, 00010. Si es 0 no es numérico, si es 1 es numérico.
 

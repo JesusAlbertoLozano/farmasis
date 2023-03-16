@@ -1,7 +1,13 @@
 <?php
 include('../../session_user.php');
-require_once ('../../../conexion.php');
-require_once ('../../../convertfecha.php');
+require_once('../../../conexion.php');
+require_once('../../../convertfecha.php');
+// include('./logger.php');
+
+// $logger = new FileLogger('logger.txt');
+// $logger->log("compras1_reg.php-------------------------");
+// $logger->log("Fecha: " . date("Y-m-d H:i:s"));
+
 $cod = $_REQUEST['cod'];   ///invnum
 $date1 = fecha1($_REQUEST['date1']); ///cantidad ingresada
 $date2 = fecha1($_REQUEST['date2']); ///precio sin descuentos y sin igv
@@ -16,12 +22,11 @@ $mont4 = $_REQUEST['sum_igv'];  ///igv
 $mont5 = $_REQUEST['monto_total']; ///total
 $sum33 = $_REQUEST['sum33'];   ///total
 $ncompra = $_REQUEST['ncompra'];  ///numero interno de compra
-$ckigv    = isset($_REQUEST['ckigv']) ? ($_REQUEST['ckigv']) : "";///APLICO EL IGV
+$ckigv    = isset($_REQUEST['ckigv']) ? ($_REQUEST['ckigv']) : ""; ///APLICO EL IGV
 $Proveedor = $_REQUEST['alfa1'];
 $Empresa = $_REQUEST['alfa2'];
 $hoy = date('Y-m-d H:i:s');
-if ($ckigv == "")
-{
+if ($ckigv == "") {
     $ckigv = 0;
 }
 $cant_registros = $_REQUEST['cant_registros']; ///CANTIDAD DE REGISTROS DE LA COMPRA
@@ -37,8 +42,8 @@ if (mysqli_num_rows($result)) {
 }
 /////////////////////////////////////////////////////////////////////////////////
 $date = date("Y-m-d");
-$horax = time(); 
-$datehour=date ("Y-m-d H:i:s",$horax);
+$horax = time();
+$datehour = date("Y-m-d H:i:s", $horax);
 
 $sql = "SELECT codloc FROM usuario where usecod = '$usuario'";
 $result = mysqli_query($conexion, $sql);
@@ -57,7 +62,8 @@ if (mysqli_num_rows($result)) {
 require_once('../tabla_local.php');
 
 ///FUNCION PARA CONVERTIR EL FACTOR A NUMERO
-function convertir_a_numero($str) {
+function convertir_a_numero($str)
+{
     $legalChars = "%[^0-9\-\. ]%";
     $str = preg_replace($legalChars, "", $str);
     return $str;
@@ -96,14 +102,13 @@ if (mysqli_num_rows($result)) {
         if (mysqli_num_rows($resultLote)) {
             if ($rowLote = mysqli_fetch_array($resultLote)) {
                 $contador = $rowLote['contador'];
-                if ($contador<1) {
-                    echo'<script type="text/javascript">
-                    alert("No se ha asociado un lote para el producto: '.$desprod.'");
+                if ($contador < 1) {
+                    echo '<script type="text/javascript">
+                    alert("No se ha asociado un lote para el producto: ' . $desprod . '");
                     window.location.href="compras.php?ok=4";
                     </script>';
                     return;
                 }
-
             }
         }
     }
@@ -139,22 +144,23 @@ if (mysqli_num_rows($result)) {
                 $tprevta = $rowx["tprevta"];  //codigo
                 $tpreuni = $rowx["tpreuni"];  //codigo
                 $tcostpr = $rowx["tcostpr"];
-                 $lotec = $rowx["lotec"];
+                $lotec = $rowx["lotec"];
             }
         }
         if (($tmargene <> 0) && ($tprevta <> 0) && ($tpreuni <> 0)) {
             mysqli_query($conexion, "UPDATE producto set margene = '$tmargene',tmargene = '0',prevta= '$tprevta',tprevta= '0',preuni = '$tpreuni',tpreuni = '0',tcosto = '0',costpr = '$tcostpr',tcostpr = '0' where codpro = '$codpro'");
         }
-        
+
         ////SI HAY CANTIDAD BONIFICABLE EN EL TEMPORAL
         //----------------------------------------------------
         if ($canbon <> 0) {
             ////COMPRUEBO QUE SE HAYA REGISTRADO EL PRODUCTO BONIFICABLE
             $sqlq = "SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '$codtemp' and invnum = '$cod'";
+            // $logger->log("SQL PRODUCTO BONIFICADO " . $sqlq);
             $resultq = mysqli_query($conexion, $sqlq);
             if (mysqli_num_rows($resultq)) {
                 while ($rowq = mysqli_fetch_array($resultq)) {
-                    
+
                     $codprobon = $rowq['codpro'];   /////el codigo del producto que se esta bonificando
                     $canbon1 = $rowq['canbon'];
                     $tipbon1 = $rowq['tipbon'];
@@ -164,7 +170,7 @@ if (mysqli_num_rows($result)) {
                     $vencimBoni = $rowq['vencim'];
                     $codigoProducto = $rowq['codprobon'];
                     $factorBoni = $rowq['factor'];
-                    
+                    // $logger->log("PRODUCTO BONIFICADO " . $codprobon . " CANTIDAD " . $canbon1 . " TIPO BONIFICACION " . $tipbon1 . " PRECIO " . $pripro1 . " FACTOR " . $factorBoni);
                 }
             } else {
                 $nohay = 1; ////quiere decir que no se ha registrado nada de bonificaciones, por tanto sale del sist a compras1
@@ -172,7 +178,7 @@ if (mysqli_num_rows($result)) {
                 $canbon1 = 0;
                 $tipbon1 = 0;
                 $pripro1 = 0;
-                
+
                 //agregado adrian
                 $numloteBoni = '';
                 $vencimBoni = '';
@@ -184,7 +190,7 @@ if (mysqli_num_rows($result)) {
             $canbon1 = 0;
             $tipbon1 = 0;
             $pripro1 = 0;
-            
+
             //agregado adrian
             $numloteBoni = '';
             $vencimBoni = '';
@@ -276,47 +282,46 @@ if (mysqli_num_rows($result)) {
                     mysqli_query($conexion, "INSERT INTO movlote (codpro,numlote,vencim,stock, codloc) values ('$codpro','$numlote','$vencimi','$cant_unid', '$codloc')");
                 }
             }
-            
+
             //AGREGADO ADRIAN
-            if($canbon <>0)
-            {
+            if ($canbon <> 0) {
                 ////COMPRUEBO QUE SE HAYA REGISTRADO EL PRODUCTO BONIFICABLE
 
-                    
-
-                    $stocklote = 0;
-                    ///////REVISO SI EL NUMERO DEL TEMPORAL EXISTE EN MI TABLA ORIGINAL
-
-                    if ($numloteBoni <> "") {
-
-                        if ($tipbon1 != 'U') {
-                            $stockParaBonificacion = $canbon1 * $factorBoni;
-                        } else {
-                            $stockParaBonificacion = $canbon1;
-                        }
-
-                        $sql1 = "SELECT numlote,vencim,stock FROM movlote where numlote = '$numloteBoni' and codpro = '$codpro' and codloc= '$codloc'";
-                        $result1 = mysqli_query($conexion, $sql1);
-                        if (mysqli_num_rows($result1)) {
-                            while ($row1 = mysqli_fetch_array($result1)) {
-                                $numerolote = $row1['numlote'];
-                                $fvencimi = $row1['vencim'];
-                                $stocklote = $row1['stock'];
-                                $stocklote = $stocklote + $stockParaBonificacion;
-                            }
-                            mysqli_query($conexion, "UPDATE movlote set stock = '$stockParaBonificacion' where codpro = '$codprobon' and numlote = '$numerolote' and codloc = '$codloc'");
-                            $idUltimoRegistroLote = mysqli_insert_id($conexion);
-                        } else {
 
 
-                            mysqli_query($conexion, "INSERT INTO movlote (codpro,numlote,vencim,stock, codloc) values ('$codprobon','$numloteBoni','$vencimBoni','$stockParaBonificacion', '$codloc')");
-                            $idUltimoRegistroLote = mysqli_insert_id($conexion);
-                        }
+                $stocklote = 0;
+                ///////REVISO SI EL NUMERO DEL TEMPORAL EXISTE EN MI TABLA ORIGINAL
+
+                if ($numloteBoni <> "") {
+
+                    if ($tipbon1 != 'U') {
+                        $stockParaBonificacion = $canbon1 * $factorBoni;
+                    } else {
+                        $stockParaBonificacion = $canbon1;
                     }
+
+                    $sql1 = "SELECT numlote,vencim,stock FROM movlote where numlote = '$numloteBoni' and codpro = '$codpro' and codloc= '$codloc'";
+                    $result1 = mysqli_query($conexion, $sql1);
+                    if (mysqli_num_rows($result1)) {
+                        while ($row1 = mysqli_fetch_array($result1)) {
+                            $numerolote = $row1['numlote'];
+                            $fvencimi = $row1['vencim'];
+                            $stocklote = $row1['stock'];
+                            $stocklote = $stocklote + $stockParaBonificacion;
+                        }
+                        mysqli_query($conexion, "UPDATE movlote set stock = '$stockParaBonificacion' where codpro = '$codprobon' and numlote = '$numerolote' and codloc = '$codloc'");
+                        $idUltimoRegistroLote = mysqli_insert_id($conexion);
+                    } else {
+
+
+                        mysqli_query($conexion, "INSERT INTO movlote (codpro,numlote,vencim,stock, codloc) values ('$codprobon','$numloteBoni','$vencimBoni','$stockParaBonificacion', '$codloc')");
+                        $idUltimoRegistroLote = mysqli_insert_id($conexion);
+                    }
+                }
             }
             //AGREGADO ADRIAN fin
-            
-            
+
+
             /////////////////////////////////////////////////////////////
             //----si ay bonificacion y es por el mismo producto en cajas
             if (($codprobon == $codpro) && ($codprobon <> 0) && ($tipbon1 == "C")) {
@@ -327,7 +332,9 @@ if (mysqli_num_rows($result)) {
                 $prevta1 = $pripro1 * (($margene / 100) + 1); /////NUEVO PRECIO DE VENTA INCL BONIFICACION DEL PROD GENERAL
                 $preciounit = $prevta1 / $factor;     /////NUEVO PRECIO UNITARIO INCL BONIFICACION DEL PROD GENERAL
                 //////TIPMOV Y TIPDOC = 11 CUANDO ES BONIFICACION
-                mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factor','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+                mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+                // $logger->log("INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS");
+                // $logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
                 mysqli_query($conexion, "INSERT INTO movmov (invnum,invfec,codpro,qtypro,qtyprf,pripro,prisal,costre,desc1,desc2,desc3,costpr,tipmov) values ('$cod','$date','$codprobon','$frac_canbon','','0','0','0','0','0','0','0', '$tipmov')");
             } else {
                 //----si es bonificacion pero con otro producto en cajas
@@ -354,7 +361,10 @@ if (mysqli_num_rows($result)) {
                     $preciounit = $prevta1 / $factor;   /////NUEVO PRECIO UNITARIO DE VENTA DEL PRODUCTO GENERAL
                     mysqli_query($conexion, "UPDATE producto set stopro = '$stoproes', $tabla = '$cant_loces' where codpro = '$codprobon'");
                     //////TIPMOV Y TIPDOC = 11 CUANDO ES BONIFICACION
-                    mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factor','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+
+                    //$logger->log("INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS");
+                    //$logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+                    mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
                     mysqli_query($conexion, "INSERT INTO movmov (invnum,invfec,codpro,qtypro,qtyprf,pripro,prisal,costre,desc1,desc2,desc3,costpr, tipmov) values ('$cod','$date','$codprobon','$frac_canbon','','0','0','0','0','0','0','0', '$tipmov')");
                 } else {
                     //-----si hay bonificacion con otro producto pero en unidades
@@ -386,7 +396,9 @@ if (mysqli_num_rows($result)) {
                         }
                         mysqli_query($conexion, "INSERT INTO ventas_bonif_unid (codpro,codprobonif,cajas,unid) values ('$codpro','$codprobon','$qtypro','$canbon1')");
                         //////TIPMOV Y TIPDOC = 11 CUANDO ES BONIFICACION
-                        mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','','$frac_canbon','$factor','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+                       // $logger->log("INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES");
+                       // $logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','','$frac_canbon','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+                        mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','','$frac_canbon','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
                         mysqli_query($conexion, "INSERT INTO movmov (invnum,invfec,codpro,qtypro,qtyprf,pripro,prisal,costre,desc1,desc2,desc3,costpr, tipmov) values ('$cod','$date','$codprobon','','$frac_canbon','0','0','0','0','0','0','0', '$tipmov')");
                     }
                     //// no ay bonificaciones
@@ -431,47 +443,46 @@ if (mysqli_num_rows($result)) {
                     $sactual = $row1[1];
                 }
             }
-             $sql1 = "SELECT idlote,codpro,stock FROM movlote where codpro = '$codpro'";
+            $sql1 = "SELECT idlote,codpro,stock FROM movlote where codpro = '$codpro'";
             $result1 = mysqli_query($conexion, $sql1);
             if (mysqli_num_rows($result1)) {
                 while ($row1 = mysqli_fetch_array($result1)) {
                     $idlote       = $row1['idlote'];
                     $codpro       = $row1['codpro'];
                     $stocklote      = $row1['stock'];
-
                 }
             }
-            
+
             //mysqli_query($conexion, "UPDATE movlote set stock = '$cant_unid' where invnum = '$cod' and codpro = '$codpro'");
             mysqli_query($conexion, "UPDATE producto set stopro = '$stopro', prelis = '$referencial',costre = '$pripro',utlcos = '$pripro',$tabla = '$cant_local',pcostouni = '$pcostouni',fecord = '0000-00-00',ultpcostouni = '$ultpcostouni',modifpcosto = '0' where codpro = '$codpro'");
             /////////////////////////////////////////////////////////////
             mysqli_query($conexion, "INSERT INTO movmov (invnum,invfec,codpro,qtypro,qtyprf,pripro,prisal,costre,desc1,desc2,desc3,costpr,codprobon,canbon,tipbon,priprobon, codloc, tipmov) values ('$cod','$date','$codpro','$qtypro','$qtyprf','$pripro','$prisal','$costre','$desc1','$desc2','$desc3','$costpr','$codprobon','$canbon1','$tipbon1','$pripro1','$codloc', '$tipmov')");
             mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codpro','$invfec','$tipmov','$tipdoc','$qtypro','$qtyprf','$factor','$cod','$usuario','$sactual','$codloc','$pcostouni')");
             //----------------------------AQUI TERMINO $NOHAY = 1 ------------------------------/////
-        
-                   $sql1 = "select codkard from kardex where codpro = '$codpro' order by codkard desc limit 1;";
+
+            $sql1 = "select codkard from kardex where codpro = '$codpro' order by codkard desc limit 1;";
             $result1 = mysqli_query($conexion, $sql1);
             if (mysqli_num_rows($result1)) {
                 while ($row1 = mysqli_fetch_array($result1)) {
                     $codkard       = $row1['codkard'];
-                }}
-                
-            if($lotec == 1){    
-      
-               mysqli_query($conexion, "INSERT INTO kardexLote (codkard,IdLote,Cantidad) values ('$codkard','$idlote','$stocklote')");
+                }
             }
-            
-            
+
+            if ($lotec == 1) {
+
+                mysqli_query($conexion, "INSERT INTO kardexLote (codkard,IdLote,Cantidad) values ('$codkard','$idlote','$stocklote')");
+            }
         }
-        
     }
-    
+
     //error_log("EL CODIGO USADO ES : " . $codpro);
     //error_log("LA SUCURSAL USADO ES : " . $codloc);
+    //   $logger->log("PROCEDIMIENTO ALMACENADO");
+    //   $logger->log("CALL procedure_recalculakardex('" . $codpro . "' , '" . $codloc . "')");
     mysqli_query($conexion, "CALL procedure_recalculakardex('" . $codpro . "' , '" . $codloc . "')");
 }
-if ($nohay <> 1) 
-{
+// $logger->log("/compras1_reg.php-------------------------");
+if ($nohay <> 1) {
     mysqli_query($conexion, "DELETE from tempmovmov where invnum = '$cod'");
     mysqli_query($conexion, "DELETE from tempmovmov_bonif where invnum = '$cod'");
     mysqli_query($conexion, "DELETE from templote where invnum = '$cod'");
@@ -479,18 +490,11 @@ if ($nohay <> 1)
     mysqli_query($conexion, "UPDATE ordmae set pendiente = '0', confirmado = '0' where invnum = '$ncompra'");
     //header("Location: ../ing_salid.php");
     //header("Location: generaImpresion.php?Compra=$cod");
-    
-     //header("Location: ../ing_salid.php");
-    //header("Location: generaImpresion.php?Compra=$cod");
-    
-    echo "<script>if(confirm('Deseas Imprimir esta Compra')){document.location='generaImpresion.php?Compra=$cod';}else{ alert(document.location='../ing_salid.php');}</script>"; 
 
-    
-    
-    
-} 
-else 
-{
+    //header("Location: ../ing_salid.php");
+    //header("Location: generaImpresion.php?Compra=$cod");
+
+    echo "<script>if(confirm('Deseas Imprimir esta Compra')){document.location='generaImpresion.php?Compra=$cod';}else{ alert(document.location='../ing_salid.php');}</script>";
+} else {
     header("Location: compras.php?msg=2");
 }
-?>

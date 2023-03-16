@@ -289,7 +289,7 @@ if ($number == 0)
 }
 else
 {
-$text_char = ereg_replace("[^0-9]","",$text1);
+$text_char = preg_replace("[^0-9]","",$text1);
 $fin = (($stoctal * $costpr1)+(($text_char/$factor1)*$text6))/($stoctal+($text_char/$factor1));
 }
 
