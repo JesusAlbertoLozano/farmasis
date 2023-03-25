@@ -2,9 +2,11 @@
 print("hola");
 print_r(session_get_cookie_params());
 print("\n=============================\n");
-echo($_SESSION['codigo_user']);
+print($_SESSION['codigo_user']);
 if(!isset($_SESSION['codigo_user'])){
+    print("hola2");
     if ($_SESSION['codigo_user']>0){
+        print("hola3");
         header("Location: /principal/index.php");
         exit;
     }
