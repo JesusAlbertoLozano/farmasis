@@ -11,7 +11,7 @@ if(!isset($_SESSION['codigo_user'])){
         echo("hola3");
         header("Location: principal/index.php");
         exit;
-    } else { echo("el valor de codigo_user esta vacio"); }
+    } else { echo(" el valor de codigo_user esta vacio"); }
 }
 
 $params = session_get_cookie_params();
