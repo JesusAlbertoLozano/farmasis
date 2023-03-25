@@ -34,7 +34,7 @@ while ($row = mysqli_fetch_array($result)){
 				$usuario						= $user_ok['usecod']; 
 				$codgrup						= $user_ok['codgrup'];  
 				$codloc  						= $user_ok['codloc'];  
-				$sql="SELECT nomgrup FROM grupo_user where codgrup = '$codgrup'";
+				$sql="SELECT nomgrup FROM grupo_user where codgrup = '".$codgrup."'";
 				$result = mysqli_query($conexion, $sql);
 				if (mysqli_num_rows($result)){
 					while ($row = mysqli_fetch_array($result)){
@@ -50,6 +50,7 @@ while ($row = mysqli_fetch_array($result)){
 				//{
 				//$existe = 0;
 				//}
+				print_r($nomgrup);
 				if ($nomgrup == "ADMINISTRADOR DEL SISTEMA")
 				{
 					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");
