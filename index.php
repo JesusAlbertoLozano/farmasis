@@ -10,9 +10,11 @@ if(!isset($_SESSION['codigo_user'])){
     }
 }
 
-session_set_cookie_params(0);
+$params = session_get_cookie_params();
+$params['lifetime'] = 3600; // La cookie expirará después de 1 hora
+$params['domain']= $_SERVER['SERVER_NAME']; // las cookie solo en mi dominio
+session_set_cookie_params($params['lifetime'], $params['path'], $params['domain'], $params['secure'], $params['httponly']);
 session_start();
-
 
 $resolucion = $_SESSION['resolucion'];
 require_once('conexion.php');
