@@ -1,7 +1,7 @@
 <?php
 session_set_cookie_params(0);
 session_start();
-echo(session_get_cookie_params());
+print_r(session_get_cookie_params());
 
 $resolucion = $_SESSION['resolucion'];
 require_once('conexion.php');
