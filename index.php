@@ -32,6 +32,9 @@ require_once('funciones/button_clave.php');
 require_once('titulo_sist.php');
 require_once("funciones/botones.php"); //COLORES DE LOS BOTONES
 
+echo("<br>====== regresamos sesion ===========<br>");
+print_r(session_get_cookie_params());
+
 /////otros campos/////////
 $usu = isset($_REQUEST['usu']) ? ($_REQUEST['usu']) : "";
 $ingreso = isset($_REQUEST['filtro']) ? ($_REQUEST['filtro']) : "";
