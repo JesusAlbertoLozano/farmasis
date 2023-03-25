@@ -1,6 +1,6 @@
 <?php
 //session_set_cookie_params(0);
-session_start();
+//session_start();
 include ('conexion.php');	
 //include ('detecta_ip.php');
 //$ip		= $detect_ip;
@@ -16,6 +16,7 @@ while ($row = mysqli_fetch_array($result)){
 	//echo "Usuarios:" . $usuarios . "<p>";
 	//die();
 	$user_ok = mysqli_fetch_array($usuarios);
+	echo("IMPRIMIMOS EL user_ok:")
 	print_r($user_ok);
 	if(!empty($user_ok))  //si existe comenzamos con la sesion, si no, al index
 	{
@@ -24,6 +25,7 @@ while ($row = mysqli_fetch_array($result)){
 				header("Location: index.php?error=3"); //el codigo no esta activado
 			}
 			else {
+				echo("LE ASIGNA AL codigo_user")
 				//damos valores a las variables de la sesi�n
 				$_SESSION['codigo_user']			= $user_ok['usecod']; 
 				$usuario						= $user_ok['usecod']; 

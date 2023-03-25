@@ -3,6 +3,7 @@ echo("hola");
 print_r(session_get_cookie_params());
 echo("<br>=================<br>");
 echo($_SESSION['codigo_user']);
+echo("<br>user_ok:");
 print_r($user_ok);
 echo("<br>=================<br>");
 
