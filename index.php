@@ -1,6 +1,7 @@
 <?php
 print("hola");
 print_r(session_get_cookie_params());
+print("\n=============================\n");
 echo($_SESSION['codigo_user']);
 if(!isset($_SESSION['codigo_user'])){
     if ($_SESSION['codigo_user']>0){
