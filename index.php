@@ -1,16 +1,17 @@
 <?php
-print("hola");
+echo("hola");
 print_r(session_get_cookie_params());
 echo("<br>=================<br>");
-print($_SESSION['codigo_user']);
-print("<br>=================<br>");
+echo($_SESSION['codigo_user']);
+echo("<br>=================<br>");
+
 if(!isset($_SESSION['codigo_user'])){
-    print("hola2");
+    echo("hola2");
     if (intval($_SESSION['codigo_user'])>0){
-        print("hola3");
+        echo("hola3");
         header("Location: principal/index.php");
         exit;
-    } else : { print("el valor de codigo_user esta vacio"); }
+    } else : { echo("el valor de codigo_user esta vacio"); }
 }
 
 $params = session_get_cookie_params();
@@ -18,7 +19,8 @@ $params['lifetime'] = 3600; // La cookie expirará después de 1 hora
 $params['domain']= $_SERVER['SERVER_NAME']; // las cookie solo en mi dominio
 session_set_cookie_params($params['lifetime'], $params['path'], $params['domain'], $params['secure'], $params['httponly']);
 session_start();
-print("<br>====== nuevo sesion ===========<br>");
+
+echo("<br>====== nuevo sesion ===========<br>");
 print_r(session_get_cookie_params());
 
 $resolucion = $_SESSION['resolucion'];
