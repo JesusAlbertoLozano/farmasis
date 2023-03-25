@@ -10,7 +10,7 @@ if(!isset($_SESSION['codigo_user'])){
         print("hola3");
         header("Location: principal/index.php");
         exit;
-    }
+    } else : { print("el valor de codigo_user esta vacio"); }
 }
 
 $params = session_get_cookie_params();
@@ -18,6 +18,8 @@ $params['lifetime'] = 3600; // La cookie expirará después de 1 hora
 $params['domain']= $_SERVER['SERVER_NAME']; // las cookie solo en mi dominio
 session_set_cookie_params($params['lifetime'], $params['path'], $params['domain'], $params['secure'], $params['httponly']);
 session_start();
+print("<br>====== nuevo sesion ===========<br>");
+print_r(session_get_cookie_params());
 
 $resolucion = $_SESSION['resolucion'];
 require_once('conexion.php');
