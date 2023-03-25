@@ -1,5 +1,5 @@
 <?php include('../../../session_user.php');
-session_set_cookie_params(0);
+//session_set_cookie_params(0);
 session_start();
 $venta   	 = $_SESSION['cotiz'];
 $search  	 = $_SESSION['searchcot'];

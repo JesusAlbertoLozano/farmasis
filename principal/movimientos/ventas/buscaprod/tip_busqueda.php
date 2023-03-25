@@ -1,5 +1,5 @@
 <?php require_once('../../../session_user.php');
-session_set_cookie_params(0);
+//session_set_cookie_params(0);
 session_start();
 $venta   	 = $_SESSION['venta'];
 $search  	 = $_SESSION['search'];
