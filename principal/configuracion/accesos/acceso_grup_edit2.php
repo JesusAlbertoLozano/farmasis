@@ -53,5 +53,5 @@ while ($row = mysqli_fetch_array($result)){
 		}
 }
 }
-Header("Location: acceso_grup_edit1.php?codgrup=$codgrup");
+header("Location: acceso_grup_edit1.php?codgrup=$codgrup");
 ?>

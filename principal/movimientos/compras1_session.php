@@ -27,15 +27,15 @@ while ($row = mysqli_fetch_array($result)){	////USUARIO QUUIEN REALIZO LA COMPRA
 	if ($codigo_local == $codigo_local1)
 	{
 	$_SESSION['invnum']			= $buscar; 
-	Header("Location: compras.php?val=1&ok=1"); 
+	header("Location: compras.php?val=1&ok=1"); 
 	}
 	else
 	{
-	Header("Location: compras.php?val=1&ok=2"); //no tiene permiso para verlo
+	header("Location: compras.php?val=1&ok=2"); //no tiene permiso para verlo
 	}
 }
 else
 {
-Header("Location: compras.php?val=1&ok=3"); //no se encuentra en el sist
+header("Location: compras.php?val=1&ok=3"); //no se encuentra en el sist
 }
 ?>

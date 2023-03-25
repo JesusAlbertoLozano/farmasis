@@ -4,5 +4,5 @@ session_start();
 //$resol = $_GET['resol'];
 $resol = isset($_REQUEST['resol'])? $_REQUEST['resol'] : "";
 $_SESSION['resolucion']	= $resol; 
-header("Location: index2222222222.php");
+header("Location: index.php");
 ?>

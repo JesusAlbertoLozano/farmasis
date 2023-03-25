@@ -19,13 +19,10 @@ while ($row = mysqli_fetch_array($result)){
 	if($user_ok = mysqli_fetch_array($usuarios)) //si existe comenzamos con la sesion, si no, al index
 	{
 			//SI EXISTE EN LA DATA INGRESA A ESTE CODIGO
-			if (($user_ok["estado"])=="0")
-			{
-			Header("Location: index.php?error=3"); //el codigo no esta activado
+			if (($user_ok["estado"])=="0"){
+				header("Location: index.php?error=3"); //el codigo no esta activado
 			}
-			else
-			{
-
+			else {
 				//damos valores a las variables de la sesi�n
 				$_SESSION['codigo_user']			= $user_ok['usecod']; 
 				$usuario						= $user_ok['usecod']; 
@@ -34,9 +31,9 @@ while ($row = mysqli_fetch_array($result)){
 				$sql="SELECT nomgrup FROM grupo_user where codgrup = '$codgrup'";
 				$result = mysqli_query($conexion, $sql);
 				if (mysqli_num_rows($result)){
-				while ($row = mysqli_fetch_array($result)){
-						$nomgrup          = $row['nomgrup'];
-				}
+					while ($row = mysqli_fetch_array($result)){
+							$nomgrup          = $row['nomgrup'];
+					}
 				} 
 				//$sql="SELECT codloc FROM numberip where ip = '$ip' and codloc = '$codloc'";
 				//$result = mysqli_query($conexion,$sql);
@@ -68,18 +65,18 @@ while ($row = mysqli_fetch_array($result)){
 					}
 					else
 					{
-					Header("Location: index.php?error=4");
+						header("Location: index.php?error=4");
 					}
 				}
 			}
 	}
 	else
 	{
-		Header("Location: index.php?error=2"); //no se encuentra en el sist
+		header("Location: index.php?error=2"); //no se encuentra en el sist
 	}
 /*}
 else
 {
-Header("Location: index.php?error=4");
+header("Location: index.php?error=4");
 }*/
 ?>
