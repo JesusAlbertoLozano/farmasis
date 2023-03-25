@@ -1,4 +1,5 @@
 <?php
+print("hola");
 print_r(session_get_cookie_params());
 echo($_SESSION['codigo_user']);
 if(!isset($_SESSION['codigo_user'])){
