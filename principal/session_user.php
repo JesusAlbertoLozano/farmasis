@@ -5,8 +5,8 @@ error_log("Caducidad: ".$maxlifetime);
 // Verificar si ya hay una sesión activa
 if (session_status() !== PHP_SESSION_ACTIVE) {
 
-    define('SEG_RAIZ',   "/novafarma");
-    session_set_cookie_params(86400);
+    define('SEG_RAIZ',   "/");
+    //session_set_cookie_params(86400);
     ini_set('session.cookie_lifetime',86400);
     ini_set('session.gc_maxlifetime', 86400);
     session_start();
