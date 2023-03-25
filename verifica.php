@@ -11,12 +11,15 @@ while ($row = mysqli_fetch_array($result)){
 	$local    = $row['codloc'];
 }
 */
-	$usuarios=mysqli_query($conexion,"SELECT * FROM usuario WHERE logusu=$_POST[user] and pasusu=$_POST[text] and estado = '1'" );
+	$consulta ="SELECT * FROM usuario WHERE logusu=$_POST['user'] and pasusu=$_POST['text'] and estado = '1'";
+	echo("<br>IMPRIMIMOS consulta:");
+	echo($consulta);
+	$usuarios=mysqli_query($conexion, $consulta);
 	
 	//echo "Usuarios:" . $usuarios . "<p>";
 	//die();
 	$user_ok = mysqli_fetch_array($usuarios);
-	echo("IMPRIMIMOS EL user_ok:");
+	echo("<br>IMPRIMIMOS EL user_ok:");
 	print_r($user_ok);
 	if(!empty($user_ok))  //si existe comenzamos con la sesion, si no, al index
 	{
