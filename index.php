@@ -1,11 +1,12 @@
 <?php
 print("hola");
 print_r(session_get_cookie_params());
-print("\n=============================\n");
+print("\n=================\n");
 print($_SESSION['codigo_user']);
+print("\n=================\n");
 if(!isset($_SESSION['codigo_user'])){
     print("hola2");
-    if ($_SESSION['codigo_user']>0){
+    if (intval($_SESSION['codigo_user'])>0){
         print("hola3");
         header("Location: /principal/index.php");
         exit;
