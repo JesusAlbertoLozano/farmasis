@@ -11,7 +11,7 @@ while ($row = mysqli_fetch_array($result)){
 	$local    = $row['codloc'];
 }
 */
-	$consulta ="SELECT * FROM usuario WHERE logusu=".$_POST['user']."and pasusu=".$_POST['text']."and estado = '1'";
+	$consulta ="SELECT * FROM usuario WHERE logusu='".$_POST['user']."' and pasusu='".$_POST['text']."' and estado = '1'";
 	echo("<br>IMPRIMIMOS consulta:");
 	echo($consulta);
 	$usuarios=mysqli_query($conexion, $consulta);
