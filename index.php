@@ -1,8 +1,14 @@
 <?php
+if(!isset($_SESSION['codigo_user'])){
+    if ($_SESSION['codigo_user']>0){
+        header("Location: /principal/index.php");
+        exit;
+    }
+}
+
 session_set_cookie_params(0);
 session_start();
 print_r(session_get_cookie_params());
-echo($_SESSION['codigo_user']);
 
 $resolucion = $_SESSION['resolucion'];
 require_once('conexion.php');
