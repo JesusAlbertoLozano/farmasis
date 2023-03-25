@@ -15,8 +15,8 @@ while ($row = mysqli_fetch_array($result)){
 	
 	//echo "Usuarios:" . $usuarios . "<p>";
 	//die();
-	
-	if($user_ok = mysqli_fetch_array($usuarios)) //si existe comenzamos con la sesion, si no, al index
+	$user_ok = mysqli_fetch_array($usuarios);
+	if(!empty($user_ok))  //si existe comenzamos con la sesion, si no, al index
 	{
 			//SI EXISTE EN LA DATA INGRESA A ESTE CODIGO
 			if (($user_ok["estado"])=="0"){
