@@ -1,9 +1,9 @@
 <?php
 print("hola");
 print_r(session_get_cookie_params());
-print("\n=================\n");
+echo("<br>=================<br>");
 print($_SESSION['codigo_user']);
-print("\n=================\n");
+print("<br>=================<br>");
 if(!isset($_SESSION['codigo_user'])){
     print("hola2");
     if (intval($_SESSION['codigo_user'])>0){
