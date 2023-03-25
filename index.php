@@ -8,7 +8,7 @@ if(!isset($_SESSION['codigo_user'])){
     print("hola2");
     if (intval($_SESSION['codigo_user'])>0){
         print("hola3");
-        header("Location: /principal/index.php");
+        header("Location: principal/index.php");
         exit;
     }
 }
