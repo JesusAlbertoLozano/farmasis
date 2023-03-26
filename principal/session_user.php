@@ -15,8 +15,8 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
 $maxlifetime = ini_get("session.gc_maxlifetime");
 print("Caducidad: ".$maxlifetime);
 
-$usuario    =(!isset($_SESSION['codigo_user']) ? $_SESSION['codigo_user'] : "");
-$resolucion  =(!isset($_SESSION['resolucion']) ? $_SESSION['resolucion'] : "");
+$usuario    =(isset($_SESSION['codigo_user']) ? $_SESSION['codigo_user'] : "");
+$resolucion  =(isset($_SESSION['resolucion']) ? $_SESSION['resolucion'] : "");
 
 
 
