@@ -6,7 +6,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     //session_set_cookie_params(86400);
     //ini_set('session.cookie_lifetime',86400);
     //ini_set('session.gc_maxlifetime', 86400);
-    //session_start();
+    session_start();
     print_r($_SESSION);
 } else {
     define('SEG_RAIZ', '/principal');

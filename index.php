@@ -1,9 +1,9 @@
 <?php
-$params = session_get_cookie_params();
-print_r($params);
-if(session_status() === PHP_SESSION_DISABLED) print("<br>sesion deshabilitada");
-if(session_status() === PHP_SESSION_ACTIVE) print("<br>sesion activada");
-if(session_status() === PHP_SESSION_NONE) print("<br>sesion no activada");
+//$params = session_get_cookie_params();
+//print_r($params);
+//if(session_status() === PHP_SESSION_DISABLED) print("<br>sesion deshabilitada");
+//if(session_status() === PHP_SESSION_ACTIVE) print("<br>sesion activada");
+//if(session_status() === PHP_SESSION_NONE) print("<br>sesion no activada");
 if(session_status() !== PHP_SESSION_ACTIVE) session_start();
 if(isset($_REQUEST['id'])) {
     $_SESSION['codigo_user']=explode("#",base64_decode($_REQUEST['id']))[0];
@@ -24,8 +24,8 @@ require_once('funciones/button_clave.php');
 require_once('titulo_sist.php');
 require_once("funciones/botones.php"); //COLORES DE LOS BOTONES
 
-echo("<br>====== regresamos sesion ===========<br>");
-print_r(session_get_cookie_params());
+//echo("<br>====== regresamos sesion ===========<br>");
+//print_r(session_get_cookie_params());
 
 /////otros campos/////////
 $usu = isset($_REQUEST['usu']) ? ($_REQUEST['usu']) : "";
