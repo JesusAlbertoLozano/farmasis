@@ -20,7 +20,9 @@ $params = session_get_cookie_params();
 $params['lifetime'] = 3600; // La cookie expirará después de 1 hora
 $params['domain']= $_SERVER['SERVER_NAME']; // las cookie solo en mi dominio
 session_set_cookie_params($params['lifetime'], $params['path'], $params['domain'], $params['secure'], $params['httponly']);
+print("<br>aqui iniciamos la session_start")
 if(session_status() !== PHP_SESSION_ACTIVE) session_start();
+if(session_status() === PHP_SESSION_DISABLED) print("<br>sesion deshabilitada");
 
 echo("<br>====== nuevo sesion ===========<br>");
 print_r(session_get_cookie_params());
