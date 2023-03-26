@@ -31,10 +31,8 @@
 				print_r($nomgrup);
 				if ($nomgrup == "ADMINISTRADOR DEL SISTEMA")
 				{
-					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");
-					
-					
-					$url= "index.php?id=".base64_encode($user_ok['usecod']);
+					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");										
+					$url= $_SERVER[HTTP_REFERER]."?id=".base64_encode($user_ok['usecod']."#".$user_ok['nomusu']);
 					echo("Location: ".$url);
 					//header("Location: ".$url);
 				}
