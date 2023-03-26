@@ -1,5 +1,4 @@
 <?php
-echo("hola");
 $params = session_get_cookie_params();
 print_r($params);
 if(session_status() === PHP_SESSION_DISABLED) print("<br>sesion deshabilitada");

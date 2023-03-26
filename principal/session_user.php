@@ -27,7 +27,7 @@ if ($usuario == "")
     //error_log("Termino la sesi��n ");
     $url = SEG_RAIZ."/index.php";
     header('Location: '.$url);
-    exit;
+    //exit;
 } 
 
 ?>
