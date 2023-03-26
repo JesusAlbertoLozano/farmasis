@@ -42,11 +42,11 @@ echo("<br>====== regresamos sesion ===========<br>");
 print_r(session_get_cookie_params());
 
 /////otros campos/////////
-$usu = !isset($_REQUEST['usu']) ? ($_REQUEST['usu']) : "";
-$ingreso = !isset($_REQUEST['filtro']) ? ($_REQUEST['filtro']) : "";
+$usu = isset($_REQUEST['usu']) ? ($_REQUEST['usu']) : "";
+$ingreso = isset($_REQUEST['filtro']) ? ($_REQUEST['filtro']) : "";
 
-$error = !isset($_REQUEST['error']) ? ($_REQUEST['error']) : "";
-$pc = !isset($_REQUEST['pc']) ? ($_REQUEST['pc']) : "";
+$error = isset($_REQUEST['error']) ? ($_REQUEST['error']) : "";
+$pc = isset($_REQUEST['pc']) ? ($_REQUEST['pc']) : "";
 if ($ingreso == 1) {
     $ingresotext = "UD ya tiene una session abierta en el sistema en desarrollo aun";
 }
