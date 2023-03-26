@@ -24,9 +24,9 @@ $resolucion  =(isset($_SESSION['resolucion']) ? $_SESSION['resolucion'] : "");
 
 if ($usuario == "") 
 {
-    //error_log("Termino la sesi��n ");
-    $url = SEG_RAIZ."/index.php";
-    header('Location: '.$url);
+    error_log("Termino la sesi��n ");
+    //$url = SEG_RAIZ."/index.php";
+    //header('Location: '.$url);
     //exit;
 } 
 
