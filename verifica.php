@@ -32,7 +32,7 @@
 				if ($nomgrup == "ADMINISTRADOR DEL SISTEMA")
 				{
 					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");
-					print("<br>session_status :")
+					print("<br>session_status :");
 					print(session_status());
 					echo("<br>revisa 2");//header("Location: principal/index.php");
 				}
