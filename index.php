@@ -6,12 +6,13 @@ if(session_status() === PHP_SESSION_ACTIVE) print("<br>sesion activada");
 if(session_status() === PHP_SESSION_NONE) print("<br>sesion no activada");
 if(session_status() !== PHP_SESSION_ACTIVE) session_start();
 if isset($_REQUEST['id']) {
-    $_SESSION['codigo_user']=str_split("#",base64_decode($_REQUEST['id']))[0];
-else    
+    $_SESSION['codigo_user']=explode("#",base64_decode($_REQUEST['id']))[0];
+}
+else {
     $_SESSION['codigo_user']= isset($_SESSION['codigo_user']) ? $_SESSION['codigo_user'] : "";
 }
  
-if (intval(base64_decode($_SESSION['codigo_user']))>0){
+if (intval($_SESSION['codigo_user'])>0){
     header("Location: principal/index.php");
     exit;
 } else { echo(" el valor de codigo_user esta vacio"); }
