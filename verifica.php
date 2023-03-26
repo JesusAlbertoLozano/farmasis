@@ -34,7 +34,7 @@
 					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");
 					print("<br>session_status :");
 					print(session_status());
-					url= "index.php?id=".base64_encode($_SESSION['codigo_user']);
+					url= "index.php?id=".base64_encode($user_ok['usecod']);
 					echo("Location: ".url);
 					//header("Location: ".url);
 				}
