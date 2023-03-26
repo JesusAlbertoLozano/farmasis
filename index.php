@@ -5,7 +5,7 @@ if(session_status() === PHP_SESSION_DISABLED) print("<br>sesion deshabilitada");
 if(session_status() === PHP_SESSION_ACTIVE) print("<br>sesion activada");
 if(session_status() === PHP_SESSION_NONE) print("<br>sesion no activada");
 if(session_status() !== PHP_SESSION_ACTIVE) session_start();
-if isset($_REQUEST['id']) {
+if(isset($_REQUEST['id'])) {
     $_SESSION['codigo_user']=explode("#",base64_decode($_REQUEST['id']))[0];
 }
 else {
