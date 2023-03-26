@@ -18,9 +18,9 @@ if(!isset($_SESSION['codigo_user'])){
         exit;
     } else { echo(" el valor de codigo_user esta vacio"); }
 }
-$params['lifetime'] = 86400; // La cookie expirará después de 1 hora
-$params['domain']= $_SERVER['SERVER_NAME']; // las cookie solo en mi dominio
-$params['path']='/var/www/sessions';
+//$params['lifetime'] = 86400; // La cookie expirará después de 1 hora
+//$params['domain']= $_SERVER['SERVER_NAME']; // las cookie solo en mi dominio
+//$params['path']='/var/www/sessions';
 session_set_cookie_params($params['lifetime'], $params['path'], $params['domain'], $params['secure'], $params['httponly']);
 print("<br>aqui iniciamos la session_start");
 if(session_status() !== PHP_SESSION_ACTIVE) session_start();
