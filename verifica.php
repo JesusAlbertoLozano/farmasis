@@ -11,7 +11,7 @@
 	{
 			//SI EXISTE EN LA DATA INGRESA A ESTE CODIGO
 			if (($user_ok["estado"])=="0"){
-				echo("revisa 1");//header("Location: index.php?error=3"); //el codigo no esta activado
+				header("Location: index.php?error=3"); //el codigo no esta activado
 			}
 			else {
 				echo("LE ASIGNA AL codigo_user");
@@ -34,7 +34,7 @@
 					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");
 					print("<br>session_status :");
 					print(session_status());
-					echo("<br>revisa 2");//header("Location: principal/index.php");
+					header("Location: principal/index.php");
 				}
 				else
 				{
@@ -43,27 +43,27 @@
 						//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");
 						if ($nomgrup == "VENDEDOR")
 						{
-						echo("revisa 3");//header("Location: principal/movimientos/ventas/ventas_registro.php");
+						header("Location: principal/movimientos/ventas/ventas_registro.php");
 						}
 						else
 						{
-						echo("revisa 4");//header("Location: principal/index.php");
+						header("Location: principal/index.php");
 						}	
 					}
 					else
 					{
-						echo("revisa 5");//header("Location: index.php?error=4");
+						header("Location: index.php?error=4");
 					}
 				}
 			}
 	}
 	else
 	{
-		echo("revisa 6");//header("Location: index.php?error=2"); //no se encuentra en el sist
+		header("Location: index.php?error=2"); //no se encuentra en el sist
 	}
 /*}
 else
 {
-echo("revisa 7");//header("Location: index.php?error=4");
+header("Location: index.php?error=4");
 }*/
 ?>
