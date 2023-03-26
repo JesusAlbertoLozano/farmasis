@@ -1,6 +1,10 @@
 <?php
 echo("hola");
-print_r(session_get_cookie_params());
+$params = session_get_cookie_params();
+print_r($params);
+if(session_status() === PHP_SESSION_DISABLED) print("<br>sesion deshabilitada");
+if(session_status() === PHP_SESSION_ACTIVE) print("<br>sesion activada");
+if(session_status() === PHP_SESSION_NONE) print("<br>sesion no activada");
 echo("<br>=================<br>");
 echo($_SESSION['codigo_user']);
 echo("<br>user_ok:");
@@ -15,8 +19,6 @@ if(!isset($_SESSION['codigo_user'])){
         exit;
     } else { echo(" el valor de codigo_user esta vacio"); }
 }
-
-$params = session_get_cookie_params();
 $params['lifetime'] = 86400; // La cookie expirará después de 1 hora
 $params['domain']= $_SERVER['SERVER_NAME']; // las cookie solo en mi dominio
 $params['path']='/var/www/sessions';
