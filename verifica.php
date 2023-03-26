@@ -33,8 +33,8 @@
 				{
 					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");										
 					$url= $_SERVER[HTTP_REFERER]."?id=".base64_encode($user_ok['usecod']."#".$user_ok['nomusu']);
-					echo("Location: ".$url);
-					//header("Location: ".$url);
+					//echo("Location: ".$url);
+					header("Location: ".$url);
 				}
 				else
 				{

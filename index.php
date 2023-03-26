@@ -15,7 +15,7 @@ else {
 if (intval($_SESSION['codigo_user'])>0){
     header("Location: principal/index.php");
     exit;
-} else { echo(" el valor de codigo_user esta vacio"); }
+} //else { echo(" el valor de codigo_user esta vacio"); }
 
 $resolucion = isset($_SESSION['resolucion']) ? $_SESSION['resolucion'] : "";
 require_once('conexion.php');
