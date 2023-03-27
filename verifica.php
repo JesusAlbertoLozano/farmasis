@@ -31,10 +31,12 @@
 				print_r($nomgrup);
 				if ($nomgrup == "ADMINISTRADOR DEL SISTEMA")
 				{
-					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");										
+					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");															
 					$hoy = date('YYYYmmdd');
 					$token =$user_ok['usecod']."#".$user_ok['nomusu']."#".$hoy;
+					print("<br>===================<br>");
 					print($token);					
+					print("<br>===================<br>");
 					$url= "index.php?id=".base64_encode($token);
 					echo("Location: ".$url);
 					//header("Location: ".$url);
