@@ -32,7 +32,7 @@
 				if ($nomgrup == "ADMINISTRADOR DEL SISTEMA")
 				{
 					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");															
-					$hoy = date('YYYYmmdd');
+					$hoy = date('Ymd');
 					$token =$user_ok['usecod']."#".$user_ok['nomusu']."#".$hoy;
 					print("<br>===================<br>");
 					print($token);					
