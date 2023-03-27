@@ -33,7 +33,9 @@
 				{
 					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");										
 					$hoy = date('YYYYmmdd');
-					$url= "index.php?id=".base64_encode($user_ok['usecod']."#".$user_ok['nomusu']."#".$hoy);
+					$token =$user_ok['usecod']."#".$user_ok['nomusu']."#".$hoy;
+					print($token);					
+					$url= "index.php?id=".base64_encode($token);
 					echo("Location: ".$url);
 					//header("Location: ".$url);
 				}
