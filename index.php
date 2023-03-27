@@ -6,7 +6,9 @@
 //if(session_status() === PHP_SESSION_NONE) print("<br>sesion no activada");
 if(session_status() !== PHP_SESSION_ACTIVE) session_start();
 if(isset($_REQUEST['id'])) {
-    $_SESSION['codigo_user']=explode("#",base64_decode($_REQUEST['id']))[0];
+    if (date('Ymd')==explode("#",base64_decode($_REQUEST['id']))[2]) {
+        $_SESSION['codigo_user']=explode("#",base64_decode($_REQUEST['id']))[0];
+    }    
 }
 else {
     $_SESSION['codigo_user']= isset($_SESSION['codigo_user']) ? $_SESSION['codigo_user'] : "";

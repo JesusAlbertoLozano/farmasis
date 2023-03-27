@@ -38,8 +38,8 @@
 					print($token);					
 					print("<br>===================<br>");
 					$url= "index.php?id=".base64_encode($token);
-					echo("Location: ".$url);
-					//header("Location: ".$url);
+					//echo("Location: ".$url);
+					header("Location: ".$url);
 				}
 				else
 				{
