@@ -455,6 +455,17 @@ if (mysqli_num_rows($result)) {
 
             //mysqli_query($conexion, "UPDATE movlote set stock = '$cant_unid' where invnum = '$cod' and codpro = '$codpro'");
             mysqli_query($conexion, "UPDATE producto set stopro = '$stopro', prelis = '$referencial',costre = '$pripro',utlcos = '$pripro',$tabla = '$cant_local',pcostouni = '$pcostouni',fecord = '0000-00-00',ultpcostouni = '$ultpcostouni',modifpcosto = '0' where codpro = '$codpro'");
+            
+            if ($codprobon == $codpro)  {
+                
+                $sactual = $cant_loc + $canbon1; 
+          } else  {
+              
+              $sactual = $cant_loc;
+              
+          }
+          
+            
             /////////////////////////////////////////////////////////////
             mysqli_query($conexion, "INSERT INTO movmov (invnum,invfec,codpro,qtypro,qtyprf,pripro,prisal,costre,desc1,desc2,desc3,costpr,codprobon,canbon,tipbon,priprobon, codloc, tipmov) values ('$cod','$date','$codpro','$qtypro','$qtyprf','$pripro','$prisal','$costre','$desc1','$desc2','$desc3','$costpr','$codprobon','$canbon1','$tipbon1','$pripro1','$codloc', '$tipmov')");
             mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codpro','$invfec','$tipmov','$tipdoc','$qtypro','$qtyprf','$factor','$cod','$usuario','$sactual','$codloc','$pcostouni')");
