@@ -341,17 +341,17 @@ $incentivado = 0;
                             <tr>
                                 <td bgcolor="#50ADEA">
                                     <a style="text-decoration:none" align="center">
-                                        <div style="color:#fff;font-size:1rem"><?php echo $i ?>-</div>
+                                        <div style="color:#fff;font-size:1rem"><?php echo $i; ?>-</div>
                                     </a>
                                 </td>
                                 <td align="center">
-                                    <a style="text-decoration:none" class="<?php echo $text ?>">
-                                        <div class="<?php echo $text ?>"><?php echo $codpro ?></div>
+                                    <a style="text-decoration:none" class="<?php echo $text; ?>">
+                                        <div class="<?php echo $text; ?>"><?php echo $codpro; ?></div>
                                     </a>
                                 </td>
                                 <td>
-                                    <div class="<?php echo $text ?>" title="Su factor es <?php echo $factor; ?>">
-                                        <a id="l1" style="text-decoration:none" href="venta_index3.php?cod=<?php echo $codpro ?>&valform=1">
+                                    <div class="<?php echo $text; ?>" title="Su factor es <?php echo $factor; ?>">
+                                        <a id="l1" style="text-decoration:none" href="venta_index3.php?cod=<?php echo $codpro; ?>&valform=1">
                                             <?php
                                             if ($cambio_precio == 1) {
                                             ?>
@@ -371,7 +371,7 @@ $incentivado = 0;
                                     </div>
                                 </td>
                                 <td>
-                                    <div align="center" class="<?php echo $text ?>"><?php
+                                    <div align="center" class="<?php echo $text; ?>"><?php
                                                                                     if ($marca1 == "") {
                                                                                         echo substr($marca, 0, 5);
                                                                                         echo " ";
@@ -384,12 +384,12 @@ $incentivado = 0;
 
 
                                 <td bgcolor="#e6f3fc">
-                                    <div class="<?php echo $text ?>">
-                                        <div align="right"><?php echo $prevta ?></div>
+                                    <div class="<?php echo $text; ?>">
+                                        <div align="right"><?php echo $prevta; ?></div>
                                     </div>
                                 </td>
                                 <td bgcolor="#e6f3fc">
-                                    <div align="right" class="<?php echo $text ?>"><?php echo $pblister . "<b>&nbsp;>&nbsp;</b>" . $preblister; ?> </div>
+                                    <div align="right" class="<?php echo $text; ?>"><?php echo $pblister . "<b>&nbsp;>&nbsp;</b>" . $preblister; ?> </div>
                                 </td>
                                 <!--INGRESA EL PRECIO-->
                                 <td width="70" title="222">
@@ -412,7 +412,7 @@ $incentivado = 0;
                                                                                                                                                             ?> onKeyUp="precio2();" onkeypress="return letrac(event)" />
                                         <?php } else {
                                         ?>
-                                            <div class="<?php echo $text ?>">
+                                            <div class="<?php echo $text; ?>">
                                                 <font size="4"> <?php echo $prisal; ?> </font>
                                             </div>
                                         <?php }
@@ -424,8 +424,8 @@ $incentivado = 0;
                                 <td>
                                     <div align="center">
                                         <?php if (($valform == 1) && ($cod == $codpro)) { ?>
-                                            <input name="pblister" type="hidden" id="pblister" value="<?php echo $pblister ?>" />
-                                            <input name="preblister" type="hidden" id="preblister" value="<?php echo $preblister ?>" />
+                                            <input name="pblister" type="hidden" id="pblister" value="<?php echo $pblister; ?>" />
+                                            <input name="preblister" type="hidden" id="preblister" value="<?php echo $preblister; ?>" />
                                             <input type="hidden" name="cantemp" id="cantemp" value="<?php echo $cantemp; ?>" />
                                             <input type="hidden" name="stockpro" value="<?php echo $cant_loc; ?>" />
                                             <input type="hidden" name="factor" value="<?php echo $factor; ?>" />
@@ -441,7 +441,7 @@ $incentivado = 0;
                                                                                                                         ?>" size="20" onKeyUp="precio1();" onkeypress="return letrac(event)" />
                                         <?php } else {
                                         ?>
-                                            <div class="<?php echo $text ?>">
+                                            <div class="<?php echo $text; ?>">
                                                 <?php
                                                 if ($fraccion == 'T') {
                                                     echo $canpro;
@@ -459,10 +459,10 @@ $incentivado = 0;
                                 <td>
                                     <div align="right">
                                         <?php if (($valform == 1) && ($cod == $codpro)) { ?>
-                                            <input name="t33" type="hidden" id="t33" value="<?php echo $pripro ?>" />
-                                            <input name="t3" type="text" id="t3" size="4" class="pvta" value="<?php echo $pripro ?>" onclick="blur()" disabled="disabled" />
+                                            <input name="t33" type="hidden" id="t33" value="<?php echo $pripro; ?>" />
+                                            <input name="t3" type="text" id="t3" size="4" class="pvta" value="<?php echo $pripro; ?>" onclick="blur()" disabled="disabled" />
                                         <?php } else { ?>
-                                            <div class="<?php echo $text ?>">
+                                            <div class="<?php echo $text; ?>">
                                                 <font size="4"> <?php echo $pripro; ?> </font>
                                             </div>
                                         <?php } ?>
@@ -475,15 +475,14 @@ $incentivado = 0;
                                         ?>
                                             <?php if (($valform == 1) && ($cod == $codpro)) { ?>
                                                 <input name="number" type="hidden" id="number" />
-                                                <input name="codtemp" type="hidden" id="codtemp" value="<?php echo $codtemp ?>" />
+                                                <input name="codtemp" type="hidden" id="codtemp" value="<?php echo $codtemp; ?>" />
                                                 <input type="button" id="boton" onClick="validar_prod()" alt="GUARDAR" />
                                                 <input type="button" id="boton1" onClick="validar_grid()" alt="ACEPTAR" />
                                                 <?php
                                             } else {
                                                 if ($bonif2 == 0) {
-                                                ?>
-                                                   <!--<a href="venta_index3.php?cod=<?php echo $codpro ?>&valform=1"><img src="../../../images/edit_16.png" width="16" height="16" border="0" /></a>-->
-                                                    <a href="venta_index3_del.php?cod=<?php echo $codtemp ?>" target="venta_principal"><img src="../../../images/del_16.png" width="16" height="16" border="0" /></a>
+                                                ?>                                                   
+                                                    <a href="venta_index3_del.php?cod=<?php echo $codtemp; ?>" target="venta_principal"><img src="../../../images/del_16.png" width="16" height="16" border="0" /></a>
                                         <?php
                                                 }
                                             }
