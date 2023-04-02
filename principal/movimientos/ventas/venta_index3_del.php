@@ -122,7 +122,7 @@ foreach ($arr_detalle_venta as $detalle) {
 }
 
 $_SESSION['arr_detalle_venta'] = $arrAux;
-mysqli_query($conexion, "DELETE from temp_venta_bonif where invnum = '$venta' and codprobonif = '$codpro'");
+//mysqli_query($conexion, "DELETE from temp_venta_bonif where invnum = '$venta' and codprobonif = '$codpro'");
 
 mysqli_close($conexion);
 header("Location: venta_index1.php");
