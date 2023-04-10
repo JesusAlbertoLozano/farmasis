@@ -104,16 +104,16 @@ if(isset($_REQUEST['getCountriesByLetters']) && isset($_REQUEST['letters'])){
 		$caracter = ".";
 		if (strpos($letters, $caracter) !== false) 
 		{
-		$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna,factor from producto where activo1 = '1' and codpro = '".$letters."' or codbar like '".$letters."%' limit $limit") or die(mysqli_error());
+		$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna,factor from producto where eliminado='0' and codpro = '".$letters."' or codbar like '".$letters."%' limit $limit") or die(mysqli_error());
 		}
 		else
 		{
-		$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna,factor from producto where activo1 = '1' and desprod like '".$letters."%' limit $limit") or die(mysqli_error());
+		$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna,factor from producto where eliminado='0' and desprod like '".$letters."%' limit $limit") or die(mysqli_error());
 		}
 	}
 	else
 	{
-	$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna,factor from producto where activo1 = '1' and codpro = '".$letters."' or codbar like '".$letters."%' limit $limit") or die(mysqli_error());
+	$res = mysqli_query($conexion,"select codpro,desprod,codmar,stopro, $columna,factor from producto where eliminado='0' and codpro = '".$letters."' or codbar like '".$letters."%' limit $limit") or die(mysqli_error());
 	}
 	#echo "1###select ID,countryName from ajax_countries where countryName like '".$letters."%'|";
 	while($inf = mysqli_fetch_array($res)){

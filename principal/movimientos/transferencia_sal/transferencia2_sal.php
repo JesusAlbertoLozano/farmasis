@@ -507,7 +507,7 @@ $cprod   = isset($_REQUEST['cprod']) ? ($_REQUEST['cprod']) : "";
   {
   $i= 0;
   $producto =	isset($_REQUEST['country_ID']) ? ($_REQUEST['country_ID']) : "";
-    $sql="SELECT codpro,desprod,codmar,$tabla FROM producto where activo1 = '1' and codpro = '$producto' order by desprod";
+    $sql="SELECT codpro,desprod,codmar,$tabla FROM producto where codpro = '$producto' order by desprod";
 	//$sql="SELECT codpro,desprod,codmar,$tabla FROM producto where codmar = '$producto' order by desprod";
 	$result = mysqli_query($conexion,$sql);
 	if (mysqli_num_rows($result)){
