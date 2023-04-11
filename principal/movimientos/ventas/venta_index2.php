@@ -810,7 +810,7 @@ $typpe = "";
         <?php
 
         $contador_filtro_de_lineas = 0;
-        $cod = "";
+        $cod = 0;
         if (!empty($arr_detalle_venta)) {
             foreach ($arr_detalle_venta as $row => $item) {
                 $contador = ++$row;
