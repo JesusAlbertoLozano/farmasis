@@ -458,6 +458,7 @@ if (($val == 1) || ($vals == 2) || ($valTipoDoc == 1))
 		$e_tot = 0;
 		$t_tot = 0;
 		$c_tot = 0;
+		$e_tot1 = 0;
 		$deshabil 	  = 0;
 		$deshabil_tot = 0;
 		$habil_tot    = 0;
@@ -590,6 +591,7 @@ if (($val == 1) || ($vals == 2) || ($valTipoDoc == 1))
 						$sucur = $nombre;
 					}
 				}
+			
 				if ($val_habil == 0){
 					if ($forpag == "E"){
 						$e = $e + 1;
@@ -830,6 +832,7 @@ if (($val == 1) || ($vals == 2) || ($valTipoDoc == 1)){?>
 		$e_tot = 0;
 		$t_tot = 0;
 		$c_tot = 0;
+		$e_tot1 = 0;
 		$deshabil_tot = 0;
 		$habil_tot = 0;
 		$count = 0;

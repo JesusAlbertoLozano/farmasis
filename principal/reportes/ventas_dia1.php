@@ -1,4 +1,6 @@
 <?php
+//  error_reporting(E_ALL);
+//  ini_set('display_errors', '1');
 include('../session_user.php');
 require_once ('../../conexion.php'); //CONEXION A BASE DE DATOS
 require_once('../../titulo_sist.php');
