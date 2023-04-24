@@ -2,6 +2,7 @@
 include('session_user.php');
 require_once('../conexion.php');
 require_once('../titulo_sist.php');
+require_once('../convertfecha.php');
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -29,6 +30,47 @@ else
 </head>
 <body>
 <?php $n = '0';
+
+$caomparacion_incentivado = date('Y-m-d');
+$sqlince = "SELECT invnum,datefin FROM incentivado where estado = '1'";
+$resultincen = mysqli_query($conexion, $sqlince);
+if (mysqli_num_rows($resultincen)) {
+    while ($rowincen = mysqli_fetch_array($resultincen)) {
+        $invnumincen = $rowincen['invnum'];
+        $datefin = $rowincen['datefin'];
+        if ($datefin < $caomparacion_incentivado) {
+            mysqli_query($conexion, "UPDATE incentivado set estado  = '0' where invnum = '$invnumincen'");
+            $sqlince2 = "SELECT invnum,datefin FROM incentivado where estado = '1'";
+            $resultincen2 = mysqli_query($conexion, $sqlince2);
+            if (mysqli_num_rows($resultincen2)) {
+                while ($rowincen2 = mysqli_fetch_array($resultincen2)) {
+                    $invnumincen2 = $rowincen2['invnum'];
+                    $datefin2 = $rowincen2['datefin'];
+                    if ($datefin2 < $caomparacion_incentivado) {
+                        mysqli_query($conexion, "UPDATE incentivado set estado  = '0' where invnum = '$invnumincen2'");
+                        $sql = "SELECT codpro FROM incentivadodet where invnum = '$invnumincen2'";
+                        $result = mysqli_query($conexion, $sql);
+                        if (mysqli_num_rows($result)) {
+                            while ($row = mysqli_fetch_array($result)) {
+                                $codpro = $row['codpro'];
+                                $sqldet = "SELECT COUNT(*) FROM incentivadodet where codpro = '$codpro'";
+                                $resultdet = mysqli_query($conexion, $sqldet);
+                                if (mysqli_num_rows($resultdet)) {
+                                    while ($rowdet = mysqli_fetch_array($resultdet)) {
+                                        $sum = $rowdet[0];
+                                    }
+                                }
+                                if ($sum == 1) {
+                                    mysqli_query($conexion, "UPDATE producto set incentivado  = '0' where codpro = '$codpro'");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 ?>
 <div class="tabla1">
 <?php 

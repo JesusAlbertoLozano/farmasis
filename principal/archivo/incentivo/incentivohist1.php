@@ -8,7 +8,7 @@ $inicio  = $_REQUEST['inicio'];
 $pagina  = $_REQUEST['pagina'];
 $tot_pag = $_REQUEST['tot_pag'];
 $registros  = $_REQUEST['registros'];
-//$hour   = date('G');
+//$hour   = date(G);
 $date	= date('Y-m-d');
 //$date	= CalculaFechaHora($hour);
 mysqli_query($conexion,"UPDATE incentivado set estado = '0',datefin = '$date' where estado = '1'");
