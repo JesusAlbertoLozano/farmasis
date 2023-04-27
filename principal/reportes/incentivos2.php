@@ -117,10 +117,10 @@ if ($val == 1) {
             $nro = $ccc[$rr];
             if ($nro <> '') {
                 if ($local == "all") {
-                    $sqls = "SELECT DV.invnum,DV.codpro FROM venta AS V INNER JOIN detalle_venta as DV ON DV.invnum=V.invnum INNER JOIN incentivadodet AS I ON I.codpro=DV.codpro WHERE DV.invfec between '$dateini' and '$datefin'  and V.val_habil = '0' AND I.invnum='$nro'  group by DV.codpro order by DV.codpro ";
+                    $sqls = "SELECT DV.invnum,DV.codpro FROM venta AS V INNER JOIN detalle_venta as DV ON DV.invnum=V.invnum INNER JOIN incentivadodet AS I ON I.codpro=DV.codpro WHERE DV.invfec between '$dateini' and '$datefin'  and V.val_habil = '0' AND I.invnum='$nro'   order by DV.codpro ";
                 } else {
 
-                    $sqls = "SELECT DV.invnum,DV.codpro FROM venta AS V INNER JOIN detalle_venta as DV ON DV.invnum=V.invnum INNER JOIN incentivadodet AS I ON I.codpro=DV.codpro WHERE DV.invfec between '$dateini' and '$datefin'  and V.val_habil = '0' AND I.invnum='$nro' and V.sucursal = '$local' group by DV.codpro order by DV.codpro ";
+                    $sqls = "SELECT DV.invnum,DV.codpro FROM venta AS V INNER JOIN detalle_venta as DV ON DV.invnum=V.invnum INNER JOIN incentivadodet AS I ON I.codpro=DV.codpro WHERE DV.invfec between '$dateini' and '$datefin'  and V.val_habil = '0' AND I.invnum='$nro' and V.sucursal = '$local'  order by DV.codpro ";
                 }
                 $results = mysqli_query($conexion,$sqls);
                 $zz = 0;
@@ -339,9 +339,9 @@ if ($val == 1) {
             $nro = $ccc[$rr];
             if ($nro <> '') {
                 if ($local == "all") {
-                    $sqls = "SELECT D.codpro FROM detalle_venta AS D INNER JOIN venta AS V ON V.invnum=D.invnum inner join incentivadodet as I on I.codpro=D.codpro WHERE D.invfec between '$dateini' and '$datefin' and I.invnum='$nro'  group by D.codpro order by D.codpro ";
+                    $sqls = "SELECT D.codpro FROM detalle_venta AS D INNER JOIN venta AS V ON V.invnum=D.invnum inner join incentivadodet as I on I.codpro=D.codpro WHERE D.invfec between '$dateini' and '$datefin' and I.invnum='$nro'  order by D.codpro ";
                 } else {
-                    $sqls = "SELECT D.codpro FROM detalle_venta AS D INNER JOIN venta AS V ON V.invnum=D.invnum inner join incentivadodet as I on I.codpro=D.codpro WHERE D.invfec between '$dateini' and '$datefin' and I.invnum='$nro' and V.sucursal = '$local' group by D.codpro order by D.codpro ";
+                    $sqls = "SELECT D.codpro FROM detalle_venta AS D INNER JOIN venta AS V ON V.invnum=D.invnum inner join incentivadodet as I on I.codpro=D.codpro WHERE D.invfec between '$dateini' and '$datefin' and I.invnum='$nro' and V.sucursal = '$local' order by D.codpro ";
                 }
                 $results = mysqli_query($conexion,$sqls);
                 $zz = 0;

@@ -681,7 +681,15 @@ if ($tip == 2) {
             if ($ord == "") {
 
                 if ($val == 1) {
-                    $sql = "SELECT codpro,desprod,incentivado,$tabla as stopro,codmar,factor FROM producto where ((desprod like '$p1%' )or(codpro = '$p1' )or(codbar = '$p1' )) and eliminado='0' LIMIT $inicio, $registros";
+                    //$sql = "SELECT codpro,desprod,incentivado,$tabla as stopro,codmar,factor FROM producto where ((desprod like '$p1%' )or(codpro = '$p1' )or(codbar = '$p1' )) and eliminado='0' LIMIT $inicio, $registros";
+                        
+                     $sql = "SELECT p.codpro, p.desprod, p.incentivado, $tabla as stopro, p.codmar, p.factor, o.invnum 
+                            FROM producto p 
+                            LEFT JOIN incentivadodet o ON p.codpro = o.codpro 
+                            WHERE ((p.desprod LIKE '$p1%') OR (p.codpro = '$p1') OR (p.codbar = '$p1')) AND p.eliminado='0' and o.estado='1'
+                            LIMIT $inicio, $registros";
+
+                 
                 } else {
 
                     //prueba
@@ -694,7 +702,12 @@ if ($tip == 2) {
                     } 
                     else 
                     {
-                        $sql = "SELECT codpro,desprod,incentivado,$tabla as stopro,codmar,factor FROM producto  where eliminado='0' order by desprod,$tabla LIMIT $inicio, $registros";
+                        //$sql = "SELECT codpro,desprod,incentivado,$tabla as stopro,codmar,factor FROM producto  where eliminado='0' order by desprod,$tabla LIMIT $inicio, $registros";
+                          $sql = "SELECT p.codpro, p.desprod, p.incentivado, $tabla as stopro, p.codmar, p.factor, o.invnum 
+                            FROM producto p 
+                            LEFT JOIN incentivadodet o ON p.codpro = o.codpro 
+                            WHERE ((p.desprod LIKE '$p1%') OR (p.codpro = '$p1') OR (p.codbar = '$p1')) AND p.eliminado='0' 
+                            LIMIT $inicio, $registros"; 
                     }
                 }
             } else if ($ord == 1) {
@@ -738,19 +751,23 @@ if ($tip == 2) {
               
             }
 
-           //echo $sql;
+            echo $sql;
 
             $result = mysqli_query($conexion, $sql);
 
             if (mysqli_num_rows($result)) {
                 while ($row = mysqli_fetch_array($result)) {
-                    $invnum = $row['invnum'];
+                   // $invnum = $row['invnum'];
                     $codpro = $row['codpro'];
                     $desprod = $row['desprod'];
                     $incentivado = $row['incentivado'];
                     $stopro = $row['stopro'];
                     $factor = $row['factor'];
                     $codmar = $row['codmar'];
+                    
+                   
+                    
+                     
 
                     //                        $sql1 = "SELECT codpro FROM incentivadodet where codpro = '$codpro' and invnum = '$invnumss'";
                     $caomparacion = date('Y-m-d');
@@ -770,8 +787,6 @@ if ($tip == 2) {
                         $sihay1 = '0';
                     }
                     
-                    
-                  //  echo $sihay1;
 
 
 
@@ -792,6 +807,14 @@ if ($tip == 2) {
                             $destab = $row1['destab'];
                         }
                     }
+                    
+                        $sql_precio = "SELECT invnum  FROM incentivadodet where codpro = '$codpro' and estado='1'";
+                                        $result_precio = mysqli_query($conexion, $sql_precio);
+                                        if (mysqli_num_rows($result_precio)) {
+                                            while ($row_precio = mysqli_fetch_array($result_precio)) {
+                                                 $invnum = $row['invnum'];
+                                            }
+                                        }
                     $z++;
                     if ($stopro <= 0) {
                         $bgcolor = '#FFCBCB';
@@ -803,6 +826,8 @@ if ($tip == 2) {
                     } else {
                         $color = '#0066CC';
                     }
+                    
+                  
             ?>
                     <tr <?php if (($valform == 1) && ($cod == $codpro)) { ?> bgcolor="#FFFF33" <?php } else if ($stopro <= 0) { ?> bgcolor="<?php echo $bgcolor; ?>" <?php } ?>>
                         <td align="center">
