@@ -185,7 +185,7 @@ while ($row = mysqli_fetch_array($result)){
 		$sucursal = $row['sucursal'];
 }
 $find = 1;
-$_SESSION[consulta_comp]	= $invnum; 
+$_SESSION['consulta_comp']	= $invnum; 
 
 
 function formato($c) {
