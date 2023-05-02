@@ -64,7 +64,7 @@ $costre2 = $costre1 ;
                 
             
             
-            if ($letraxx == F) {
+            if ($letraxx == 'F') {
                 $solicitadofiltro1 = convertir_a_numero($solicitado);
                 $solicitado1 = convertir_a_numero($solicitado);
                 $precio=($costre2/$factor);
@@ -83,7 +83,7 @@ $costre2 = $costre1 ;
 //                error_log($sqlVer);
                 $resultVer = mysqli_query($conexion, $sqlVer);
                 if (!mysqli_num_rows($resultVer)) {
-                    if ($letraxx == F) {
+                    if ($letraxx == 'F') {
                         $sqlInsert = "INSERT INTO tempmovmov (invnum,codpro,qtyprf,pripro,costre,costpr) values ('$invnum','$idprod','$solicitado',$precio,$costre,'$costpr')";
                     } else {
                         $sqlInsert = "INSERT INTO tempmovmov (invnum,codpro,qtypro,pripro,costre,costpr) values ('$invnum','$idprod','$solicitado',$precio,$costre,'$costpr')";
