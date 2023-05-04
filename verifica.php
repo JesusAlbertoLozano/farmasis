@@ -32,8 +32,10 @@
 				if ($nomgrup == "ADMINISTRADOR DEL SISTEMA")
 				{
 					//mysqli_query($conexion,"UPDATE usuario set codloc = '$local' where usecod = '$usuario'");															
-					$hoy = date('Ymd');
-					$token =$user_ok['usecod']."#".$user_ok['nomusu']."#".$hoy;
+					$fecha_hora_actual = date('Y-m-d H:i:s');
+					$nueva_fecha_hora = date('Ymd', strtotime($fecha_hora_actual) - (5 * 3600));
+					#$hoy = date('Ymd');
+					$token =$user_ok['usecod']."#".$user_ok['nomusu']."#".$nueva_fecha_hora;
 					print("<br>===================<br>");
 					print($token);					
 					print("<br>===================<br>");
