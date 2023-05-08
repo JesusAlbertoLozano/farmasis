@@ -36,6 +36,7 @@ $venta = $_SESSION['venta'];
     if (mysqli_num_rows($result)) {
         while ($row = mysqli_fetch_array($result)) {
             $codloc = $row['codloc'];
+            $codgrupo = $row['codgrup'];
         }
     }
     $col_stock = "s" . sprintf('%03d', $codloc - 1);
@@ -783,6 +784,80 @@ $venta = $_SESSION['venta'];
             </td>
         </tr>
     </table>
+
+    <?php if ($codgrupo == "2") {     ?>
+     
+     <table width="100%" cellpadding="0" cellspacing="0" border="0" id="customers">
+    
+     <tr bgcolor="#50ADEA">
+        <td align="center" class="EstiloT" colspan='12'>
+            <strong> VENTAS DE LOS ULTIMOS 12 MESES</strong>
+        </td>
+    </tr>
+    
+    <tr>
+        <?php
+          
+       
+        for($i=0;$i<=11;$i++){
+            
+        $mes= date("m",mktime(0,0,0,date("m")-$i,date("d"),date("Y"))) ;
+        $ano= date("Y",mktime(0,0,0,date("m")-$i,date("d"),date("Y"))) ;
+        setlocale(LC_ALL, 'es_ES');
+        $monthNum  = $mes;
+        $dateObj   = DateTime::createFromFormat('!m', $monthNum);
+        $monthName = strftime('%B', $dateObj->getTimestamp());
+
+        echo '<th>' .strtoupper($monthName) .' - '.$ano. '</th>';
+        }  
+        
+         
+        ?>
+    </tr>
+    <tr>
+         <?php
+                                     
+                                    
+                             
+        for($i=0;$i<=11;$i++){
+        $mes= date("m-Y",mktime(0,0,0,date("m")-$i,date("d"),date("Y"))) ;
+        $dividido= explode('-', $mes, 2);
+        $mes=$dividido[0];
+        $ano=$dividido[1];
+           $sumcol=0;    
+          //$sql = "SELECT sum(invtot) FROM venta where month(invfec) = '$mes' and year(invfec) = '$ano' and invtot <> '0' and estado = '0' and val_habil = '0' and codpro='' group by month(invfec),year(invfec)  ";
+          $sql = "SELECT  DV.canpro,DV.factor,DV.fraccion FROM venta as V INNER JOIN detalle_venta as DV on DV.invnum=V.invnum where month(V.invfec) = '$mes' and year(V.invfec) = '$ano' and V.invtot <> '0' and V.estado = '0' and V.val_habil = '0' and DV.codpro='$cod'  ";
+                $result = mysqli_query($conexion, $sql);
+                if (mysqli_num_rows($result)) {
+                    while ($row = mysqli_fetch_array($result)) {
+                        $canpro     = $row[0];
+                        $factor     = $row[1];
+                        $fraccion   = $row[2];
+                                
+                        if($fraccion == "F"){
+                            $cantidad= $canpro* $factor;
+                        }else{
+                            $cantidad= $canpro ;
+                        }
+                        $sumcol += $cantidad;
+                                            
+                    }
+                    echo '<td>' . stockcaja($sumcol, $factor). '</td>';
+                }else{
+                         echo '<td>' . stockcaja("0", $factor). '</td>';
+                }
+      
+        
+        }  
+        
+         
+        ?>
+    </tr>
+</table>
+
+<?php
+                                                                    }
+                                                                        ?>
     <table width="100%" border="0" class="tabla2">
         <tr>
             <td width="100%">
