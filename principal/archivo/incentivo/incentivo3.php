@@ -228,7 +228,7 @@ require_once('../../../titulo_sist.php');
 <?php
 //require_once("../../../funciones/functions.php");	//DESHABILITA TECLAS
 ////////////////////////////
-$registros = 10;
+$registros = 1000;
 $pagina = $_REQUEST["pagina"];
 $val = $_REQUEST['val'];
 $p1 = $_REQUEST['p1'];
@@ -659,7 +659,7 @@ if ($tip == 2) {
                         <a href="incentivo3.php?val=<?php echo $val ?>&p1=<?php echo $p1 ?>&ord=1&tip=2&inicio=<?php echo $inicio ?>&pagina=<?php echo $pagina ?>&tot_pag=<?php echo $tot_pag ?>&registros=<?php echo $registros ?>"><img src="../css/up_enabled.gif" width="7" height="9" border="0"/></a>      -->
                 </th>
 
-                <th width="25%">
+                <th width="10%">
                     <strong>LABORATORIO</strong>
                     <!--                        <a href="incentivo3.php?val=<?php echo $val ?>&p1=<?php echo $p1 ?>&ord=1&tip=1&inicio=<?php echo $inicio ?>&pagina=<?php echo $pagina ?>&tot_pag=<?php echo $tot_pag ?>&registros=<?php echo $registros ?>"><img src="../css/down_enabled.gif" width="7" height="9" border="0" /></a> 
                         <a href="incentivo3.php?val=<?php echo $val ?>&p1=<?php echo $p1 ?>&ord=1&tip=2&inicio=<?php echo $inicio ?>&pagina=<?php echo $pagina ?>&tot_pag=<?php echo $tot_pag ?>&registros=<?php echo $registros ?>"><img src="../css/up_enabled.gif" width="7" height="9" border="0"/></a>      -->
@@ -668,7 +668,8 @@ if ($tip == 2) {
 
                 <th width="8%">FACTOR</th>
                 <th width="15%">STOCK</th>
-                <th width="15%">Nº INCENT.</th>
+                <th width="15%">MONTO</th>
+                <th width="15%">LISTA INCENT.</th>
                 <th width="8%">&nbsp;</th>
 
                 <th width="3%">&nbsp;</th>
@@ -681,13 +682,13 @@ if ($tip == 2) {
             if ($ord == "") {
 
                 if ($val == 1) {
-                    //$sql = "SELECT codpro,desprod,incentivado,$tabla as stopro,codmar,factor FROM producto where ((desprod like '$p1%' )or(codpro = '$p1' )or(codbar = '$p1' )) and eliminado='0' LIMIT $inicio, $registros";
+                   $sql = "SELECT codpro,desprod,incentivado,$tabla as stopro,codmar,factor FROM producto where ((desprod like '$p1%' )or(codpro = '$p1' )or(codbar = '$p1' )) and eliminado='0' LIMIT $inicio, $registros";
                         
-                     $sql = "SELECT p.codpro, p.desprod, p.incentivado, $tabla as stopro, p.codmar, p.factor, o.invnum 
-                            FROM producto p 
-                            LEFT JOIN incentivadodet o ON p.codpro = o.codpro 
-                            WHERE ((p.desprod LIKE '$p1%') OR (p.codpro = '$p1') OR (p.codbar = '$p1')) AND p.eliminado='0' and o.estado='1'
-                            LIMIT $inicio, $registros";
+                    //   $sql = "SELECT p.codpro, p.desprod, p.incentivado, $tabla as stopro, p.codmar, p.factor, o.invnum 
+                     //         FROM producto p 
+                     //        LEFT JOIN incentivadodet o ON p.codpro = o.codpro 
+                      //       WHERE ((p.desprod LIKE '$p1%') OR (p.codpro = '$p1') OR (p.codbar = '$p1')) AND p.eliminado='0' and o.estado='1'
+                        //     LIMIT $inicio, $registros";
 
                  
                 } else {
@@ -695,19 +696,19 @@ if ($tip == 2) {
                     //prueba
                     if ($val == 2) 
                     {
-                        $sql = "SELECT  producto.codpro,desprod,incentivado,$tabla as stopro,codmar,producto.factor,incentivadodet.invnum  FROM producto 
+                        $sql = "SELECT  producto.codpro,desprod,incentivado,$tabla as stopro,codmar,producto.factor,incentivadodet.invnum,incentivadodet.pripro  FROM producto 
                         inner join incentivadodet on producto.codpro = incentivadodet.codpro 
                         inner join incentivado on incentivadodet.invnum = incentivado.invnum
                         WHERE incentivadodet.estado = 1 and incentivado.estado = 1 and incentivado.esta_desa = 0  order by desprod,$tabla LIMIT $inicio, $registros";
                     } 
                     else 
                     {
-                        //$sql = "SELECT codpro,desprod,incentivado,$tabla as stopro,codmar,factor FROM producto  where eliminado='0' order by desprod,$tabla LIMIT $inicio, $registros";
-                          $sql = "SELECT p.codpro, p.desprod, p.incentivado, $tabla as stopro, p.codmar, p.factor, o.invnum 
-                            FROM producto p 
-                            LEFT JOIN incentivadodet o ON p.codpro = o.codpro 
-                            WHERE ((p.desprod LIKE '$p1%') OR (p.codpro = '$p1') OR (p.codbar = '$p1')) AND p.eliminado='0' 
-                            LIMIT $inicio, $registros"; 
+                        $sql = "SELECT codpro,desprod,incentivado,$tabla as stopro,codmar,factor FROM producto  where eliminado='0' order by desprod,$tabla LIMIT $inicio, $registros";
+                          // $sql = "SELECT p.codpro, p.desprod, p.incentivado, $tabla as stopro, p.codmar, p.factor, o.invnum 
+                         //    FROM producto p 
+                           //  LEFT JOIN incentivadodet o ON p.codpro = o.codpro 
+ //                            WHERE ((p.desprod LIKE '$p1%') OR (p.codpro = '$p1') OR (p.codbar = '$p1')) AND p.eliminado='0' 
+    //                         LIMIT $inicio, $registros"; 
                     }
                 }
             } else if ($ord == 1) {
@@ -751,7 +752,7 @@ if ($tip == 2) {
               
             }
 
-            echo $sql;
+            //echo $sql;
 
             $result = mysqli_query($conexion, $sql);
 
@@ -805,14 +806,16 @@ if ($tip == 2) {
                     if (mysqli_num_rows($result1)) {
                         while ($row1 = mysqli_fetch_array($result1)) {
                             $destab = $row1['destab'];
+                             $abrev = $row1['abrev'];
                         }
                     }
                     
-                        $sql_precio = "SELECT invnum  FROM incentivadodet where codpro = '$codpro' and estado='1'";
+                        $sql_precio = "SELECT invnum,pripro  FROM incentivadodet where codpro = '$codpro' and estado='1'";
                                         $result_precio = mysqli_query($conexion, $sql_precio);
                                         if (mysqli_num_rows($result_precio)) {
                                             while ($row_precio = mysqli_fetch_array($result_precio)) {
                                                  $invnum = $row['invnum'];
+                                                  $pripro = $row['pripro'];
                                             }
                                         }
                     $z++;
@@ -845,17 +848,18 @@ if ($tip == 2) {
                                 <font color="<?php echo $color; ?>"><?php echo $desprod; ?></font>
                             <?php } ?>
                         </td>
-                        <td>
+                        <td align="center">
                             <?php if (($countregx >= 1) && ($sihay == 0)) { ?>
-                                <a color="<?php echo $color; ?>" href="incentivo3.php?cod=<?php echo $codpro; ?>&val=<?php echo $val ?>&valform=1&p1=<?php echo $p1 ?>&ord=<?php echo $ord ?>&tip=<?php echo $tip ?>&inicio=<?php echo $inicio ?>&pagina=<?php echo $pagina ?>&tot_pag=<?php echo $tot_pag ?>&registros=<?php echo $registros ?>"><?php echo $destab; ?></a>
+                                <a color="<?php echo $color; ?>" href="incentivo3.php?cod=<?php echo $codpro; ?>&val=<?php echo $val ?>&valform=1&p1=<?php echo $p1 ?>&ord=<?php echo $ord ?>&tip=<?php echo $tip ?>&inicio=<?php echo $inicio ?>&pagina=<?php echo $pagina ?>&tot_pag=<?php echo $tot_pag ?>&registros=<?php echo $registros ?>"><?php echo $abrev; ?></a>
                             <?php } else { ?>
-                                <font color="<?php echo $color; ?>"><?php echo $destab; ?></font>
+                                <font color="<?php echo $color; ?>"><?php echo $abrev; ?></font>
                             <?php } ?>
                         </td>
 
                         <td align="center"><?php echo $factor; ?></td>
-                        
+                         
                         <td align="center"><?php echo stockcaja($stopro, $factor); ?></td>
+                         <td align="center"><?php echo $pripro; ?></td>
                         <td align="center"><?php echo $invnum; ?></td>
                         <td align="center" <?php if ($incentivado == 1 && $sihay1 == 1) { ?>bgcolor="#00CC33" title="Incentivado" <?php } else { ?>bgcolor="#fb4818" title=" No Incentivado" <?php } ?>> <b style="color:#ffffff; "><?php echo $des_incent; ?></b></td>
 
