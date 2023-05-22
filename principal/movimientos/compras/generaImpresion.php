@@ -104,13 +104,13 @@ function imprimir()
             }
         }
     ?>
-        <table style="width: 100%">
+     <table style="width: 100%">
             <tr>
                 <th style="text-align:left">Tipo de Movimiento</th>
                 <td colspan="9">COMPRAS</td>
             </tr>
             <tr>
-                <th style="text-align:left">N°</th>
+                <th style="text-align:left">N&ordm;</th>
                 <td><?php echo $numdoc;?></td>  <!--numdoc-->
                 <th style="text-align:left">Fecha</th>
                 <td><?php echo $invfec;?></td>
@@ -126,7 +126,7 @@ function imprimir()
                 <td colspan="3"><?php echo $Proveedor;?></td>
                 <th style="text-align:left">Forma de Pago</th>
                 <td><?php echo $forpag;?></td>
-                <th style="text-align:left">Días</th>
+                <th style="text-align:left">D&iacute;as</th>
                 <td><?php echo $plazo;?></td>
                 <th style="text-align:left">Fecha de Pago</th>
                 <td><?php echo $fecven;?></td>
@@ -134,9 +134,9 @@ function imprimir()
             <tr>
                 <th style="text-align:left">Empresa</th>
                 <td><?php echo $destab_empresa;?></td>
-                <th style="text-align:left">Tipo y Número de Documento</th>
+                <th style="text-align:left">Tipo y N&uacute;mero de Documento</th>
                 <td><?php echo $numdocD1.'-'.$numdocD2;?></td>
-                <th style="text-align:left">Precio Incluído (o no incluído)</th>
+                <th style="text-align:left">Precio Inclu&iacute;do (o no inclu&iacute;do)</th>
                 <td colspan="5"><?php echo $incluidoIGV;?></td>
             </tr>
         </table>

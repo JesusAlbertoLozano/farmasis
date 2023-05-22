@@ -101,7 +101,7 @@ function validar_bonif()
     }
     else 
     {
-        if(mesm > mesv)
+        if(mesm > 12)
         {
             alert("Ingrese un mes mayor");
             return;
