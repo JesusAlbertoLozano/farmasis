@@ -1,0 +1,1337 @@
+compras33.php-------------------------
+Fecha: 2023-03-09 17:13:13
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '30' and invnum = '369'
+RESULTADOS DE LA TABLA TEMPORAL 5  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '1141'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '369' and codtemp = '30'
+SELECT * FROM tempmovmov_bonif where codtemp = '30' and invnum = '369' and codpro = '1141'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('369','30','1141','2138','1','U','7.54','1236','12/2028', '1')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-09 17:13:23
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '30' and invnum = '369'
+PRODUCTO BONIFICADO 1141 CANTIDAD 1 TIPO BONIFICACION U PRECIO 7.54 FACTOR 1
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('170','1141','2023-03-09','11','11','','f1','1','369','2','10','1','754')
+/compras1_reg.php-------------------------
+ArreglaFactorKardex.php-------------------------
+Fecha: 2023-03-09 17:43:38
+No hay registros en kardex de bonificados
+--------------------------------------------------
+ArreglaFactorKardex.php-------------------------
+Fecha: 2023-03-09 17:46:22
+Se ha actualizado el factor del producto 8424 en el registro 215 a 100
+Se ha actualizado el factor del producto 2709 en el registro 254 a 50
+Se ha actualizado el factor del producto 2710 en el registro 280 a 25
+Se ha actualizado el factor del producto 2064 en el registro 334 a 1
+Se ha actualizado el factor del producto 8306 en el registro 361 a 1
+Se ha actualizado el factor del producto 1141 en el registro 364 a 1
+Se ha actualizado el factor del producto 1141 en el registro 366 a 1
+Se ha actualizado el factor del producto 1141 en el registro 367 a 1
+Se ha actualizado el factor del producto 1141 en el registro 368 a 1
+Se han actualizado 9 registros en kardex
+Se han encontrado 54 registros en kardex
+--------------------------------------------------
+compras33.php-------------------------
+Fecha: 2023-03-10 11:25:35
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '3156' and codtemp = '31' and invnum = '370'
+RESULTADOS DE LA TABLA TEMPORAL 10  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '3156'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '370' and codtemp = '31'
+SELECT * FROM tempmovmov_bonif where codtemp = '31' and invnum = '370' and codpro = '3156'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('370','31','3156','3156','50','U','25.73','654987','10/2023', '100')
+/compras33.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-10 11:34:39
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2073' and codtemp = '32' and invnum = '370'
+RESULTADOS DE LA TABLA TEMPORAL 12  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2709'
+FACTOR DEL PRODUCTO A BONIFICAR 50
+DELETE FROM tempmovmov_bonif where invnum = '370' and codtemp = '32'
+SELECT * FROM tempmovmov_bonif where codtemp = '32' and invnum = '370' and codpro = '2709'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('370','32','2709','2073','10','U','25.87','432423','10/2030', '50')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-10 11:35:07
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '31' and invnum = '370'
+PRODUCTO BONIFICADO 3156 CANTIDAD 50 TIPO BONIFICACION U PRECIO 25.73 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('171','3156','2023-03-10','11','11','','f50','100','370','2','0','1','2573')
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '32' and invnum = '370'
+PRODUCTO BONIFICADO 2709 CANTIDAD 10 TIPO BONIFICACION U PRECIO 25.87 FACTOR 50
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('171','2709','2023-03-10','11','11','','f10','50','370','2','5338','1','2587')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-14 12:09:11
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '3156' and codtemp = '34' and invnum = '371'
+RESULTADOS DE LA TABLA TEMPORAL 50  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '3156'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '371' and codtemp = '34'
+SELECT * FROM tempmovmov_bonif where codtemp = '34' and invnum = '371' and codpro = '3156'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('371','34','3156','3156','10','C','26.57','123123','11/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-14 12:09:53
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '34' and invnum = '371'
+PRODUCTO BONIFICADO 3156 CANTIDAD 10 TIPO BONIFICACION C PRECIO 26.57 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('172','3156','2023-03-14','11','11','10','','100','371','2','0','1','2657')
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('3156' , '1')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-14 12:12:22
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '3156' and codtemp = '35' and invnum = '372'
+RESULTADOS DE LA TABLA TEMPORAL 10  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '3156'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '372' and codtemp = '35'
+SELECT * FROM tempmovmov_bonif where codtemp = '35' and invnum = '372' and codpro = '3156'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('372','35','3156','3156','50','C','25.35','123123','11/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-14 12:12:28
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '35' and invnum = '372'
+PRODUCTO BONIFICADO 3156 CANTIDAD 50 TIPO BONIFICACION C PRECIO 25.35 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('173','3156','2023-03-14','11','11','50','','100','372','2','0','1','2535')
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('3156' , '1')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-14 12:14:35
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '3156' and codtemp = '36' and invnum = '373'
+RESULTADOS DE LA TABLA TEMPORAL 10  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '3156'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '373' and codtemp = '36'
+SELECT * FROM tempmovmov_bonif where codtemp = '36' and invnum = '373' and codpro = '3156'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('373','36','3156','3156','50','U','25.49','21312','11/2025', '100')
+/compras33.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-14 12:15:21
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '3156' and codtemp = '36' and invnum = '373'
+RESULTADOS DE LA TABLA TEMPORAL 10  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '3156'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '373' and codtemp = '36'
+SELECT * FROM tempmovmov_bonif where codtemp = '36' and invnum = '373' and codpro = '3156'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('373','36','3156','3156','50','C','25.35','21312','11/2025', '100')
+/compras33.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-14 12:15:49
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '3156' and codtemp = '36' and invnum = '373'
+RESULTADOS DE LA TABLA TEMPORAL 10  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '3156'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '373' and codtemp = '36'
+SELECT * FROM tempmovmov_bonif where codtemp = '36' and invnum = '373' and codpro = '3156'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('373','36','3156','3156','50','U','25.49','21312','11/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-14 12:16:00
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '36' and invnum = '373'
+PRODUCTO BONIFICADO 3156 CANTIDAD 50 TIPO BONIFICACION U PRECIO 25.49 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('174','3156','2023-03-14','11','11','','f50','100','373','2','0','1','2549')
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('3156' , '1')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-14 12:18:12
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '37' and invnum = '374'
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('3156' , '1')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-14 12:18:32
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('3156' , '1')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-14 12:19:45
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '3156' and codtemp = '39' and invnum = '375'
+RESULTADOS DE LA TABLA TEMPORAL 10  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '3156'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '375' and codtemp = '39'
+SELECT * FROM tempmovmov_bonif where codtemp = '39' and invnum = '375' and codpro = '3156'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('375','39','3156','3156','50','U','25.49','12312312','11/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-14 12:19:53
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '39' and invnum = '375'
+PRODUCTO BONIFICADO 3156 CANTIDAD 50 TIPO BONIFICACION U PRECIO 25.49 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('176','3156','2023-03-14','11','11','','f50','100','375','2','2050','1','2549')
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('3156' , '1')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-14 12:24:22
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2120' and codtemp = '40' and invnum = '376'
+RESULTADOS DE LA TABLA TEMPORAL 10  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2120'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '376' and codtemp = '40'
+SELECT * FROM tempmovmov_bonif where codtemp = '40' and invnum = '376' and codpro = '2120'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('376','40','2120','2120','5','U','26.48','35164','10/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-14 12:24:27
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '40' and invnum = '376'
+PRODUCTO BONIFICADO 2120 CANTIDAD 5 TIPO BONIFICACION U PRECIO 26.48 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('177','2120','2023-03-14','11','11','','f5','100','376','2','2662','1','2648')
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('2120' , '1')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-14 12:29:30
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2709' and codtemp = '41' and invnum = '377'
+RESULTADOS DE LA TABLA TEMPORAL 10  45.11 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '535'
+FACTOR DEL PRODUCTO A BONIFICAR 150
+DELETE FROM tempmovmov_bonif where invnum = '377' and codtemp = '41'
+SELECT * FROM tempmovmov_bonif where codtemp = '41' and invnum = '377' and codpro = '535'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('377','41','535','2709','5','U','52.70','3164','10/2025', '150')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-14 12:29:58
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '41' and invnum = '377'
+PRODUCTO BONIFICADO 535 CANTIDAD 5 TIPO BONIFICACION U PRECIO 52.70 FACTOR 150
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('178','535','2023-03-14','11','11','','f5','150','377','2','0','1','2635')
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('2709' , '1')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 10:57:26
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '43' and invnum = '390'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '390' and codtemp = '43'
+SELECT * FROM tempmovmov_bonif where codtemp = '43' and invnum = '390' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('390','43','2138','2138','1','U','8.84','12312312','11/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 10:57:39
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '43' and invnum = '390'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('179','2138','2023-03-31','11','11','','f1','100','390','2','12113','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 11:00:06
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '44' and invnum = '391'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '391' and codtemp = '44'
+SELECT * FROM tempmovmov_bonif where codtemp = '44' and invnum = '391' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('391','44','2138','2138','2','C','8.79','12321','11/2029', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 11:00:11
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '44' and invnum = '391'
+PRODUCTO BONIFICADO 2138 CANTIDAD 2 TIPO BONIFICACION C PRECIO 8.79 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('180','2138','2023-03-31','11','11','2','','100','391','2','12314','1','879')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 11:05:47
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '45' and invnum = '392'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '392' and codtemp = '45'
+SELECT * FROM tempmovmov_bonif where codtemp = '45' and invnum = '392' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('392','45','2138','2138','2','C','8.79','123213','11/2029', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 11:05:50
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '45' and invnum = '392'
+PRODUCTO BONIFICADO 2138 CANTIDAD 2 TIPO BONIFICACION C PRECIO 8.79 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('181','2138','2023-03-31','11','11','2','','100','392','2','12714','1','879')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 11:23:45
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '46' and invnum = '393'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '393' and codtemp = '46'
+SELECT * FROM tempmovmov_bonif where codtemp = '46' and invnum = '393' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('393','46','2138','2138','2','C','8.79','2213123','11/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 11:23:48
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '46' and invnum = '393'
+PRODUCTO BONIFICADO 2138 CANTIDAD 2 TIPO BONIFICACION C PRECIO 8.79 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('182','2138','2023-03-31','11','11','2','','100','393','2','13114','1','879')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 11:25:25
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '47' and invnum = '394'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '394' and codtemp = '47'
+SELECT * FROM tempmovmov_bonif where codtemp = '47' and invnum = '394' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('394','47','2138','2138','1','U','8.84','122312','11/2028', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 11:25:34
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '47' and invnum = '394'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('183','2138','2023-03-31','11','11','','f1','100','394','2','13514','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 11:38:15
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '48' and invnum = '395'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '395' and codtemp = '48'
+SELECT * FROM tempmovmov_bonif where codtemp = '48' and invnum = '395' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('395','48','2138','2138','1','U','8.84','1232','12/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 11:38:21
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '48' and invnum = '395'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('184','2138','2023-03-31','11','11','','f1','100','395','2','13715','1','884')
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('184','2138','2023-03-31','1','1','2','','100','395','2','13915','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 11:57:29
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '49' and invnum = '396'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '396' and codtemp = '49'
+SELECT * FROM tempmovmov_bonif where codtemp = '49' and invnum = '396' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('396','49','2138','2138','1','U','8.84','21312321','11/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 11:57:31
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '49' and invnum = '396'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('185','2138','2023-03-31','11','11','','f1','100','396','2','13916','1','884')
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('185','2138','2023-03-31','1','1','2','','100','396','2','13916','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 12:05:58
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '50' and invnum = '397'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '397' and codtemp = '50'
+SELECT * FROM tempmovmov_bonif where codtemp = '50' and invnum = '397' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('397','50','2138','2138','1','U','8.84','12312321','12/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 12:06:09
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '50' and invnum = '397'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('186','2138','2023-03-31','11','11','','f1','100','397','2','14117','1','884')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO STOCK 14207 CANTIDAD 14117
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('186','2138','2023-03-31','1','1','2','','100','397','2','14117','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 12:29:58
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '51' and invnum = '398'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '398' and codtemp = '51'
+SELECT * FROM tempmovmov_bonif where codtemp = '51' and invnum = '398' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('398','51','2138','2138','1','U','8.84','12321312','11/2029', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 12:30:02
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '51' and invnum = '398'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('187','2138','2023-03-31','11','11','','f1','100','398','2','14318','1','884')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO STOCK 14408 CANTIDAD 14318
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('187','2138','2023-03-31','1','1','2','','100','398','2','14318','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 12:39:01
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '52' and invnum = '399'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '399' and codtemp = '52'
+SELECT * FROM tempmovmov_bonif where codtemp = '52' and invnum = '399' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('399','52','2138','2138','1','U','8.84','1232','11/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 12:39:07
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '52' and invnum = '399'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('188','2138','2023-03-31','11','11','','f1','100','399','2','0','1','884')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO STOCK 0 CANTIDAD 0
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('188','2138','2023-03-31','1','1','2','','100','399','2','0','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 12:47:30
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '54' and invnum = '400'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '400' and codtemp = '54'
+SELECT * FROM tempmovmov_bonif where codtemp = '54' and invnum = '400' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('400','54','2138','2138','1','U','8.84','12312321','11/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 12:47:36
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '54' and invnum = '400'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('189','2138','2023-03-31','11','11','','f1','100','400','2','201','1','884')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 402
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('189','2138','2023-03-31','1','1','2','','100','400','2','402','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 12:58:32
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '55' and invnum = '401'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '401' and codtemp = '55'
+SELECT * FROM tempmovmov_bonif where codtemp = '55' and invnum = '401' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('401','55','2138','2138','1','U','8.84','1','11/2028', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 12:58:36
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '55' and invnum = '401'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('190','2138','2023-03-31','11','11','','f1','100','401','2','402','1','884')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 402
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('190','2138','2023-03-31','1','1','2','','100','401','2','603','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 13:03:37
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '56' and invnum = '402'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '402' and codtemp = '56'
+SELECT * FROM tempmovmov_bonif where codtemp = '56' and invnum = '402' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('402','56','2138','2138','1','U','8.84','12312312','11/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 13:03:40
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '56' and invnum = '402'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('191','2138','2023-03-31','11','11','','f1','100','402','2','603','1','884')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 603
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('191','2138','2023-03-31','1','1','2','','100','402','2','604','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 13:04:35
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '57' and invnum = '403'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '403' and codtemp = '57'
+SELECT * FROM tempmovmov_bonif where codtemp = '57' and invnum = '403' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('403','57','2138','2138','2','C','8.79','21312','11/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 13:04:38
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '57' and invnum = '403'
+PRODUCTO BONIFICADO 2138 CANTIDAD 2 TIPO BONIFICACION C PRECIO 8.79 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('192','2138','2023-03-31','11','11','2','','100','403','2','804','1','879')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 804
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('192','2138','2023-03-31','1','1','2','','100','403','2','1004','1','879')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 13:06:02
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 1204
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('193','2138','2023-03-31','1','1','2','','100','404','2','1204','1','7.52')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 13:07:16
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 1404
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('194','2138','2023-03-31','1','1','0','f120','100','405','2','1404','1','0.075166666666667')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 13:08:34
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '60' and invnum = '406'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '8306'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '406' and codtemp = '60'
+SELECT * FROM tempmovmov_bonif where codtemp = '60' and invnum = '406' and codpro = '8306'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('406','60','8306','2138','1','U','8.87','12321','12/2026', '1')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 13:08:43
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '60' and invnum = '406'
+PRODUCTO BONIFICADO 8306 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.87 FACTOR 1
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('195','8306','2023-03-31','11','11','','f1','1','406','2','1','1','887')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 1524
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('195','2138','2023-03-31','1','1','2','','100','406','2','1525','1','887')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 13:12:44
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '61' and invnum = '407'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2064'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '407' and codtemp = '61'
+SELECT * FROM tempmovmov_bonif where codtemp = '61' and invnum = '407' and codpro = '2064'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('407','61','2064','2138','1','U','8.87','1231','11/2026', '1')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 13:12:57
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '61' and invnum = '407'
+PRODUCTO BONIFICADO 2064 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.87 FACTOR 1
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('196','2064','2023-03-31','11','11','','f1','1','407','2','7','1','887')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 1724
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('196','2138','2023-03-31','1','1','2','','100','407','2','1724','1','887')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 13:51:06
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2120' and codtemp = '62' and invnum = '408'
+RESULTADOS DE LA TABLA TEMPORAL 10  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2120'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '408' and codtemp = '62'
+SELECT * FROM tempmovmov_bonif where codtemp = '62' and invnum = '408' and codpro = '2120'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('408','62','2120','2120','5','U','26.51','13265','10/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 13:51:11
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '62' and invnum = '408'
+PRODUCTO BONIFICADO 2120 CANTIDAD 5 TIPO BONIFICACION U PRECIO 26.51 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('197','2120','2023-03-31','11','11','','f5','100','408','2','3747','1','2651')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2120'
+PRODUCTO CANTIDAD 3747
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('197','2120','2023-03-31','1','1','10','','100','408','2','3752','1','2651')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 13:53:22
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2071' and codtemp = '63' and invnum = '409'
+RESULTADOS DE LA TABLA TEMPORAL 10  8.25 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2071'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '409' and codtemp = '63'
+SELECT * FROM tempmovmov_bonif where codtemp = '63' and invnum = '409' and codpro = '2071'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('409','63','2071','2071','10','U','7.64','1234654','10/2025', '1')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 13:53:28
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '63' and invnum = '409'
+PRODUCTO BONIFICADO 2071 CANTIDAD 10 TIPO BONIFICACION U PRECIO 7.64 FACTOR 1
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('198','2071','2023-03-31','11','11','','f10','1','409','2','0','1','7.64')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2071'
+PRODUCTO CANTIDAD 0
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('198','2071','2023-03-31','1','1','10','','1','409','2','10','1','7.64')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 14:06:27
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2711' and codtemp = '64' and invnum = '410'
+RESULTADOS DE LA TABLA TEMPORAL 10  75.19 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '4327'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '410' and codtemp = '64'
+SELECT * FROM tempmovmov_bonif where codtemp = '64' and invnum = '410' and codpro = '4327'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('410','64','4327','2711','5','C','88.66','1023','10/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 14:06:32
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '64' and invnum = '410'
+PRODUCTO BONIFICADO 4327 CANTIDAD 5 TIPO BONIFICACION C PRECIO 88.66 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('199','4327','2023-03-31','11','11','5','','100','410','2','0','1','4433')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2711'
+PRODUCTO CANTIDAD 0
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('199','2711','2023-03-31','1','1','10','','50','410','2','0','1','4433')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 14:15:07
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '3156' and codtemp = '65' and invnum = '411'
+RESULTADOS DE LA TABLA TEMPORAL 5  22.56 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '3156'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '411' and codtemp = '65'
+SELECT * FROM tempmovmov_bonif where codtemp = '65' and invnum = '411' and codpro = '3156'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('411','65','3156','3156','2','C','26.51','12123','10/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 14:15:13
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '65' and invnum = '411'
+PRODUCTO BONIFICADO 3156 CANTIDAD 2 TIPO BONIFICACION C PRECIO 26.51 FACTOR 100
+INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('200','3156','2023-03-31','11','11','2','','100','411','2','3100','1','2651')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '3156'
+PRODUCTO CANTIDAD 3100
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('200','3156','2023-03-31','1','1','5','','100','411','2','3300','1','2651')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-03-31 14:21:11
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '3627' and codtemp = '66' and invnum = '412'
+RESULTADOS DE LA TABLA TEMPORAL 3  115.79 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2507'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '412' and codtemp = '66'
+SELECT * FROM tempmovmov_bonif where codtemp = '66' and invnum = '412' and codpro = '2507'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('412','66','2507','3627','5','C','130.22','123123','10/2025', '1')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-03-31 14:21:15
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '66' and invnum = '412'
+PRODUCTO BONIFICADO 2507 CANTIDAD 5 TIPO BONIFICACION C PRECIO 130.22 FACTOR 1
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('201','2507','2023-03-31','11','11','5','','1','412','2','178','1','13022')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '3627'
+PRODUCTO CANTIDAD 20
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('201','3627','2023-03-31','1','1','3','','100','412','2','20','1','13022')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-12 16:32:23
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2064' and codtemp = '67' and invnum = '413'
+RESULTADOS DE LA TABLA TEMPORAL 2  5.90 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2064'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '413' and codtemp = '67'
+SELECT * FROM tempmovmov_bonif where codtemp = '67' and invnum = '413' and codpro = '2064'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('413','67','2064','2064','1','U','6.96','12321','11/2025', '1')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-12 16:32:31
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '67' and invnum = '413'
+PRODUCTO BONIFICADO 2064 CANTIDAD 1 TIPO BONIFICACION U PRECIO 6.96 FACTOR 1
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('202','2064','2023-04-12','11','11','','f1','1','413','2','8','1','6.96')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2064'
+PRODUCTO CANTIDAD 8
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('202','2064','2023-04-12','1','1','2','','1','413','2','9','1','6.96')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-14 10:10:57
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '9712' and codtemp = '72' and invnum = '419'
+RESULTADOS DE LA TABLA TEMPORAL 10  50.00 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '9712'
+FACTOR DEL PRODUCTO A BONIFICAR 25
+DELETE FROM tempmovmov_bonif where invnum = '419' and codtemp = '72'
+SELECT * FROM tempmovmov_bonif where codtemp = '72' and invnum = '419' and codpro = '9712'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('419','72','9712','9712','1','U','59.00','321654','10/2025', '25')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-14 10:11:01
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '72' and invnum = '419'
+PRODUCTO BONIFICADO 9712 CANTIDAD 1 TIPO BONIFICACION U PRECIO 59.00 FACTOR 25
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('207','9712','2023-04-14','11','11','','f1','25','419','2','50','1','1475')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '9712'
+PRODUCTO CANTIDAD 50
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('207','9712','2023-04-14','1','1','10','','25','419','2','51','1','1475')
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('9712' , '1')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-14 10:55:02
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2712'
+PRODUCTO CANTIDAD 0
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('208','2712','2023-04-14','1','1','10','','24','422','2','0','1','23.46')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '9712'
+PRODUCTO CANTIDAD 271
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('208','9712','2023-04-14','1','1','5','','25','422','2','271','1','50')
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('9712' , '1')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-19 12:25:19
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '7307'
+PRODUCTO CANTIDAD 0
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('209','7307','2023-04-19','1','1','100','','1','424','2','0','1','0.9')
+PROCEDIMIENTO ALMACENADO
+CALL procedure_recalculakardex('7307' , '1')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-21 16:55:39
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '79' and invnum = '425'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '425' and codtemp = '79'
+SELECT * FROM tempmovmov_bonif where codtemp = '79' and invnum = '425' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('425','79','2138','2138','1','U','8.84','2123','11/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 16:56:35
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-21 16:57:13
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '80' and invnum = '426'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '426' and codtemp = '80'
+SELECT * FROM tempmovmov_bonif where codtemp = '80' and invnum = '426' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('426','80','2138','2138','1','U','8.84','12312','11/2029', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 16:57:19
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '80' and invnum = '426'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 16:57:19
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('210','2138','2023-04-21','11','11','','f1','100','426','2','1','1','884')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 1825
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 16:57:19
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('210','2138','2023-04-21','1','1','2','','100','426','2','0','1','884')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:07:35
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2064'
+PRODUCTO CANTIDAD 7
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:07:35
+SELECT sactual FROM kardex WHERE codpro = '2064' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('211','2064','2023-04-21','1','1','2','','1','427','2','0','1','5.9')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:13:25
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '14'
+PRODUCTO CANTIDAD 17
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:13:26
+SELECT sactual FROM kardex WHERE codpro = '14' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('212','14','2023-04-21','1','1','2','','1','428','2','','1','29.5')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:15:44
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '18'
+PRODUCTO CANTIDAD 68
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:15:44
+SELECT sactual FROM kardex WHERE codpro = '18' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+0
+INSERT INTO COMPRA
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:22:07
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:22:55
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2521'
+PRODUCTO CANTIDAD 398
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:22:55
+QUERY DE STOCK EN KARDEXSELECT sactual FROM kardex WHERE codpro = '2521' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2521 y del 1: 400
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('213','2521','2023-04-21','1','1','2','','50','430','2','400','1','15.04')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:41:20
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2521'
+PRODUCTO CANTIDAD 498
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:41:20
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2521' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2521 y del 1: 498
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('214','2521','2023-04-21','1','1','2','','50','431','2','498','1','15.04')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:42:33
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2521'
+PRODUCTO CANTIDAD 596
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:42:33
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2521' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2521 y del 1: 596
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('215','2521','2023-04-21','1','1','2','','50','432','2','596','1','15.04')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-21 17:43:43
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2521' and codtemp = '87' and invnum = '434'
+RESULTADOS DE LA TABLA TEMPORAL 0 f2 15.04 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2521'
+FACTOR DEL PRODUCTO A BONIFICAR 50
+DELETE FROM tempmovmov_bonif where invnum = '434' and codtemp = '87'
+SELECT * FROM tempmovmov_bonif where codtemp = '87' and invnum = '434' and codpro = '2521'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('434','87','2521','2521','1','U','10.23','12312','11/2029', '50')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:43:52
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '87' and invnum = '434'
+PRODUCTO BONIFICADO 2521 CANTIDAD 1 TIPO BONIFICACION U PRECIO 10.23 FACTOR 50
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:43:52
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2521' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2521 y del 1: 696
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('217','2521','2023-04-21','11','11','','f1','50','434','2','697','1','511.5')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2521'
+PRODUCTO CANTIDAD 696
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:43:52
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2521' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2521 y del 1: 698
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('217','2521','2023-04-21','1','1','0','f2','50','434','2','698','1','511.5')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-21 17:47:11
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2521' and codtemp = '88' and invnum = '435'
+RESULTADOS DE LA TABLA TEMPORAL 0 f2 15.04 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2521'
+FACTOR DEL PRODUCTO A BONIFICAR 50
+DELETE FROM tempmovmov_bonif where invnum = '435' and codtemp = '88'
+SELECT * FROM tempmovmov_bonif where codtemp = '88' and invnum = '435' and codpro = '2521'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('435','88','2521','2521','1','U','10.23','12312','12/2028', '50')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:47:19
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '88' and invnum = '435'
+PRODUCTO BONIFICADO 2521 CANTIDAD 1 TIPO BONIFICACION U PRECIO 10.23 FACTOR 50
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:47:19
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2521' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2521 y del 1: 699
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('218','2521','2023-04-21','11','11','','f1','50','435','2','699','1','511.5')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2521'
+PRODUCTO CANTIDAD 699
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:47:19
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2521' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2521 y del 1: 700
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('218','2521','2023-04-21','1','1','0','f2','50','435','2','700','1','511.5')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-21 17:50:29
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '89' and invnum = '436'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '436' and codtemp = '89'
+SELECT * FROM tempmovmov_bonif where codtemp = '89' and invnum = '436' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('436','89','2138','2138','1','U','8.84','12321','11/2026', '100')
+/compras33.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-21 17:50:29
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '89' and invnum = '436'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '436' and codtemp = '89'
+SELECT * FROM tempmovmov_bonif where codtemp = '89' and invnum = '436' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('436','89','2138','2138','1','U','8.84','12321','11/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:50:36
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '89' and invnum = '436'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:50:36
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2026
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('219','2138','2023-04-21','11','11','','f1','100','436','2','2026','1','884')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 2026
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:50:36
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2027
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('219','2138','2023-04-21','1','1','2','','100','436','2','2027','1','884')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-21 17:51:59
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 2027
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-21 17:51:59
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2027
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('220','2138','2023-04-21','1','1','2','','100','437','2','2027','1','7.52')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-24 11:32:14
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '4319' and codtemp = '92' and invnum = '438'
+RESULTADOS DE LA TABLA TEMPORAL 10  18.80 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '4319'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '438' and codtemp = '92'
+SELECT * FROM tempmovmov_bonif where codtemp = '92' and invnum = '438' and codpro = '4319'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('438','92','4319','4319','20','U','22.01','12323','10/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-24 11:33:50
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '92' and invnum = '438'
+PRODUCTO BONIFICADO 4319 CANTIDAD 20 TIPO BONIFICACION U PRECIO 22.01 FACTOR 100
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-24 11:33:50
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '4319' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 4319 y del 1: 0
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('221','4319','2023-04-24','11','11','','f20','100','438','2','0','1','2201')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '4319'
+PRODUCTO CANTIDAD 0
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-24 11:33:50
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '4319' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 4319 y del 1: 20
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('221','4319','2023-04-24','1','1','10','','100','438','2','20','1','2201')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '3156'
+PRODUCTO CANTIDAD 3800
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-24 11:33:50
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '3156' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 3156 y del 1: 3800
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('221','3156','2023-04-24','1','1','5','','100','438','2','3800','1','22.56')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '9346'
+PRODUCTO CANTIDAD 750
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-24 11:33:50
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '9346' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 9346 y del 1: 750
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('221','9346','2023-04-24','1','1','5','','100','438','2','750','1','10')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-04-24 11:52:59
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '9346' and codtemp = '94' and invnum = '439'
+RESULTADOS DE LA TABLA TEMPORAL 5  100.00 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '4319'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '439' and codtemp = '94'
+SELECT * FROM tempmovmov_bonif where codtemp = '94' and invnum = '439' and codpro = '4319'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('439','94','4319','9346','1','C','117.96','21112323','10/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-04-24 11:53:03
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '94' and invnum = '439'
+PRODUCTO BONIFICADO 4319 CANTIDAD 1 TIPO BONIFICACION C PRECIO 117.96 FACTOR 100
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-24 11:53:03
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '9346' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 9346 y del 1: 1048
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('222','4319','2023-04-24','11','11','1','','100','439','2','1048','1','11796')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '9346'
+PRODUCTO CANTIDAD 1048
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-04-24 11:53:03
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '9346' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 9346 y del 1: 1048
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('222','9346','2023-04-24','1','1','5','','100','439','2','1048','1','11796')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-02 17:50:09
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '95' and invnum = '440'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '9711'
+FACTOR DEL PRODUCTO A BONIFICAR 10
+DELETE FROM tempmovmov_bonif where invnum = '440' and codtemp = '95'
+SELECT * FROM tempmovmov_bonif where codtemp = '95' and invnum = '440' and codpro = '9711'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('440','95','9711','2138','1','C','8.87','12321','11/2028', '10')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-02 17:50:17
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '95' and invnum = '440'
+PRODUCTO BONIFICADO 9711 CANTIDAD 1 TIPO BONIFICACION C PRECIO 8.87 FACTOR 10
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-02 17:50:17
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '9711' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 9711 y del 1: 0
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('223','9711','2023-05-02','11','11','1','','10','440','2','0','1','887')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 2227
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-02 17:50:17
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2227
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('223','2138','2023-05-02','1','1','2','','100','440','2','2227','1','887')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-02 17:53:41
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '9711' and codtemp = '96' and invnum = '441'
+RESULTADOS DE LA TABLA TEMPORAL 2  1.00 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '441' and codtemp = '96'
+SELECT * FROM tempmovmov_bonif where codtemp = '96' and invnum = '441' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('441','96','2138','9711','1','U','1.14','3434','11/2027', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-02 17:53:49
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '96' and invnum = '441'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 1.14 FACTOR 100
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-02 17:53:49
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2427
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('224','2138','2023-05-02','11','11','','f1','100','441','2','2427','1','11.4')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '9711'
+PRODUCTO CANTIDAD 100
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-02 17:53:49
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '9711' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 9711 y del 1: 10
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('224','9711','2023-05-02','1','1','2','','10','441','2','10','1','11.4')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-02 17:55:48
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '97' and invnum = '442'
+RESULTADOS DE LA TABLA TEMPORAL 0 f2 7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '9711'
+FACTOR DEL PRODUCTO A BONIFICAR 10
+DELETE FROM tempmovmov_bonif where invnum = '442' and codtemp = '97'
+SELECT * FROM tempmovmov_bonif where codtemp = '97' and invnum = '442' and codpro = '9711'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('442','97','9711','2138','1','U','8.37','1232','11/2024', '10')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-02 17:55:57
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '97' and invnum = '442'
+PRODUCTO BONIFICADO 9711 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.37 FACTOR 10
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-02 17:55:57
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '9711' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 9711 y del 1: 30
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('225','9711','2023-05-02','11','11','','f1','10','442','2','30','1','837')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 2428
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-02 17:55:57
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2428
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('225','2138','2023-05-02','1','1','0','f2','100','442','2','2428','1','837')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-02 17:58:24
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '9711' and codtemp = '98' and invnum = '443'
+RESULTADOS DE LA TABLA TEMPORAL 0 f2 1.00 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '9711'
+FACTOR DEL PRODUCTO A BONIFICAR 10
+DELETE FROM tempmovmov_bonif where invnum = '443' and codtemp = '98'
+SELECT * FROM tempmovmov_bonif where codtemp = '98' and invnum = '443' and codpro = '9711'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('443','98','9711','9711','1','U','0.68','12321','11/2029', '10')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-02 17:58:31
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '98' and invnum = '443'
+PRODUCTO BONIFICADO 9711 CANTIDAD 1 TIPO BONIFICACION U PRECIO 0.68 FACTOR 10
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-02 17:58:31
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '9711' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 9711 y del 1: 31
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('226','9711','2023-05-02','11','11','','f1','10','443','2','31','1','6.8')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '9711'
+PRODUCTO CANTIDAD 121
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-02 17:58:31
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '9711' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 9711 y del 1: 32
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('226','9711','2023-05-02','1','1','0','f2','10','443','2','32','1','6.8')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-08 16:05:00
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '6714' and codtemp = '99' and invnum = '444'
+RESULTADOS DE LA TABLA TEMPORAL 5  13.53 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '6714'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '444' and codtemp = '99'
+SELECT * FROM tempmovmov_bonif where codtemp = '99' and invnum = '444' and codpro = '6714'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('444','99','6714','6714','3','C','9.98','123123','10/2025', '1')
+/compras33.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-08 16:06:48
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '8778' and codtemp = '101' and invnum = '444'
+RESULTADOS DE LA TABLA TEMPORAL 5  6.50 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '1897'
+FACTOR DEL PRODUCTO A BONIFICAR 30
+DELETE FROM tempmovmov_bonif where invnum = '444' and codtemp = '101'
+SELECT * FROM tempmovmov_bonif where codtemp = '101' and invnum = '444' and codpro = '1897'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('444','101','1897','8778','10','C','-9.23','321321','10/2025', '30')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-08 16:06:52
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '101' and invnum = '444'
+PRODUCTO BONIFICADO 1897 CANTIDAD 10 TIPO BONIFICACION C PRECIO -9.23 FACTOR 30
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-08 16:06:52
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '1897' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 1897 y del 1: 0
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('227','1897','2023-05-08','11','11','10','','30','444','2','0','1','-9.23')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '8778'
+PRODUCTO CANTIDAD 0
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-08 16:06:52
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '8778' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 8778 y del 1: 0
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('227','8778','2023-05-08','1','1','5','','1','444','2','0','1','-9.23')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '1141'
+PRODUCTO CANTIDAD 11
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-08 16:06:52
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '1141' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 1141 y del 1: 11
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('227','1141','2023-05-08','1','1','5','','1','444','2','11','1','6.69')
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '99' and invnum = '444'
+PRODUCTO BONIFICADO 6714 CANTIDAD 3 TIPO BONIFICACION C PRECIO 9.98 FACTOR 1
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-08 16:06:52
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '6714' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 6714 y del 1: 0
+INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('227','6714','2023-05-08','11','11','3','','1','444','2','0','1','9.98')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '6714'
+PRODUCTO CANTIDAD 0
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-08 16:06:52
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '6714' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 6714 y del 1: 3
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('227','6714','2023-05-08','1','1','5','','1','444','2','3','1','9.98')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-08 16:16:26
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '6715' and codtemp = '103' and invnum = '445'
+RESULTADOS DE LA TABLA TEMPORAL 10  90.23 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '6715'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '445' and codtemp = '103'
+SELECT * FROM tempmovmov_bonif where codtemp = '103' and invnum = '445' and codpro = '6715'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('445','103','6715','6715','5','C','105.94','12312312','10/2025', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-08 16:16:29
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '103' and invnum = '445'
+PRODUCTO BONIFICADO 6715 CANTIDAD 5 TIPO BONIFICACION C PRECIO 105.94 FACTOR 100
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-08 16:16:29
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '6715' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 6715 y del 1: 0
+INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('228','6715','2023-05-08','11','11','5','','100','445','2','0','1','10594')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '6715'
+PRODUCTO CANTIDAD 3502
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-08 16:16:29
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '6715' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 6715 y del 1: 500
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('228','6715','2023-05-08','1','1','10','','100','445','2','500','1','10594')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '6714'
+PRODUCTO CANTIDAD 6
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-08 16:16:30
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '6714' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 6714 y del 1: 6
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('228','6714','2023-05-08','1','1','15','','1','445','2','6','1','13.53')
+/compras1_reg.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-11 11:04:07
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '10562'
+PRODUCTO CANTIDAD 0
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-11 11:04:07
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '10562' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 10562 y del 1: 0
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('229','10562','2023-05-11','1','1','1000','','100','447','2','0','1','75')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-22 11:24:05
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '105' and invnum = '448'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2138'
+FACTOR DEL PRODUCTO A BONIFICAR 100
+DELETE FROM tempmovmov_bonif where invnum = '448' and codtemp = '105'
+SELECT * FROM tempmovmov_bonif where codtemp = '105' and invnum = '448' and codpro = '2138'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('448','105','2138','2138','1','U','8.84','2131232','03/2026', '100')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-22 11:40:31
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '105' and invnum = '448'
+PRODUCTO BONIFICADO 2138 CANTIDAD 1 TIPO BONIFICACION U PRECIO 8.84 FACTOR 100
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-22 11:40:31
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2430
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('230','2138','2023-05-22','11','11','','f1','100','448','2','2430','1','884')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 2430
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-22 11:40:31
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2431
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('230','2138','2023-05-22','1','1','2','','100','448','2','2431','1','884')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-22 11:41:39
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '106' and invnum = '449'
+RESULTADOS DE LA TABLA TEMPORAL 2  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2064'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '449' and codtemp = '106'
+SELECT * FROM tempmovmov_bonif where codtemp = '106' and invnum = '449' and codpro = '2064'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('449','106','2064','2138','1','U','5.92','2','02/2029', '1')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-22 11:41:48
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '106' and invnum = '449'
+PRODUCTO BONIFICADO 2064 CANTIDAD 1 TIPO BONIFICACION U PRECIO 5.92 FACTOR 1
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-22 11:41:48
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2064' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2064 y del 1: 2
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('231','2064','2023-05-22','11','11','','f1','1','449','2','2','1','592')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 2631
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-22 11:41:48
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2631
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('231','2138','2023-05-22','1','1','2','','100','449','2','2631','1','592')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-22 12:23:07
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '2138' and codtemp = '107' and invnum = '450'
+RESULTADOS DE LA TABLA TEMPORAL 1  7.52 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '2064'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '450' and codtemp = '107'
+SELECT * FROM tempmovmov_bonif where codtemp = '107' and invnum = '450' and codpro = '2064'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('450','107','2064','2138','2','C','-2.93','1232','05/2026', '1')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-22 12:23:12
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '107' and invnum = '450'
+PRODUCTO BONIFICADO 2064 CANTIDAD 2 TIPO BONIFICACION C PRECIO -2.93 FACTOR 1
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-22 12:23:12
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2064' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2064 y del 1: 3
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('232','2064','2023-05-22','11','11','2','','1','450','2','3','1','-293')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '2138'
+PRODUCTO CANTIDAD 2831
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-22 12:23:12
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '2138' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 2138 y del 1: 2831
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('232','2138','2023-05-22','1','1','1','','100','450','2','2831','1','-293')
+/compras1_reg.php-------------------------
+compras33.php-------------------------
+Fecha: 2023-05-22 12:55:08
+DATOS DE LA TABLA TEMPORAL SELECT * FROM tempmovmov where codpro = '594' and codtemp = '108' and invnum = '451'
+RESULTADOS DE LA TABLA TEMPORAL 20  23.07 0.00 0.00 0.00
+QUERY DEL FACTOR DEL PRODUCTO A BONIFICAR SELECT factor FROM producto where codpro = '3022'
+FACTOR DEL PRODUCTO A BONIFICAR 1
+DELETE FROM tempmovmov_bonif where invnum = '451' and codtemp = '108'
+SELECT * FROM tempmovmov_bonif where codtemp = '108' and invnum = '451' and codpro = '3022'
+INSERT INTO tempmovmov_bonif (invnum,codtemp,codpro,codprobon,canbon,tipbon,costo_real,numlote,vencim,factor) values ('451','108','3022','594','20','C','15.55','1232','11/2028', '1')
+/compras33.php-------------------------
+compras1_reg.php-------------------------
+Fecha: 2023-05-22 12:55:15
+SQL PRODUCTO BONIFICADO SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '108' and invnum = '451'
+PRODUCTO BONIFICADO 3022 CANTIDAD 20 TIPO BONIFICACION C PRECIO 15.55 FACTOR 1
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-22 12:55:15
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '3022' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 3022 y del 1: 0
+INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('233','3022','2023-05-22','11','11','20','','1','451','2','0','1','15.55')
+SQL STOCK PRODUCTO  SELECT stopro,s000 FROM producto where codpro = '594'
+PRODUCTO CANTIDAD 560
+OBTENER SACTUAL DEL KARDEX-------------------------
+Fecha: 2023-05-22 12:55:15
+QUERY DE STOCK EN KARDEXSELECT tipmov,tipdoc,qtypro,factor,fraccion,sactual FROM kardex WHERE codpro = '594' AND sucursal = '1' ORDER BY codkard DESC LIMIT 1
+SACTUAL DEL PRODUCTO 594 y del 1: 0
+INSERT INTO COMPRA
+INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('233','594','2023-05-22','1','1','20','','1','451','2','0','1','15.55')
+/compras1_reg.php-------------------------

@@ -2,11 +2,12 @@
 include('../../session_user.php');
 require_once('../../../conexion.php');
 require_once('../../../convertfecha.php');
-// include('./logger.php');
+include('./logger.php');
+include('./kardexStock.php');
 
-// $logger = new FileLogger('logger.txt');
-// $logger->log("compras1_reg.php-------------------------");
-// $logger->log("Fecha: " . date("Y-m-d H:i:s"));
+$logger = new FileLogger('logger.txt');
+$logger->log("compras1_reg.php-------------------------");
+$logger->log("Fecha: " . date("Y-m-d H:i:s"));
 
 $cod = $_REQUEST['cod'];   ///invnum
 $date1 = fecha1($_REQUEST['date1']); ///cantidad ingresada
@@ -156,7 +157,7 @@ if (mysqli_num_rows($result)) {
         if ($canbon <> 0) {
             ////COMPRUEBO QUE SE HAYA REGISTRADO EL PRODUCTO BONIFICABLE
             $sqlq = "SELECT codpro,canbon,tipbon,costo_real,numlote,vencim,codprobon,factor FROM tempmovmov_bonif where codtemp = '$codtemp' and invnum = '$cod'";
-            // $logger->log("SQL PRODUCTO BONIFICADO " . $sqlq);
+            $logger->log("SQL PRODUCTO BONIFICADO " . $sqlq);
             $resultq = mysqli_query($conexion, $sqlq);
             if (mysqli_num_rows($resultq)) {
                 while ($rowq = mysqli_fetch_array($resultq)) {
@@ -170,7 +171,7 @@ if (mysqli_num_rows($result)) {
                     $vencimBoni = $rowq['vencim'];
                     $codigoProducto = $rowq['codprobon'];
                     $factorBoni = $rowq['factor'];
-                    // $logger->log("PRODUCTO BONIFICADO " . $codprobon . " CANTIDAD " . $canbon1 . " TIPO BONIFICACION " . $tipbon1 . " PRECIO " . $pripro1 . " FACTOR " . $factorBoni);
+                    $logger->log("PRODUCTO BONIFICADO " . $codprobon . " CANTIDAD " . $canbon1 . " TIPO BONIFICACION " . $tipbon1 . " PRECIO " . $pripro1 . " FACTOR " . $factorBoni);
                 }
             } else {
                 $nohay = 1; ////quiere decir que no se ha registrado nada de bonificaciones, por tanto sale del sist a compras1
@@ -234,6 +235,14 @@ if (mysqli_num_rows($result)) {
                     $pcostouni = $pripro1 * $factor;  /////costo real del producto
                 }
             }
+
+
+            $nuevosactual = $sactual + $cant_unid;
+
+
+
+
+
             ////ESTO HE AGREGADO
             //////CALCULO DEL PRECIO REFERENCIAL
             //if (($igv == 1) || ($ckigv == 1))
@@ -331,10 +340,13 @@ if (mysqli_num_rows($result)) {
                 $stopro = $cant_unid + $stopro + $canbon1; /////NUEVO STOCK INCL BONIFICACION
                 $prevta1 = $pripro1 * (($margene / 100) + 1); /////NUEVO PRECIO DE VENTA INCL BONIFICACION DEL PROD GENERAL
                 $preciounit = $prevta1 / $factor;     /////NUEVO PRECIO UNITARIO INCL BONIFICACION DEL PROD GENERAL
+
+                //$sactual2 = $canbon1 + $sactual;
+                $sactual = getLastKardexStockByLocal($conexion, $codprobon, $codloc);
                 //////TIPMOV Y TIPDOC = 11 CUANDO ES BONIFICACION
                 mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
-                // $logger->log("INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS");
-                // $logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+                $logger->log("INSERTANDO EN KARDEX BONIFICACION MISMO PRODUCTO CAJAS");
+                $logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
                 mysqli_query($conexion, "INSERT INTO movmov (invnum,invfec,codpro,qtypro,qtyprf,pripro,prisal,costre,desc1,desc2,desc3,costpr,tipmov) values ('$cod','$date','$codprobon','$frac_canbon','','0','0','0','0','0','0','0', '$tipmov')");
             } else {
                 //----si es bonificacion pero con otro producto en cajas
@@ -346,9 +358,9 @@ if (mysqli_num_rows($result)) {
                             $factores = $rowc['factor'];
                             $stoproes = $rowc['stopro'];
                             $lotec = $rowc['lotec'];
-                            $cant_loces = $rowc[2];
-                            //$sactual     = $stoproes;
-                            $sactual = $cant_loces;
+                            $cant_loces = $rowc[3];
+                            $sactual     = $stoproes;
+                            //$sactual = $cant_loces;
                         }
                     }
                     $frac_canbon = $canbon1;     /////CANTIDAD BONIFICADA POR CAJA
@@ -361,9 +373,10 @@ if (mysqli_num_rows($result)) {
                     $preciounit = $prevta1 / $factor;   /////NUEVO PRECIO UNITARIO DE VENTA DEL PRODUCTO GENERAL
                     mysqli_query($conexion, "UPDATE producto set stopro = '$stoproes', $tabla = '$cant_loces' where codpro = '$codprobon'");
                     //////TIPMOV Y TIPDOC = 11 CUANDO ES BONIFICACION
+                    $sactual = getLastKardexStockByLocal($conexion, $codprobon, $codloc);
 
-                    //$logger->log("INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS");
-                    //$logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+                    $logger->log("INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO CAJAS");
+                    $logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
                     mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','$frac_canbon','','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
                     mysqli_query($conexion, "INSERT INTO movmov (invnum,invfec,codpro,qtypro,qtyprf,pripro,prisal,costre,desc1,desc2,desc3,costpr, tipmov) values ('$cod','$date','$codprobon','$frac_canbon','','0','0','0','0','0','0','0', '$tipmov')");
                 } else {
@@ -396,8 +409,9 @@ if (mysqli_num_rows($result)) {
                         }
                         mysqli_query($conexion, "INSERT INTO ventas_bonif_unid (codpro,codprobonif,cajas,unid) values ('$codpro','$codprobon','$qtypro','$canbon1')");
                         //////TIPMOV Y TIPDOC = 11 CUANDO ES BONIFICACION
-                       // $logger->log("INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES");
-                       // $logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','','$frac_canbon','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+                        $sactual = getLastKardexStockByLocal($conexion, $codprobon, $codloc);
+                        $logger->log("INSERTANDO EN KARDEX BONIFICACION OTRO PRODUCTO UNIDADES");
+                        $logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','','$frac_canbon','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
                         mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codprobon','$invfec','11','11','','$frac_canbon','$factorBoni','$cod','$usuario','$sactual','$codloc','$pcostouni')");
                         mysqli_query($conexion, "INSERT INTO movmov (invnum,invfec,codpro,qtypro,qtyprf,pripro,prisal,costre,desc1,desc2,desc3,costpr, tipmov) values ('$cod','$date','$codprobon','','$frac_canbon','0','0','0','0','0','0','0', '$tipmov')");
                     }
@@ -407,6 +421,9 @@ if (mysqli_num_rows($result)) {
                         $stopro = $cant_unid + $stopro;
                         $prevta1 = $pripro * (($margene / 100) + 1);
                         $preciounit = $prevta1 / $factor;
+
+                        error_log("LA CANTIDAD DE LOCAL ES  : " . $cant_local);
+                        error_log("EL STOCK TOTAL : " . $stopro);
                     }
                 }
             }
@@ -435,14 +452,27 @@ if (mysqli_num_rows($result)) {
               echo "Prisal: ";echo $prisal; echo '<br>';
               echo "PRIPRO1: ";echo $pripro1; echo '<br>';
              */
+
+
             $sql1 = "SELECT stopro,$tabla FROM producto where codpro = '$codpro'";
+            $logger->log("SQL STOCK PRODUCTO  " . $sql1);
             $result1 = mysqli_query($conexion, $sql1);
             if (mysqli_num_rows($result1)) {
                 while ($row1 = mysqli_fetch_array($result1)) {
-                    //$sactual       = $row1['stopro'];
+                    //$sactual1       = $row1['stopro'];
                     $sactual = $row1[1];
+
+
+                    $logger->log("PRODUCTO CANTIDAD " . $sactual);
                 }
             }
+
+
+
+
+
+
+
             $sql1 = "SELECT idlote,codpro,stock FROM movlote where codpro = '$codpro'";
             $result1 = mysqli_query($conexion, $sql1);
             if (mysqli_num_rows($result1)) {
@@ -455,19 +485,30 @@ if (mysqli_num_rows($result)) {
 
             //mysqli_query($conexion, "UPDATE movlote set stock = '$cant_unid' where invnum = '$cod' and codpro = '$codpro'");
             mysqli_query($conexion, "UPDATE producto set stopro = '$stopro', prelis = '$referencial',costre = '$pripro',utlcos = '$pripro',$tabla = '$cant_local',pcostouni = '$pcostouni',fecord = '0000-00-00',ultpcostouni = '$ultpcostouni',modifpcosto = '0' where codpro = '$codpro'");
-            
-            if ($codprobon == $codpro)  {
-                
-                $sactual = $cant_loc + $canbon1; 
-          } else  {
-              
-              $sactual = $cant_loc;
-              
-          }
-          
-            
+
+            // if ($codprobon == $codpro)  {
+
+            //    $sactual = $cant_loc + $canbon1; 
+            //  } else  {
+
+            //    $sactual = $cant_loc;
+
+            //  }
+
+
+
+
+
+
             /////////////////////////////////////////////////////////////
             mysqli_query($conexion, "INSERT INTO movmov (invnum,invfec,codpro,qtypro,qtyprf,pripro,prisal,costre,desc1,desc2,desc3,costpr,codprobon,canbon,tipbon,priprobon, codloc, tipmov) values ('$cod','$date','$codpro','$qtypro','$qtyprf','$pripro','$prisal','$costre','$desc1','$desc2','$desc3','$costpr','$codprobon','$canbon1','$tipbon1','$pripro1','$codloc', '$tipmov')");
+
+
+            $sactual = getLastKardexStockByLocal($conexion, $codpro, $codloc);
+
+            $logger->log("INSERT INTO COMPRA");
+            $logger->log("INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codpro','$invfec','$tipmov','$tipdoc','$qtypro','$qtyprf','$factor','$cod','$usuario','$sactual','$codloc','$pcostouni')");
+
             mysqli_query($conexion, "INSERT INTO kardex (nrodoc,codpro,fecha,tipmov,tipdoc,qtypro,fraccion,factor,invnum,usecod,sactual,sucursal,preciocompra) values ('$numdoc','$codpro','$invfec','$tipmov','$tipdoc','$qtypro','$qtyprf','$factor','$cod','$usuario','$sactual','$codloc','$pcostouni')");
             //----------------------------AQUI TERMINO $NOHAY = 1 ------------------------------/////
 
@@ -486,13 +527,13 @@ if (mysqli_num_rows($result)) {
         }
     }
 
-    //error_log("EL CODIGO USADO ES : " . $codpro);
+    // error_log("EL CODIGO USADO ES : " . $codpro);
     //error_log("LA SUCURSAL USADO ES : " . $codloc);
-    //   $logger->log("PROCEDIMIENTO ALMACENADO");
-    //   $logger->log("CALL procedure_recalculakardex('" . $codpro . "' , '" . $codloc . "')");
-    mysqli_query($conexion, "CALL procedure_recalculakardex('" . $codpro . "' , '" . $codloc . "')");
+    //$logger->log("PROCEDIMIENTO ALMACENADO");
+    //$logger->log("CALL procedure_recalculakardex('" . $codpro . "' , '" . $codloc . "')");
+    //mysqli_query($conexion, "CALL procedure_recalculakardex('" . $codpro . "' , '" . $codloc . "')");
 }
-// $logger->log("/compras1_reg.php-------------------------");
+$logger->log("/compras1_reg.php-------------------------");
 if ($nohay <> 1) {
     mysqli_query($conexion, "DELETE from tempmovmov where invnum = '$cod'");
     mysqli_query($conexion, "DELETE from tempmovmov_bonif where invnum = '$cod'");
